@@ -1,0 +1,44 @@
+.bread-crum-bx {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.bread-crum-bx:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: url("../../Assets/breadcrumbbg.jpg") no-repeat center center/cover;
+  z-index: -1;
+}
+
+.bread-crum h3 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.breadcrum-text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+}
+.breadcrum-text .bhome ,
+.breadcrum-text a {
+  color: #fdf5aa;
+  cursor: pointer;
+}

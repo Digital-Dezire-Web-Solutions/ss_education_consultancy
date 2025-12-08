@@ -1,0 +1,109 @@
+/* MAIN SECTION */
+.explore {
+  width: 100%;
+  padding: 60px 0;
+  background: #d8edff;
+}
+
+.explore-main {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 1200px) {
+  .explore-main {
+    max-width: 1200px;
+  }
+}
+
+/* -------------------
+   LEFT CIRCLE IMAGE
+-------------------- */
+.explore-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.girl-img {
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+/* -------------------
+   RIGHT CONTENT
+-------------------- */
+.explore-right {
+  width: 50%;
+}
+
+.explore-right h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.explore-desc {
+  font-size: 18px;
+  color: #555;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.explore-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.explore-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.explore-list svg {
+  color: #34699a;
+  font-size: 18px;
+}
+
+/* BUTTON */
+.explore-btn {
+  padding: 15px 35px;
+  background: #fdf5aa;
+  border: 1px solid #113f67;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+/* -------------------
+   RESPONSIVE
+-------------------- */
+@media (max-width: 900px) {
+  .explore-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .explore-left,
+  .explore-right {
+    width: 100%;
+  }
+
+  .explore-right h1 {
+    font-size: 30px;
+  }
+}

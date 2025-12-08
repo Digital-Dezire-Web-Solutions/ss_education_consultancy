@@ -1,0 +1,168 @@
+.counselling-box {
+  padding: 20px 0;
+}
+
+/* HERO SECTION */
+.counselling-hero {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.counselling-hero-content {
+  flex: 1;
+}
+
+.counselling-hero-content h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #113F67;
+  margin-bottom: 15px;
+}
+
+.counselling-hero-content p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.counselling-btn {
+  padding: 12px 25px;
+  background: #fdf5aa;
+  color: #113f67;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.counselling-btn:hover {
+  background: #0d2e4a;
+}
+
+.counselling-hero-img {
+  flex: 1;
+}
+
+.counselling-hero-img img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* FEATURES SECTION */
+.counselling-features h2,
+.counselling-steps h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #113F67;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.feature-card {
+  background: #f1f5f9;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #113F67;
+  margin-bottom: 12px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #113F67;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* STEPS SECTION */
+.steps-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.step-card {
+  background: #eef2f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.step-icon {
+  font-size: 30px;
+  color: #0d6933;
+  margin-bottom: 10px;
+}
+
+.step-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.step-card p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* CTA SECTION */
+.counselling-cta {
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px;
+  background: #113F67;
+  border-radius: 12px;
+  color: white;
+}
+
+.counselling-cta h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.counselling-cta p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .counselling-hero {
+    flex-direction: column;
+  }
+
+  .features-grid,
+  .steps-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .features-grid,
+  .steps-list {
+    grid-template-columns: 1fr;
+  }
+
+  .counselling-btn {
+    width: 100%;
+  }
+}

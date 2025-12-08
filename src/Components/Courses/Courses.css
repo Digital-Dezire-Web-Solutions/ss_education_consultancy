@@ -1,0 +1,32 @@
+.Courses {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.Courses-main {
+  /* width: 100%; */
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Courses-main h2 {
+  font-size: 40px;
+}
+
+.Courses-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .Courses-main {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Courses-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
