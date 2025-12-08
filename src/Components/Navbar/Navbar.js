@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from "../../Assets/ss-logo-white-yellow.png"
 
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -31,8 +32,8 @@ const Navbar = () => {
                     <nav className="navbar">
                         {/* LOGO */}
                         <div className="logo">
-                            {/* <img src="logo.png" alt="Esperto" /> */}
-                            <span className="logo-text">SS Edu Consultancy<br /><small>sseduconsultancy.com</small></span>
+                            <img src={logo} alt="" />
+                            {/* <span className="logo-text">SS Edu Consultancy<br /><small>sseduconsultancy.com</small></span> */}
                         </div>
 
                         {/* MENU */}

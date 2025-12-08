@@ -1,6 +1,8 @@
 import React from "react";
 import "./Banner.css";
 import manImg from "../../Assets/man.png";   // <-- replace with actual path of your image
+import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -20,7 +22,7 @@ const Banner = () => {
             who'll share their experience.
           </p>
 
-          <button className="banner-btn">Contact Us</button>
+          <Link className="banner-btn"> <FaPhoneAlt/>Call Now</Link>
         </div>
 
         {/* RIGHT IMAGE */}

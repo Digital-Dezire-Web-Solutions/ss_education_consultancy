@@ -11,6 +11,7 @@ import {
     FaPhoneAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from "../../Assets/ss-logo-white-yellow.png"
 
 const Footer = () => {
     return (
@@ -20,7 +21,8 @@ const Footer = () => {
                 <div className="footer-container">
                     {/* ---------- COLUMN 1: COMPANY ---------- */}
                     <div className="footer-col">
-                        <h2>SS Edu Consultancy</h2>
+                        <img src={logo} alt="" />
+                        {/* <h2>SS Edu Consultancy</h2> */}
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                             porta accumsan diam ut elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus

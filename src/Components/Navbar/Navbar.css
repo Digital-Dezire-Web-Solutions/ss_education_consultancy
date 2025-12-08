@@ -42,10 +42,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  width: 15%;
 }
 
 .logo img {
-  width: 60px;
+  width: 100%;
 }
 
 .logo-text {
@@ -236,6 +237,10 @@
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
+
+  .logo {
+  width: 40%;
+}
   .top-bar{
     display: none;
   }

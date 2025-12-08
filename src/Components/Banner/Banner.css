@@ -79,7 +79,7 @@
 }
 
 .banner-btn {
-  padding: 15px 35px;
+  padding: 15px 0px;
   background: #fdf5aa;
   border: none;
   border-radius: 40px;
@@ -88,6 +88,12 @@
   color: #113f67;
   font-weight: 600;
   transition: 0.2s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 40%;
 }
 
 /* ===========================
@@ -123,6 +129,9 @@
    RESPONSIVE
 =========================== */
 @media (max-width: 900px) {
+  .banner-btn {
+    width: 100%;
+  }
   .banner {
     height: auto;
     padding: 60px 0;
