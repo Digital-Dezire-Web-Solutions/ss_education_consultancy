@@ -11,6 +11,7 @@ const CourseCard = ({ course }) => {
     const handleClick = () => {
         navigate(`/courses/${slug}`);
     };
+    
     return (
         <div className="course-card" onClick={handleClick}>
             <div className="course-img">

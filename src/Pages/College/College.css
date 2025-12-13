@@ -17,6 +17,34 @@
   margin-bottom: 1rem;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.pagination button.active {
+  background: #113f67;
+  color: #fff;
+  border-color: #113f67;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media (min-width: 1200px) {
   .college-main {
     max-width: 1200px;

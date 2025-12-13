@@ -12,7 +12,7 @@
 
 .course-card:hover {
   transform: translate(0px, -3px);
-    box-shadow: 0px 3px 3px 0px #00000040;
+  box-shadow: 0px 3px 3px 0px #00000040;
 }
 
 /* IMAGE */
@@ -20,6 +20,7 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .course-details {
@@ -46,26 +47,24 @@
 }
 
 .enroll-btn {
-      width: 90%;
-    background: #113f67;
-    border: none;
-    /* border: 1px solid #113F67; */
-    color: white;
-    padding: 12px 25px;
-    border-radius: 40px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s;
-    position: absolute;
-    bottom: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  width: 90%;
+  background: #113f67;
+  border: none;
+  /* border: 1px solid #113F67; */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 .enroll-btn:hover {
-  
-    background: #34699A;
+  background: #34699a;
 }
-

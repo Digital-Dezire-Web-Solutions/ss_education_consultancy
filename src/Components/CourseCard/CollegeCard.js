@@ -15,7 +15,14 @@ const CollegeCard = ({ course, category }) => {
     });
   };
 
-  console.log(category, "category");
+  // utils/text.js
+  const truncateWords = (text, numWords = 20) => {
+    if (!text) return "";
+    const words = String(text).trim().split(/\s+/);
+    if (words.length <= numWords) return words.join(" ");
+    return words.slice(0, numWords).join(" ") + "...";
+  };
+
   return (
     <div className="course-card" onClick={handleClick}>
       <div className="course-img">
@@ -25,7 +32,7 @@ const CollegeCard = ({ course, category }) => {
       <div className="course-details">
         <h3 className="course-title">{course?.title}</h3>
         <div className="course-info">
-          <p>{course?.description}</p>
+          <p>{truncateWords(course?.description, 20)}</p>
         </div>
         <div className="course-bottom">
           <button className="enroll-btn">
