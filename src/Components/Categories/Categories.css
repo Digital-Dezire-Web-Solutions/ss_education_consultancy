@@ -1,7 +1,7 @@
 .Categories {
   width: 100%;
   padding: 60px 0;
-  background-color: #d8edff;
+  background: linear-gradient(135deg, #34699A, #113F67);
 }
 
 .Categories-main {
@@ -29,6 +29,7 @@
   font-size: 40px;
   font-weight: 800;
   margin: 0;
+  color: white;
 }
 
 .view-btn {

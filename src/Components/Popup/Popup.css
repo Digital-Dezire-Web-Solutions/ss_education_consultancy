@@ -1,7 +1,7 @@
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #8c8c8c87;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,7 @@
   right: 2%;
   color: white;
   cursor: pointer;
+  z-index: 9;
 }
 .closebtn svg {
   font-size: 25px;
@@ -47,6 +48,25 @@
   padding: 4rem 2rem;
   background: #0a2842;
   color: white;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.modal-box-right:before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 30%;
+    top: -100px;
+    left: -100px;
+    transform: rotate(25deg);
+    z-index: 0;
+}
+.modal-box-right .contact-form {
+    position: relative;
+    z-index: 9;
 }
 
 @media (max-width: 900px) {

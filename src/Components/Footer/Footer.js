@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/ss-logo-white-yellow.png"
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -24,9 +25,7 @@ const Footer = () => {
                         <img src={logo} alt="" />
                         {/* <h2>SS Edu Consultancy</h2> */}
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                            porta accumsan diam ut elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                            porta accumsan diam ut elementum.
+                            Sri Sai Education Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background.
                         </p>
 
                         <div className="footer-info">
@@ -34,10 +33,10 @@ const Footer = () => {
                                 <FaEnvelope /> sseducation@gmail.com
                             </p>
                             <p>
-                                <FaPhoneAlt /> +91 9876543210
+                                <FaPhoneAlt /> +917892846798
                             </p>
                             <p>
-                                <FaMapMarkerAlt /> 1010 Avenue of the Moon, New York United States of America
+                                <FaMapMarkerAlt /> Bangalore, Karnataka
                             </p>
                         </div>
                     </div>
@@ -48,22 +47,34 @@ const Footer = () => {
 
                         <ul className="footer-links">
                             <li>
-                                <FaArrowRight /> Top 10 Most Sold Computer Courses?
+                                <Link to={"/courses/engineering"}>
+                                    <FaArrowRight /> Engineering
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> 10 Best Mentors with Their Courses
+                                <Link to={"/courses/ayurvedic"}>
+                                    <FaArrowRight /> Ayurvedic
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> How to Select The Best Course?
+                                <Link to={"/courses/mba"}>
+                                    <FaArrowRight /> MBA
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> 10 Most Popular Course Categories
+                                <Link to={"/courses/mca"}>
+                                    <FaArrowRight /> MCA
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> Upcoming Webinar "On Future Of IT"
+                                <Link to={"/courses/mbbs"}>
+                                    <FaArrowRight /> MBBS
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> Top 10 Most Sold Computer Courses?
+                                <Link to={"/courses/pg"}>
+                                    <FaArrowRight /> PG
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -74,16 +85,24 @@ const Footer = () => {
 
                         <ul className="footer-links">
                             <li>
+                                <Link to={"/about"}>
                                 <FaArrowRight /> About Us
+                                </Link>
                             </li>
                             <li>
+                                <Link to={"#"}>
                                 <FaArrowRight /> Privacy Policy
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> Refund Policy
+                                <Link to={"#"}>
+                                <FaArrowRight /> Term & Conditions
+                                </Link>
                             </li>
                             <li>
-                                <FaArrowRight /> Payment Methoods
+                                <Link to={"/contact"}>
+                                <FaArrowRight /> Contact Us
+                                </Link>
                             </li>
                         </ul>
 
@@ -94,13 +113,10 @@ const Footer = () => {
                                 <FaFacebookF />
                             </span>
                             <span>
-                                <FaTwitter />
+                                <FaXTwitter />
                             </span>
                             <span>
                                 <FaInstagram />
-                            </span>
-                            <span>
-                                <FaPinterestP />
                             </span>
                         </div>
                     </div>

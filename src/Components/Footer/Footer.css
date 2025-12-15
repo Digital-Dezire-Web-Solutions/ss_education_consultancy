@@ -50,16 +50,18 @@
   padding: 0;
 }
 
-.footer-links li {
+.footer-links li a{
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 12px 0;
   font-size: 14px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
-.footer-links li:hover {
+.footer-links li a:hover {
   color: #fdf5aa;
 }
 

@@ -17,9 +17,7 @@ const Banner = () => {
           </h1>
 
           <p>
-            Aliquam venenatis egestas Justo. Fusce Dignissim Pellentesque
-            Pulvinar. Curabitur Meet university, and cultural institutions,
-            who'll share their experience.
+            Over 1,000+ students choose Sri Sai Education Consultancy for career guidance and college admission.
           </p>
 
           <Link className="banner-btn"> <FaPhoneAlt/>Call Now</Link>

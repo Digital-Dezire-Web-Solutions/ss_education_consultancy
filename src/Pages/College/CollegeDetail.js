@@ -80,7 +80,7 @@ const CollegeDetail = () => {
                     <div className="college-box-right">
                         <h3>Related Colleges</h3>
                         {relatedColleges.length ? (
-                            relatedColleges.map((item) => (
+                            relatedColleges.slice(0, 10).map((item) => (
                                 <div className="college-box-right-box" key={item.id} onClick={() => handleClick(item.title)}>
                                     <div className="college-box-right-image">
                                         <img src={item.image} alt="" />

@@ -6,33 +6,33 @@ import {
     FaHandshake,
     FaHandsHelping,
 } from "react-icons/fa";
-import aboutimg from "../../Assets/explore2.jpg"
+import aboutimg from "../../Assets/about.jpeg"
 
 const About = () => {
     const stats = [
         {
             id: 1,
             icon: <FaUserTie />,
-            score: "9.6/19",
-            label: "Client Ratings",
+            score: "9.6/10",
+            label: "Student Satisfaction",
         },
         {
             id: 2,
             icon: <FaExclamationCircle />,
-            score: "4.9/7",
-            label: "Customer Support",
+            score: "9.5/10",
+            label: "Counseling Support",
         },
         {
             id: 3,
             icon: <FaHandshake />,
-            score: "5.7/13",
-            label: "Technical Guidance",
+            score: "9.7/10",
+            label: "Career & Academic Guidance",
         },
         {
             id: 4,
             icon: <FaHandsHelping />,
-            score: "9.6/19",
-            label: "Excellent Service",
+            score: "9.6/10",
+            label: "Admission Success Rate",
         },
     ];
 
@@ -46,17 +46,13 @@ const About = () => {
                             <div className="about-left">
                                 <p className="about-subtitle">ABOUT US</p>
                                 <h2 className="about-title">
-                                    Global Students Provide Us With Outstanding Client
-                                    Testimonials
+                                    Global Students Trust Us With Their Academic Journey
                                 </h2>
                             </div>
 
                             <div className="about-right">
                                 <p>
-                                    Donec laoreet quam in arcu tempor, ut aliquet diam sagittis.
-                                    Morbi id elit sodales, facilisis enim sollicitudin,
-                                    pellentesque quam. Donec tempor metus felis, egest ligula
-                                    convallis Duis rutrum, massa non vehicula sodales.
+                                    <strong>Sri Sai Education Consultancy is a Bangalore</strong> based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
                                 </p>
                             </div>
                         </div>
@@ -82,7 +78,9 @@ const About = () => {
                                 <h2 className="about-title">
                                     Personal Experience
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias distinctio numquam atque, dolorum aliquid fugiat nulla magnam quos iste voluptas nostrum consequatur? Eaque, corrupti praesentium? Ex repellat neque doloremque libero soluta aut a numquam assumenda laboriosam. Sapiente hic eveniet tempora vel? Pariatur fugit ullam nulla aliquam cum cupiditate modi dicta?</p>
+                                <p>At Sri Sai Education Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background, strengths, and ambitions before suggesting the best academic path.</p>
+                                <p>From career counseling, college selection, application support, documentation, and admission assistance, we walk with students at every step. Our commitment to honesty, clarity, and long-term success has made us one of the most trusted education consultancies in Bangalore.</p>
+                                <p>Whether you are planning higher education in India or abroad, Sri Sai Education Consultancy is your reliable partner for a confident future.</p>
                             </div>
 
                         </div>

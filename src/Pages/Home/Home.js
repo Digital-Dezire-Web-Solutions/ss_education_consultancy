@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowModal(true);
-    }, 2000);
+    }, 5000);
   }, showModal);
   return (
     <div>
@@ -24,8 +24,8 @@ const Home = () => {
       <Explore />
       <Courses />
       <Categories />
-      <Choose />
-      <Director />
+      {/* <Choose /> */}
+      {/* <Director /> */}
       <Faq />
       <Testimonial />
       {showModal && <Popup setShowModal={setShowModal} />}

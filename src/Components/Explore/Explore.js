@@ -2,6 +2,7 @@ import React from "react";
 import "./Explore.css";
 import girlImg from "../../Assets/creative-classes.png";
 import { FaCheck } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Explore = () => {
   return (
@@ -18,21 +19,20 @@ const Explore = () => {
         {/* RIGHT CONTENT */}
         <div className="explore-right">
           <h1>
-            Explore Thousands Of <br /> Creative Classes.
+            Explore Thousands of Academic Opportunities
           </h1>
 
           <p className="explore-desc">
-            Dramatically supply transparent deliverables before backward
-            compinternal or "organic" sources.
+            Empowering students with the right guidance, Sri Sai Education Consultancy helps you explore the best courses, colleges, and career paths across India and abroad. Our expert counselors ensure transparent processes and result-oriented academic planning for a successful future.
           </p>
 
           <ul className="explore-list">
-            <li><FaCheck /> Create an E-Pora account</li>
-            <li><FaCheck /> Choose Your Perfect Courses</li>
-            <li><FaCheck /> After Finished Courses, Get Certificate</li>
+            <li><FaCheck /> Get personalized career counseling</li>
+            <li><FaCheck /> Choose the right course & institution</li>
+            <li><FaCheck /> Secure admission with complete support</li>
           </ul>
 
-          <button className="explore-btn">About Us</button>
+          <button className="explore-btn"> <Link to={"/about"}>About Us</Link> </button>
         </div>
 
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Executive.css";
 import { FaBookOpen, FaTools } from "react-icons/fa";
+import { TbHexagonNumber1, TbHexagonNumber2, TbHexagonNumber3, TbHexagonNumber4 } from "react-icons/tb";
 
 const Executive = () => {
   return (
@@ -10,36 +11,42 @@ const Executive = () => {
         {/* CARD 1 */}
         <div className="card">
           <div className="icon-box">
-            <FaBookOpen />
+            <TbHexagonNumber1 />
           </div>
-          <h3>Business And Executive Class</h3>
+          <h3>SCIENTIFIC CAREER COUNSELLING</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available,
-            but the...
+            Helps to manage student’s problem such as low concentration in study, Trust issue with parents.
           </p>
         </div>
 
         {/* CARD 2 */}
         <div className="card">
           <div className="icon-box">
-            <FaBookOpen />
+            <TbHexagonNumber2 />
           </div>
-          <h3>Business And Executive</h3>
+          <h3>APPLICATION & DOCUMENTATION</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available,
-            but the...
+            Need to follow proper admission procedure as per college rules. Fill application form and submit required documents
           </p>
         </div>
 
         {/* CARD 3 */}
         <div className="card">
           <div className="icon-box">
-            <FaTools />
+            <TbHexagonNumber3 />
           </div>
-          <h3>Sports Coaching</h3>
+          <h3>ADMISSION GUIDANCE</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available,
-            but the...
+            Complete admission guidance for various courses including course fees, placement, hostel fees, education loan etc
+          </p>
+        </div>
+        <div className="card">
+          <div className="icon-box">
+            <TbHexagonNumber4 />
+          </div>
+          <h3>GET ADMISSION</h3>
+          <p>
+            We offer direct admission in top colleges or Universities through management quota. Get admission letter and education loan facility.
           </p>
         </div>
 

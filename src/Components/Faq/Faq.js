@@ -5,22 +5,28 @@ import { FaMinus, FaPlus } from "react-icons/fa";
 const faqData = [
   {
     id: 1,
-    question: "How Long Should A Business Plan Be?",
+    question: "How Does Sri Sai Education Consultancy Help Students?",
     answer:
-      "Dramatically supply transparent deliverables before backward compinternal or 'organic' sources. Dramatically supply transparent deliverables before backward comp internal."
+      "We provide complete academic and career guidance including course selection, college shortlisting, admission support, documentation assistance, and continuous counseling to help students make the right decisions for their future."
   },
   {
     id: 2,
-    question: "What Is Included In Your Services?",
+    question: "What Services Are Included In Your Consultancy?",
     answer:
-      "Full course access, live classes, certification, instructor support, and learning materials."
+      "Our services include career counseling, course and college guidance, application processing, admission assistance, documentation support, and post-admission guidance for students in India and abroad."
   },
   {
     id: 3,
-    question: "What Type Of Company Is Measured?",
+    question: "Do You Provide Counseling For Study Abroad?",
     answer:
-      "We measure all educational performance metrics from students, tutors, and course outcomes."
-  }
+      "Yes, we guide students for both Indian and international education opportunities, helping them choose the right universities, courses, and admission pathways based on their academic profile and career goals."
+  },
+  {
+  id: 4,
+  question: "Is There Any Counseling Fee?",
+  answer:
+    "We offer transparent and affordable counseling services. In many cases, initial career guidance sessions are free. Please contact us for detailed information."
+}
 ];
 
 const Faq = () => {

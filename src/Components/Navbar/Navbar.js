@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown } from "react-icons/fa";
+import { FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/ss-logo-white-yellow.png"
+import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -16,11 +17,11 @@ const Navbar = () => {
                     <div className="top-bar">
                         <div className="top-left">
                             <span><FaEnvelope /> sseducation@gmail.com</span>
-                            <span><FaPhoneAlt /> +91 9876543210</span>
+                            <span><FaPhoneAlt /> +917892846798</span>
                         </div>
 
                         <div className="top-right">
-                            <span><FaMapMarkerAlt /> 1E 2nd St, New York, NY 10003, USA</span>
+                            <span><FaMapMarkerAlt /> Bangalore, Karnataka</span>
                         </div>
                     </div>
                 </div>
@@ -114,8 +115,8 @@ const Navbar = () => {
                         {/* SOCIAL ICONS */}
                         <div className="social-icons desktop-social">
                             <FaFacebookF />
-                            <FaTwitter />
-                            <FaPinterestP />
+                            <FaXTwitter />
+                            <FaInstagram />
                         </div>
 
                         {/* MOBILE HAMBURGER ICON */}
@@ -155,8 +156,8 @@ const Navbar = () => {
                     </div>
                     <div className="sidebar-top-items">
                         <p><FaEnvelope /> sseducation@gmail.com</p>
-                        <p><FaPhoneAlt /> 212-456-7890</p>
-                        <p><FaMapMarkerAlt /> 1E 2nd St, New York, NY 10003, USA</p>
+                        <p><FaPhoneAlt /> +917892846798</p>
+                        <p><FaMapMarkerAlt /> Bangalore, Karnataka</p>
                     </div>
                 </div>
             </div>
