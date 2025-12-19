@@ -23,7 +23,7 @@ const Explore = () => {
           </h1>
 
           <p className="explore-desc">
-            Empowering students with the right guidance, Sri Sai Education Consultancy helps you explore the best courses, colleges, and career paths across India and abroad. Our expert counselors ensure transparent processes and result-oriented academic planning for a successful future.
+            Empowering students with the right guidance, SS Consultancy helps you explore the best courses, colleges, and career paths across India and abroad. Our expert counselors ensure transparent processes and result-oriented academic planning for a successful future.
           </p>
 
           <ul className="explore-list">

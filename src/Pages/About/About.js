@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import {
     FaUserTie,
@@ -7,8 +7,35 @@ import {
     FaHandsHelping,
 } from "react-icons/fa";
 import aboutimg from "../../Assets/about.jpeg"
+import { useLocation } from "react-router-dom";
 
 const About = () => {
+
+    const location = useLocation();
+
+    useEffect(() => {
+        document.title =
+            "SS Consultancy is a Bangalore based education firm";
+        const description =
+            "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+        let metaDescription = document.querySelector("meta[name='description']");
+
+        if (metaDescription) {
+            metaDescription.setAttribute("content", description);
+        }
+
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        let canonicalLink = document.querySelector("link[rel='canonical']");
+        if (canonicalLink) {
+            canonicalLink.setAttribute("href", canonicalUrl);
+        } else {
+            canonicalLink = document.createElement("link");
+            canonicalLink.setAttribute("rel", "canonical");
+            canonicalLink.setAttribute("href", canonicalUrl);
+            document.head.appendChild(canonicalLink);
+        }
+    }, [location.pathname]);
+
     const stats = [
         {
             id: 1,
@@ -52,7 +79,7 @@ const About = () => {
 
                             <div className="about-right">
                                 <p>
-                                    <strong>Sri Sai Education Consultancy is a Bangalore</strong> based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
+                                    <strong>SS Consultancy is a Bangalore</strong> based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
                                 </p>
                             </div>
                         </div>
@@ -78,9 +105,9 @@ const About = () => {
                                 <h2 className="about-title">
                                     Personal Experience
                                 </h2>
-                                <p>At Sri Sai Education Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background, strengths, and ambitions before suggesting the best academic path.</p>
+                                <p>At SS Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background, strengths, and ambitions before suggesting the best academic path.</p>
                                 <p>From career counseling, college selection, application support, documentation, and admission assistance, we walk with students at every step. Our commitment to honesty, clarity, and long-term success has made us one of the most trusted education consultancies in Bangalore.</p>
-                                <p>Whether you are planning higher education in India or abroad, Sri Sai Education Consultancy is your reliable partner for a confident future.</p>
+                                <p>Whether you are planning higher education in India or abroad, SS Consultancy is your reliable partner for a confident future.</p>
                             </div>
 
                         </div>

@@ -21,7 +21,7 @@ const Testimonial = () => {
             <p className="sub">TESTIMONIALS</p>
 
             <p className="review">
-              Most students and parents come to us confused and stressed about academic decisions. With the right guidance and honest counseling from Sri Sai Education Consultancy, they gain clarity, confidence, and successful admissions into reputed institutions.
+              Most students and parents come to us confused and stressed about academic decisions. With the right guidance and honest counseling from SS Consultancy, they gain clarity, confidence, and successful admissions into reputed institutions.
             </p>
 
             <p className="author">— Trusted Students & Parents</p>

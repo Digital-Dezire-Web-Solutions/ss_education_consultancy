@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useLocation, useParams } from "react-router-dom";
 import CollegesData from "../../Data/CollegeData";
 import "./CourseDetail.css";
 import CollegeCard from "../../Components/CourseCard/CollegeCard";
@@ -31,11 +31,30 @@ const CourseDetail = () => {
 
   const currentColleges = filteredUsers.slice(startIndex, endIndex);
 
-  // 🔄 Reset page on search
-  const handleSearch = (value) => {
-    setSearch(value);
-    setCurrentPage(1);
-  };
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title =
+      "SS Consultancy is a Bangalore based education firm";
+    const description =
+      "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+    let metaDescription = document.querySelector("meta[name='description']");
+
+    if (metaDescription) {
+      metaDescription.setAttribute("content", description);
+    }
+
+    const canonicalUrl = `${window.location.origin}${location.pathname}`;
+    let canonicalLink = document.querySelector("link[rel='canonical']");
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", canonicalUrl);
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", canonicalUrl);
+      document.head.appendChild(canonicalLink);
+    }
+  }, [location.pathname]);
 
   return (
     <div className="college">

@@ -5,7 +5,7 @@ import { FaMinus, FaPlus } from "react-icons/fa";
 const faqData = [
   {
     id: 1,
-    question: "How Does Sri Sai Education Consultancy Help Students?",
+    question: "How Does SS Consultancy Help Students?",
     answer:
       "We provide complete academic and career guidance including course selection, college shortlisting, admission support, documentation assistance, and continuous counseling to help students make the right decisions for their future."
   },

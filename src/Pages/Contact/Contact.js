@@ -1,12 +1,37 @@
-import React, { useState } from "react";
-import CoursesData from "../../Data/CoursesData";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import Form from "../../Components/Form/Form";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title =
+      "SS Consultancy is a Bangalore based education firm";
+    const description =
+      "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+    let metaDescription = document.querySelector("meta[name='description']");
+
+    if (metaDescription) {
+      metaDescription.setAttribute("content", description);
+    }
+
+    const canonicalUrl = `${window.location.origin}${location.pathname}`;
+    let canonicalLink = document.querySelector("link[rel='canonical']");
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", canonicalUrl);
+    } else {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      canonicalLink.setAttribute("href", canonicalUrl);
+      document.head.appendChild(canonicalLink);
+    }
+  }, [location.pathname]);
+
   return (
     <div className="page">
       <div className="page-main">
@@ -31,17 +56,17 @@ const Contact = () => {
           </div>
           <div className="contact-bottom">
             <Link className="contact-bottom-box">
-            <FaPhoneAlt/>
+              <FaPhoneAlt />
               <h5>call us any time!</h5>
               <p>+91 78928 46798</p>
             </Link>
             <Link className="contact-bottom-box">
-            <FaEnvelope/>
+              <FaEnvelope />
               <h5>send us e-mail</h5>
               <p>sseducation@gmail.com</p>
             </Link>
             <div className="contact-bottom-box">
-              <FaLocationDot/>
+              <FaLocationDot />
               <h5>Office Address</h5>
               <p>Bangalore, Karnataka</p>
             </div>

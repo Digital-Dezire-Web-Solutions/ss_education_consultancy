@@ -10,12 +10,12 @@ const Courses = () => {
     return (
         <div className='Courses'>
             <div className='Courses-main'>
-                <div className="categories-header">
+                <div className="categories-header courses">
                     <h2>Explore Popular Colleges</h2>
                     <button className="view-btn" onClick={() => navigate("/colleges")}>View All Colleges <FaLongArrowAltRight /></button>
                 </div>
                 <div className="Courses-box">
-                    {CollegeData.slice(0, 6).map((item) => (
+                    {CollegeData.slice(7, 13).map((item) => (
                         <CollegeCard key={item.id} course={item} />
                     ))}
                 </div>

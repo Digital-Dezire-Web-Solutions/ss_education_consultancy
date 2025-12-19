@@ -1,12 +1,38 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./College.css";
 import Search from "../../Components/Search/Search";
 import CollegeData from "../../Data/CollegeData";
 import CollegeCard from "../../Components/CourseCard/CollegeCard";
+import { useLocation } from "react-router-dom";
 
 const College = () => {
   const [search, setSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+
+  const location = useLocation();
+
+  useEffect(() => {
+      document.title =
+        "SS Consultancy is a Bangalore based education firm";
+      const description =
+        "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+      let metaDescription = document.querySelector("meta[name='description']");
+  
+      if (metaDescription) {
+        metaDescription.setAttribute("content", description);
+      }
+  
+      const canonicalUrl = `${window.location.origin}${location.pathname}`;
+      let canonicalLink = document.querySelector("link[rel='canonical']");
+      if (canonicalLink) {
+        canonicalLink.setAttribute("href", canonicalUrl);
+      } else {
+        canonicalLink = document.createElement("link");
+        canonicalLink.setAttribute("rel", "canonical");
+        canonicalLink.setAttribute("href", canonicalUrl);
+        document.head.appendChild(canonicalLink);
+      }
+    }, [location.pathname]);
 
   const ITEMS_PER_PAGE = 15;
 

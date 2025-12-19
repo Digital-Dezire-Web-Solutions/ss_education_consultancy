@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import CollegesData from "../../Data/CollegeData";
 import "./CollegeDetail.css";
@@ -8,6 +8,8 @@ const CollegeDetail = () => {
     const navigate = useNavigate();
     const { title } = useParams();
     const location = useLocation();
+
+
     const passedCategory = location.state?.category || null;
 
     const slugify = (str) => str.toLowerCase().replace(/ /g, "-");
@@ -19,6 +21,88 @@ const CollegeDetail = () => {
         });
     };
     const college = CollegesData.find((item) => slugify(item.title) === title);
+    //   Seo
+    useEffect(() => {
+        if (!college) return;
+
+        // -------------------------------
+        // 1️⃣ Set Title
+        // -------------------------------
+        document.title = college.title || "ss education";
+
+        // -------------------------------
+        // 2️⃣ Set Canonical URL
+        // -------------------------------
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        let canonicalLink = document.querySelector("link[rel='canonical']");
+
+        if (canonicalLink) {
+            canonicalLink.setAttribute("href", canonicalUrl);
+        } else {
+            canonicalLink = document.createElement("link");
+            canonicalLink.setAttribute("rel", "canonical");
+            canonicalLink.setAttribute("href", canonicalUrl);
+            document.head.appendChild(canonicalLink);
+        }
+
+        // -------------------------------
+        // 3️⃣ Meta Description
+        // -------------------------------
+        const description = college?.description || "";
+        let metaDescription = document.querySelector("meta[name='description']");
+
+        if (metaDescription) {
+            metaDescription.setAttribute("content", description);
+        } else {
+            metaDescription = document.createElement("meta");
+            metaDescription.setAttribute("name", "description");
+            metaDescription.setAttribute("content", description);
+            document.head.appendChild(metaDescription);
+        }
+
+        // -------------------------------
+        // 4️⃣ Meta Keywords
+        // -------------------------------
+        let keywords = "";
+        // console.log(blog.keyword,"keywords")
+
+        // blog.keywords (array)
+        if (Array.isArray(college?.keyword)) {
+            keywords = college.keyword.join(", ");
+        }
+
+        // blog.keywords (string)
+        else if (typeof college?.keyword === "string") {
+            keywords = college.keyword;
+        }
+
+        // blog.keyword (array)
+        else if (Array.isArray(college?.keyword)) {
+            keywords = college.keyword.join(", ");
+        }
+
+        // blog.keyword (string)
+        else if (typeof college?.keyword === "string") {
+            keywords = college.keyword;
+        }
+
+        // fallback keywords
+        if (!keywords) {
+            keywords = `${college?.keyword}, SS Education Consultancy, ${college?.category || "SS Education Consultancy"
+                }`;
+        }
+
+        let metaKeywords = document.querySelector("meta[name='keywords']");
+
+        if (metaKeywords) {
+            metaKeywords.setAttribute("content", keywords);
+        } else {
+            metaKeywords = document.createElement("meta");
+            metaKeywords.setAttribute("name", "keywords");
+            metaKeywords.setAttribute("content", keywords);
+            document.head.appendChild(metaKeywords);
+        }
+    }, [college, location.pathname]);
 
     if (!college) {
         return (

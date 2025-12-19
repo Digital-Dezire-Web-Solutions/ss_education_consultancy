@@ -1,9 +1,9 @@
 import college1 from "../Assets/Colleges/rv-college-of-engineering.jpg";
-import college2 from "../Assets/Colleges/PES University.jpg";
+import college2 from "../Assets/Colleges/pes-university.jpg";
 import college3 from "../Assets/Colleges/BMS College of Engineering.jpg";
 import college4 from "../Assets/Colleges/MS Ramaiah Institute of Technology.jpg";
 import college5 from "../Assets/Colleges/Sir M Visvesvaraya Institute of Technology.jpg";
-import college6 from "../Assets/Colleges/Bangalore Institute of Technology.jpeg";
+import college6 from "../Assets/Colleges/bangalore-institute-of-technology.jpg";
 import college7 from "../Assets/Colleges/Nitte Meenakshi Institute of Technology.jpg";
 import college8 from "../Assets/Colleges/PES Institute of Technology.png";
 import college9 from "../Assets/Colleges/CMR Institute of Technology.jpg";
@@ -13,20 +13,20 @@ import college12 from "../Assets/Colleges/Reva University.webp";
 import college13 from "../Assets/Colleges/MS Ramaiah University of Applied Sciences.webp";
 import college14 from "../Assets/Colleges/R.N. Shetty Institute of Technology.jpg";
 import college15 from "../Assets/Colleges/JSS Academy of Technical Education.jpg";
-import college16 from "../Assets/Colleges/National Institute of Engineering.png";
-import college17 from "../Assets/Colleges/New Horizon College of Engineering.jpg";
+import college16 from "../Assets/Colleges/national-institute-of-engineering.jpg";
+import college17 from "../Assets/Colleges/new-horizon-college-of-engineering.jpg";
 import college18 from "../Assets/Colleges/CMR University.webp";
 import college19 from "../Assets/Colleges/BNM Institute of Technology.jpeg";
 import college20 from "../Assets/Colleges/Dr. B R Ambedkar Institute of Technology.jpg";
 //
 import college21 from "../Assets/Colleges/Acharya Institute of Technology.webp";
-import college22 from "../Assets/Colleges/AMC Engineering College.jpeg";
+import college22 from "../Assets/Colleges/amc-engineering-college.jpg";
 import college23 from "../Assets/Colleges/Atria Institute of Technology.webp";
 import college24 from "../Assets/Colleges/Bangalore College of Engineering & Technology.webp";
 import college25 from "../Assets/Colleges/HKBK College of Engineering.jpg";
 import college26 from "../Assets/Colleges/Islamic Institute of Technology.jpg";
 import college27 from "../Assets/Colleges/East West Institute of Technology.jpg";
-import college28 from "../Assets/Colleges/Gopalan College of Engineering & Management.png";
+import college28 from "../Assets/Colleges/gopalan-college-of-engineering-&-management.jpg";
 import college29 from "../Assets/Colleges/Global Academy of Technology.avif";
 import college30 from "../Assets/Colleges/T John Institute of Technology.png";
 import college31 from "../Assets/Colleges/Rajarajeshwari College of Engineering.png";
@@ -46,7 +46,7 @@ import college44 from "../Assets/Colleges/New Cambridge College of Engineering.w
 import college45 from "../Assets/Colleges/KS Institute of Technology.webp";
 import college46 from "../Assets/Colleges/Ramaiah Institute of Management & Technology.jpg";
 import college47 from "../Assets/Colleges/SV Institute of Engineering and Management.avif";
-import college48 from "../Assets/Colleges/Government Ayurveda Medical College and Hospital, Mysuru.jpg";
+import college48 from "../Assets/Colleges/government-ayurveda-medical-college-and-hospital,-mysuru.jpg";
 import college49 from "../Assets/Colleges/Sri Sri College of Ayurvedic Science and Research, Bengaluru.webp";
 import college50 from "../Assets/Colleges/SDM College of Ayurveda and Hospital, Hassan.jpg";
 import college51 from "../Assets/Colleges/Sri Kalabyraveshwara Swamy Ayurvedic Medical College.jpg";
@@ -54,7 +54,7 @@ import college52 from "../Assets/Colleges/JSS Ayurveda Medical College.webp";
 import college53 from "../Assets/Colleges/Indian Institute of Ayurvedic Medicine and Research.png";
 import college54 from "../Assets/Colleges/SDM College of Ayurveda, Udupi.jpg";
 import college55 from "../Assets/Colleges/Sushrutha Ayurvedic Medical College and Hospital.jpg";
-import college56 from "../Assets/Colleges/Alva's Ayurveda Medical College, Moodbidri.png";
+import college56 from "../Assets/Colleges/alva's-ayurveda-medical-college-moodbidri.jpg";
 import college57 from "../Assets/Colleges/Bapuji Ayurvedic Medical College and Hospital, Davangere.jpg";
 import college58 from "../Assets/Colleges/Bapuji Ayurvedic Medical College, Shimoga.webp";
 import college59 from "../Assets/Colleges/JSS Ayurveda Medical College, Mysore.jpg";
@@ -86,41 +86,8 @@ RVCE’s vibrant student culture is another highlight, featuring numerous clubs,
 `,
     image: college1,
   },
-
   {
     id: 2,
-    title: "PES University",
-    categories: ["Engineering", "MBA"],
-    description: `
-PES University is one of Bangalore’s most prestigious private universities, widely recognized for its rigorous academic structure, research-driven programs, and strong emphasis on innovation. Known for nurturing future-ready professionals, PESU provides a stimulating learning environment supported by state-of-the-art infrastructure, modern classrooms, industry-grade laboratories, and advanced research centers. The university follows a performance-oriented culture where students are encouraged to excel not only in academics but also in problem-solving, entrepreneurship, and creative pursuits.
-
-The engineering programs are particularly noted for their contemporary curriculum that aligns with evolving technological advancements across fields such as computer science, electronics, mechanical engineering, artificial intelligence, and data science. PES University places a strong emphasis on project-based learning, ensuring students graduate with practical exposure, technical competence, and industry-relevant skills.
-
-The campus is vibrant with student clubs, hackathons, technical fests, cultural events, and sports activities that foster well-rounded development. PESU is also home to one of the strongest placement records in Karnataka, with top recruiters from global tech giants, consulting firms, and emerging startups visiting each year. Many students also pursue higher studies in renowned international universities.
-
-With its commitment to quality education, innovation, and leadership development, PES University continues to stand as a top choice for students seeking a transformative academic experience in engineering and management.
-`,
-    image: college2,
-  },
-
-  {
-    id: 3,
-    title: "BMS College of Engineering",
-    categories: ["Engineering", "MCA"],
-    description: `
-BMS College of Engineering (BMSCE) is one of the oldest and most prestigious engineering institutions in India, known for delivering high-quality technical education since its establishment in 1946. The college has built a legacy of excellence through its strong academic framework, expert faculty, and continuous pursuit of innovation. BMSCE offers a wide selection of engineering and postgraduate programs that are designed to help students develop strong technical insight, analytical skills, and professional discipline.
-
-The institution is renowned for its strong industry connections, which enable students to participate in internships, real-world projects, industrial visits, and collaborative research. Its placement department works year-round to bring leading companies from software, electronics, mechanical, and consulting sectors, giving students access to excellent career opportunities.
-
-BMSCE is also known for encouraging student-driven projects and participation in national competitions, hackathons, robotics events, and entrepreneurship initiatives. The campus hosts various cultural and technical festivals, nurturing creativity, teamwork, and leadership qualities among students.
-
-With its holistic approach to education, excellent academic ecosystem, and decades-long reputation, BMSCE remains a top destination for aspiring engineers who seek both knowledge and personal growth.
-`,
-    image: college3,
-  },
-
-  {
-    id: 4,
     title: "MS Ramaiah Institute of Technology",
     categories: ["Engineering", "MBA"],
     description: `
@@ -134,88 +101,53 @@ With a strong heritage, future-focused outlook, and consistent achievements, MSR
 `,
     image: college4,
   },
+  {
+    id: 3,
+    title: "PES University",
+    categories: ["Engineering", "MBA"],
+    description: `
+PES University is one of Bangalore’s most prestigious private universities, widely recognized for its rigorous academic structure, research-driven programs, and strong emphasis on innovation. Known for nurturing future-ready professionals, PESU provides a stimulating learning environment supported by state-of-the-art infrastructure, modern classrooms, industry-grade laboratories, and advanced research centers. The university follows a performance-oriented culture where students are encouraged to excel not only in academics but also in problem-solving, entrepreneurship, and creative pursuits.
 
+The engineering programs are particularly noted for their contemporary curriculum that aligns with evolving technological advancements across fields such as computer science, electronics, mechanical engineering, artificial intelligence, and data science. PES University places a strong emphasis on project-based learning, ensuring students graduate with practical exposure, technical competence, and industry-relevant skills.
+
+The campus is vibrant with student clubs, hackathons, technical fests, cultural events, and sports activities that foster well-rounded development. PESU is also home to one of the strongest placement records in Karnataka, with top recruiters from global tech giants, consulting firms, and emerging startups visiting each year. Many students also pursue higher studies in renowned international universities.
+
+With its commitment to quality education, innovation, and leadership development, PES University continues to stand as a top choice for students seeking a transformative academic experience in engineering and management.
+`,
+    image: college2,
+  },
+   {
+    id: 4,
+    title: "BMS College of Engineering",
+    categories: ["Engineering", "MCA"],
+    description: `
+BMS College of Engineering (BMSCE) is one of the oldest and most prestigious engineering institutions in India, known for delivering high-quality technical education since its establishment in 1946. The college has built a legacy of excellence through its strong academic framework, expert faculty, and continuous pursuit of innovation. BMSCE offers a wide selection of engineering and postgraduate programs that are designed to help students develop strong technical insight, analytical skills, and professional discipline.
+
+The institution is renowned for its strong industry connections, which enable students to participate in internships, real-world projects, industrial visits, and collaborative research. Its placement department works year-round to bring leading companies from software, electronics, mechanical, and consulting sectors, giving students access to excellent career opportunities.
+
+BMSCE is also known for encouraging student-driven projects and participation in national competitions, hackathons, robotics events, and entrepreneurship initiatives. The campus hosts various cultural and technical festivals, nurturing creativity, teamwork, and leadership qualities among students.
+
+With its holistic approach to education, excellent academic ecosystem, and decades-long reputation, BMSCE remains a top destination for aspiring engineers who seek both knowledge and personal growth.
+`,
+    image: college3,
+  },
   {
     id: 5,
-    title: "Sir M Visvesvaraya Institute of Technology",
-    categories: ["Engineering"],
+    title: "Reva University",
+    categories: ["Engineering", "MBA"],
     description: `
-Sir M Visvesvaraya Institute of Technology (SMVIT) stands as a reputed engineering institution in Karnataka, known for offering quality technical education with a focus on industry relevance and holistic development. The college follows a balanced academic system that integrates conceptual learning, practical training, and exposure to real-world applications. Its engineering programs span multiple disciplines, providing students with opportunities to specialize in fields aligned with their career aspirations.
+Reva University has emerged as one of Bangalore’s fastest-growing educational institutions, celebrated for its state-of-the-art infrastructure, innovative academic programs, and student-centric learning ecosystem. The university offers a broad range of undergraduate, postgraduate, and doctoral programs across engineering, management, science, law, architecture, and humanities. Its engineering faculty is particularly well-regarded for integrating modern technologies, practical training, and research-based learning.
 
-SMVIT’s campus is equipped with contemporary laboratories, research facilities, and collaborative learning spaces that help students gain hands-on experience. The faculty includes dedicated academicians and industry professionals who ensure that students receive continuous academic support and mentorship. The institute also promotes active learning through seminars, workshops, industrial visits, student competitions, and innovation challenges.
+The campus at Reva University is a blend of modern design, advanced laboratories, digital classrooms, research hubs, and collaborative workspaces. Students benefit from an experiential learning approach that includes hands-on labs, project assignments, internships, inter-college competitions, and industry-driven coursework. Reva’s faculty comprises accomplished academicians and industry practitioners who provide mentorship and guide students through rigorous learning processes.
 
-The placement cell consistently works with reputed organizations across core engineering, IT, and emerging technology fields, ensuring that students achieve strong career outcomes. SMVIT’s student community is vibrant, participating in cultural activities, technical clubs, and sports that contribute to personality development, leadership, and teamwork.
+One of the university’s major strengths lies in its focus on innovation, entrepreneurship, and real-world problem-solving. Reva’s incubation centers provide support to student startups, offering mentorship programs, access to funding networks, and collaborative opportunities with industry leaders. The university regularly hosts national and international conferences, technical festivals, hackathons, and cultural celebrations, all of which enrich the student experience.
 
-With its commitment to producing technically competent graduates and fostering a culture of innovation, SMVIT continues to strengthen its position as a respected engineering institution in the region.
+The placement department at Reva University works proactively with top-tier companies across IT, core engineering, analytics, consulting, and finance sectors. Intensive placement training ensures that students graduate with strong communication skills, technical proficiency, and workplace readiness. With its dynamic academic structure, global outlook, and student-driven culture, Reva University stands as a modern institution committed to grooming future leaders and innovators.
 `,
-    image: college5,
+    image: college12,
   },
   {
     id: 6,
-    title: "Bangalore Institute of Technology",
-    categories: ["Engineering"],
-    description: `
-Bangalore Institute of Technology (BIT) is one of Bangalore's most respected engineering institutions, well-known for its academic integrity, industry-oriented training, and strong faculty expertise across multiple engineering disciplines. Established with the aim of providing high-quality education at an affordable cost, BIT has grown into a center of technical excellence where thousands of students develop into skilled professionals each year. The college offers a wide range of undergraduate and postgraduate engineering programs designed to prepare students for evolving global challenges in science, engineering, and technology.
-
-BIT’s academic curriculum is structured to balance theoretical understanding with practical exposure, ensuring that students gain the necessary hands-on skills required in real industry environments. The college is home to advanced laboratories, modern classrooms, well-equipped workshops, and specialized research centers that support students in gaining experiential learning through projects, experiments, and innovation-based activities. The faculty at BIT includes experienced academicians and industry professionals who guide students through rigorous academic programs while encouraging creativity and critical thinking.
-
-Placement at BIT has been consistently strong, with top companies across IT, core engineering, consulting, and emerging technology fields visiting the campus annually. The dedicated placement cell trains students in aptitude, technical skills, communication, and interview preparation to enhance employability. Beyond academics, the college fosters a dynamic student culture through technical clubs, cultural associations, entrepreneurship cells, and sports teams that help in shaping well-rounded personalities.
-
-With its steady growth, strong reputation, and commitment to providing accessible professional education, Bangalore Institute of Technology continues to be a preferred choice for engineering aspirants seeking academic excellence and career development opportunities in Karnataka.
-`,
-    image: college6,
-  },
-
-  {
-    id: 7,
-    title: "Nitte Meenakshi Institute of Technology",
-    categories: ["Engineering", "MBA"],
-    description: `
-Nitte Meenakshi Institute of Technology (NMIT) is an autonomous premier engineering institution in Bangalore recognized for its innovation-driven academic ecosystem and growing prominence in research and technology. The college is known for integrating modern teaching methodologies with project-based learning, helping students build strong technical foundations and practical skills. NMIT offers a comprehensive range of engineering and management programs that cater to the needs of budding professionals seeking both technical knowledge and managerial capabilities.
-
-NMIT stands out for its focus on interdisciplinary learning and advanced research. It houses specialized research centers in robotics, aerospace engineering, artificial intelligence, and renewable energy. These centers encourage students to participate in real-world research projects, collaborate with industry experts, and contribute to technological advancements. The institution also hosts various national and international technical competitions, hackathons, and innovation challenges, providing platforms for students to showcase their talent.
-
-The placement cell at NMIT is proactive and maintains strong relationships with leading companies in IT, core engineering, and business sectors. Students receive structured training in communication, problem-solving, and technical domains to prepare them for competitive recruitment processes. NMIT also promotes entrepreneurship through incubation centers that support student-led startups.
-
-Campus life at NMIT is vibrant and inclusive, offering numerous clubs, cultural programs, and sports activities that contribute to student engagement and personal development. With its focus on innovation, academic excellence, and industry readiness, NMIT continues to build a strong identity as one of Bangalore’s emerging premier institutions.
-`,
-    image: college7,
-  },
-
-  {
-    id: 8,
-    title: "PES Institute of Technology",
-    categories: ["Engineering"],
-    description: `
-PES Institute of Technology (PESIT) has long been regarded as one of the strongest engineering institutions under the PES Group. Known for its emphasis on academic rigor, discipline, and technical competence, PESIT blends strong classroom learning with hands-on practical experience to create well-rounded engineers capable of excelling in global environments. Offering diverse engineering programs, PESIT prepares students for careers in both cutting-edge technology fields and traditional engineering domains.
-
-One of PESIT’s key strengths lies in its structured teaching methodology, which integrates theoretical learning with extensive laboratory sessions, project work, and industry exposure. Students here are encouraged to approach engineering problems with analytical thinking and creativity, supported by experienced faculty members who guide their academic journey. PESIT also conducts continuous assessment through tests, projects, assignments, and seminars to ensure students remain academically strong and industry-ready.
-
-The institute maintains excellent placement statistics, with many leading companies hiring PESIT graduates for roles in software development, data analytics, electronics engineering, consulting, and more. The placement cell provides rigorous training in technical and soft skills, helping students perform confidently in interviews and competitive recruitment drives.
-
-PESIT also offers a vibrant campus environment filled with technical clubs, cultural events, innovation labs, and student organizations that foster leadership, teamwork, and community involvement. With its strong academic reputation and commitment to producing skilled professionals, PESIT continues to be one of the most trusted engineering institutions in Karnataka.
-`,
-    image: college8,
-  },
-
-  {
-    id: 9,
-    title: "CMR Institute of Technology",
-    categories: ["Engineering", "MBA"],
-    description: `
-CMR Institute of Technology (CMRIT) is a renowned private engineering institution in Bangalore known for its student-centric learning approach, modern infrastructure, and strong placement support. With a mission to nurture technical competence, creativity, and innovation, CMRIT offers a wide range of engineering and management programs tailored to meet industry demands. The college emphasizes hands-on learning through extensive laboratory work, internships, industrial collaborations, and practical engineering projects.
-
-CMRIT’s faculty includes experienced academicians and industry professionals who ensure that students receive holistic learning experiences that combine theory with application. The institution also houses specialized centers for research in domains like artificial intelligence, cloud computing, electronics design, and cybersecurity. These centers help students gain exposure to cutting-edge technologies and participate in impactful research initiatives.
-
-The campus is vibrant with student involvement in clubs, technical associations, hackathons, cultural festivals, and sports tournaments. These activities encourage personal development, leadership qualities, and teamwork. The placement department works extensively to connect students with top recruiters from IT, core engineering, startups, and global firms. Its structured pre-placement training enhances employability and confidence.
-
-With its focus on providing quality education, promoting innovation, and supporting career growth, CMRIT has built a strong reputation as one of Bangalore’s most progressive engineering institutions.
-`,
-    image: college9,
-  },
-
-  {
-    id: 10,
     title: "Dayananda Sagar College of Engineering",
     categories: ["Engineering"],
     description: `
@@ -232,7 +164,90 @@ Through its long-standing educational legacy, modern teaching methodologies, and
     image: college10,
   },
   {
+    id: 7,
+    title: "Nitte Meenakshi Institute of Technology",
+    categories: ["Engineering", "MBA"],
+    description: `
+Nitte Meenakshi Institute of Technology (NMIT) is an autonomous premier engineering institution in Bangalore recognized for its innovation-driven academic ecosystem and growing prominence in research and technology. The college is known for integrating modern teaching methodologies with project-based learning, helping students build strong technical foundations and practical skills. NMIT offers a comprehensive range of engineering and management programs that cater to the needs of budding professionals seeking both technical knowledge and managerial capabilities.
+
+NMIT stands out for its focus on interdisciplinary learning and advanced research. It houses specialized research centers in robotics, aerospace engineering, artificial intelligence, and renewable energy. These centers encourage students to participate in real-world research projects, collaborate with industry experts, and contribute to technological advancements. The institution also hosts various national and international technical competitions, hackathons, and innovation challenges, providing platforms for students to showcase their talent.
+
+The placement cell at NMIT is proactive and maintains strong relationships with leading companies in IT, core engineering, and business sectors. Students receive structured training in communication, problem-solving, and technical domains to prepare them for competitive recruitment processes. NMIT also promotes entrepreneurship through incubation centers that support student-led startups.
+
+Campus life at NMIT is vibrant and inclusive, offering numerous clubs, cultural programs, and sports activities that contribute to student engagement and personal development. With its focus on innovation, academic excellence, and industry readiness, NMIT continues to build a strong identity as one of Bangalore’s emerging premier institutions.
+`,
+    image: college7,
+  },
+  {
+    id: 8,
+    title: "CMR Institute of Technology",
+    categories: ["Engineering", "MBA"],
+    description: `
+CMR Institute of Technology (CMRIT) is a renowned private engineering institution in Bangalore known for its student-centric learning approach, modern infrastructure, and strong placement support. With a mission to nurture technical competence, creativity, and innovation, CMRIT offers a wide range of engineering and management programs tailored to meet industry demands. The college emphasizes hands-on learning through extensive laboratory work, internships, industrial collaborations, and practical engineering projects.
+
+CMRIT’s faculty includes experienced academicians and industry professionals who ensure that students receive holistic learning experiences that combine theory with application. The institution also houses specialized centers for research in domains like artificial intelligence, cloud computing, electronics design, and cybersecurity. These centers help students gain exposure to cutting-edge technologies and participate in impactful research initiatives.
+
+The campus is vibrant with student involvement in clubs, technical associations, hackathons, cultural festivals, and sports tournaments. These activities encourage personal development, leadership qualities, and teamwork. The placement department works extensively to connect students with top recruiters from IT, core engineering, startups, and global firms. Its structured pre-placement training enhances employability and confidence.
+
+With its focus on providing quality education, promoting innovation, and supporting career growth, CMRIT has built a strong reputation as one of Bangalore’s most progressive engineering institutions.
+`,
+    image: college9,
+  },
+  
+
+
+  {
+    id: 9,
+    title: "PES Institute of Technology",
+    categories: ["Engineering"],
+    description: `
+PES Institute of Technology (PESIT) has long been regarded as one of the strongest engineering institutions under the PES Group. Known for its emphasis on academic rigor, discipline, and technical competence, PESIT blends strong classroom learning with hands-on practical experience to create well-rounded engineers capable of excelling in global environments. Offering diverse engineering programs, PESIT prepares students for careers in both cutting-edge technology fields and traditional engineering domains.
+
+One of PESIT’s key strengths lies in its structured teaching methodology, which integrates theoretical learning with extensive laboratory sessions, project work, and industry exposure. Students here are encouraged to approach engineering problems with analytical thinking and creativity, supported by experienced faculty members who guide their academic journey. PESIT also conducts continuous assessment through tests, projects, assignments, and seminars to ensure students remain academically strong and industry-ready.
+
+The institute maintains excellent placement statistics, with many leading companies hiring PESIT graduates for roles in software development, data analytics, electronics engineering, consulting, and more. The placement cell provides rigorous training in technical and soft skills, helping students perform confidently in interviews and competitive recruitment drives.
+
+PESIT also offers a vibrant campus environment filled with technical clubs, cultural events, innovation labs, and student organizations that foster leadership, teamwork, and community involvement. With its strong academic reputation and commitment to producing skilled professionals, PESIT continues to be one of the most trusted engineering institutions in Karnataka.
+`,
+    image: college8,
+  },
+  {
+    id: 10,
+    title: "Bangalore Institute of Technology",
+    categories: ["Engineering"],
+    description: `
+Bangalore Institute of Technology (BIT) is one of Bangalore's most respected engineering institutions, well-known for its academic integrity, industry-oriented training, and strong faculty expertise across multiple engineering disciplines. Established with the aim of providing high-quality education at an affordable cost, BIT has grown into a center of technical excellence where thousands of students develop into skilled professionals each year. The college offers a wide range of undergraduate and postgraduate engineering programs designed to prepare students for evolving global challenges in science, engineering, and technology.
+
+BIT’s academic curriculum is structured to balance theoretical understanding with practical exposure, ensuring that students gain the necessary hands-on skills required in real industry environments. The college is home to advanced laboratories, modern classrooms, well-equipped workshops, and specialized research centers that support students in gaining experiential learning through projects, experiments, and innovation-based activities. The faculty at BIT includes experienced academicians and industry professionals who guide students through rigorous academic programs while encouraging creativity and critical thinking.
+
+Placement at BIT has been consistently strong, with top companies across IT, core engineering, consulting, and emerging technology fields visiting the campus annually. The dedicated placement cell trains students in aptitude, technical skills, communication, and interview preparation to enhance employability. Beyond academics, the college fosters a dynamic student culture through technical clubs, cultural associations, entrepreneurship cells, and sports teams that help in shaping well-rounded personalities.
+
+With its steady growth, strong reputation, and commitment to providing accessible professional education, Bangalore Institute of Technology continues to be a preferred choice for engineering aspirants seeking academic excellence and career development opportunities in Karnataka.
+`,
+    image: college6,
+  },
+
+    {
     id: 11,
+    title: "Sir M Visvesvaraya Institute of Technology",
+    categories: ["Engineering"],
+    description: `
+Sir M Visvesvaraya Institute of Technology (SMVIT) stands as a reputed engineering institution in Karnataka, known for offering quality technical education with a focus on industry relevance and holistic development. The college follows a balanced academic system that integrates conceptual learning, practical training, and exposure to real-world applications. Its engineering programs span multiple disciplines, providing students with opportunities to specialize in fields aligned with their career aspirations.
+
+SMVIT’s campus is equipped with contemporary laboratories, research facilities, and collaborative learning spaces that help students gain hands-on experience. The faculty includes dedicated academicians and industry professionals who ensure that students receive continuous academic support and mentorship. The institute also promotes active learning through seminars, workshops, industrial visits, student competitions, and innovation challenges.
+
+The placement cell consistently works with reputed organizations across core engineering, IT, and emerging technology fields, ensuring that students achieve strong career outcomes. SMVIT’s student community is vibrant, participating in cultural activities, technical clubs, and sports that contribute to personality development, leadership, and teamwork.
+
+With its commitment to producing technically competent graduates and fostering a culture of innovation, SMVIT continues to strengthen its position as a respected engineering institution in the region.
+`,
+    image: college5,
+  },
+
+  
+
+  
+  {
+    id: 12,
     title: "BMS Institute of Technology",
     categories: ["Engineering"],
     description: `
@@ -249,21 +264,7 @@ Campus life at BMSITM is lively and inclusive, offering opportunities through cl
     image: college11,
   },
 
-  {
-    id: 12,
-    title: "Reva University",
-    categories: ["Engineering", "MBA"],
-    description: `
-Reva University has emerged as one of Bangalore’s fastest-growing educational institutions, celebrated for its state-of-the-art infrastructure, innovative academic programs, and student-centric learning ecosystem. The university offers a broad range of undergraduate, postgraduate, and doctoral programs across engineering, management, science, law, architecture, and humanities. Its engineering faculty is particularly well-regarded for integrating modern technologies, practical training, and research-based learning.
-
-The campus at Reva University is a blend of modern design, advanced laboratories, digital classrooms, research hubs, and collaborative workspaces. Students benefit from an experiential learning approach that includes hands-on labs, project assignments, internships, inter-college competitions, and industry-driven coursework. Reva’s faculty comprises accomplished academicians and industry practitioners who provide mentorship and guide students through rigorous learning processes.
-
-One of the university’s major strengths lies in its focus on innovation, entrepreneurship, and real-world problem-solving. Reva’s incubation centers provide support to student startups, offering mentorship programs, access to funding networks, and collaborative opportunities with industry leaders. The university regularly hosts national and international conferences, technical festivals, hackathons, and cultural celebrations, all of which enrich the student experience.
-
-The placement department at Reva University works proactively with top-tier companies across IT, core engineering, analytics, consulting, and finance sectors. Intensive placement training ensures that students graduate with strong communication skills, technical proficiency, and workplace readiness. With its dynamic academic structure, global outlook, and student-driven culture, Reva University stands as a modern institution committed to grooming future leaders and innovators.
-`,
-    image: college12,
-  },
+  
 
   {
     id: 13,
@@ -1080,163 +1081,163 @@ With its holistic academic approach, strong infrastructure, and clinical orienta
     image: college56,
   },
   {
-  id: 57,
-  title: "Bapuji Ayurvedic Medical College and Hospital, Davangere",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+    id: 57,
+    title: "Bapuji Ayurvedic Medical College and Hospital, Davangere",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Bapuji Ayurvedic Medical College and Hospital is a reputed institution known for its commitment to Ayurvedic education, clinical excellence, and community healthcare. The college offers structured Ayurvedic programs that combine classical theoretical learning with extensive hands-on clinical exposure. It is widely recognized for producing skilled Ayurvedic practitioners who are well-versed in both traditional healing methods and modern healthcare practices.
 
 Students receive training through an attached hospital where they actively participate in patient diagnosis, treatment planning, Panchakarma procedures, and preventive healthcare services. The curriculum emphasizes classical Ayurvedic texts, pathology, pharmacology, and holistic patient care. Faculty members are experienced academicians and clinicians who provide strong mentorship and guidance.
 
 The hospital serves a large patient population, offering students exposure to diverse medical cases. Research, seminars, workshops, and outreach programs are integral parts of the academic experience. With its strong academic environment and clinical training facilities, Bapuji Ayurvedic Medical College remains a respected institution in Karnataka.
 `,
-  image: college57
-},
+    image: college57,
+  },
 
-{
-  id: 58,
-  title: "Bapuji Ayurvedic Medical College, Shimoga",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 58,
+    title: "Bapuji Ayurvedic Medical College, Shimoga",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Bapuji Ayurvedic Medical College, Shimoga, is a well-established institution dedicated to preserving and promoting Ayurvedic medical education. The college focuses on developing competent Ayurvedic professionals through a balanced approach of classroom learning, laboratory work, and clinical practice. The institution aims to deliver quality education rooted in traditional Ayurvedic wisdom.
 
 Students benefit from extensive clinical exposure through associated healthcare facilities, learning patient diagnosis, herbal formulations, Panchakarma therapies, and holistic treatment approaches. Faculty members guide students academically and clinically, ensuring ethical practice and professional discipline.
 
 The college encourages research, academic discussions, seminars, and workshops to enhance knowledge and innovation in Ayurveda. With its strong academic foundation and community healthcare services, Bapuji Ayurvedic Medical College, Shimoga, plays an important role in Ayurvedic education.
 `,
-  image: college58
-},
+    image: college58,
+  },
 
-{
-  id: 59,
-  title: "JSS Ayurveda Medical College, Mysore",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 59,
+    title: "JSS Ayurveda Medical College, Mysore",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 JSS Ayurveda Medical College, Mysore, is a prestigious institution under the JSS Mahavidyapeetha, known for its academic excellence and clinical training in Ayurvedic medicine. The college offers comprehensive Ayurvedic programs supported by a well-equipped teaching hospital.
 
 Students receive in-depth training in classical Ayurvedic principles, diagnostic methods, Panchakarma therapies, and patient management. Faculty members provide strong academic mentorship and emphasize ethical medical practice. Research, conferences, and outreach programs further enrich student learning.
 
 With its disciplined academic environment and strong clinical focus, JSS Ayurveda Medical College, Mysore, continues to be a preferred choice for Ayurvedic education.
 `,
-  image: college59
-},
+    image: college59,
+  },
 
-{
-  id: 60,
-  title: "Muniyal Institute of Ayurveda Medical Sciences",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 60,
+    title: "Muniyal Institute of Ayurveda Medical Sciences",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Muniyal Institute of Ayurveda Medical Sciences is a renowned institution specializing in classical Ayurveda education, research, and clinical practice. The institute is particularly known for its emphasis on authentic Ayurvedic formulations and traditional healing methodologies.
 
 Students receive training through structured academic programs and extensive clinical exposure. The attached hospital allows students to observe and participate in real-world patient care. Faculty members emphasize classical learning, ethical practice, and research-based education.
 
 The institution also supports research in herbal medicine and traditional formulations. With its focus on authenticity and clinical excellence, Muniyal Institute remains a respected name in Ayurvedic education.
 `,
-  image: college60
-},
+    image: college60,
+  },
 
-{
-  id: 61,
-  title: "KLE University – Ayurveda Faculty",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 61,
+    title: "KLE University – Ayurveda Faculty",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 KLE University’s Ayurveda faculty is a well-established center for Ayurvedic education, clinical practice, and research. The institution integrates classical Ayurvedic teachings with modern academic standards to prepare students for professional healthcare roles.
 
 Students benefit from advanced infrastructure, research facilities, and teaching hospitals. Faculty members provide mentorship across academics, research, and clinical training. The institution actively promotes innovation, interdisciplinary learning, and community healthcare services.
 
 With its strong academic reputation and clinical exposure, KLE University continues to contribute significantly to Ayurvedic medical education.
 `,
-  image: college61
-},
+    image: college61,
+  },
 
-{
-  id: 62,
-  title: "AVS Ayurveda Mahavidyalaya",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 62,
+    title: "AVS Ayurveda Mahavidyalaya",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 AVS Ayurveda Mahavidyalaya is a dedicated institution focused on Ayurvedic education and traditional healthcare practices. The college offers undergraduate Ayurvedic programs that emphasize classical learning, practical training, and ethical medical practice.
 
 Students receive hands-on training through associated clinical facilities, learning diagnosis, treatment procedures, and Panchakarma therapies. Faculty members support students academically and clinically, encouraging professional growth and research participation.
 
 With its focus on traditional values and clinical competence, AVS Ayurveda Mahavidyalaya remains an important institution for Ayurvedic education.
 `,
-  image: college62
-},
+    image: college62,
+  },
 
-{
-  id: 63,
-  title: "BVVS Ayurveda Medical College and Hospital",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 63,
+    title: "BVVS Ayurveda Medical College and Hospital",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 BVVS Ayurveda Medical College and Hospital is a respected institution known for quality Ayurvedic education and strong clinical exposure. The college offers structured programs that integrate theoretical knowledge with hands-on patient care.
 
 Students train in diagnosis, Panchakarma therapies, and holistic treatment approaches through the attached hospital. Faculty members provide mentorship and emphasize ethical healthcare practices. Research, workshops, and seminars further enhance student learning.
 
 With its academic discipline and healthcare services, BVVS Ayurveda Medical College plays a vital role in Ayurvedic medical education.
 `,
-  image: college63
-},
+    image: college63,
+  },
 
-{
-  id: 64,
-  title: "DGM Ayurvedic Medical College",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 64,
+    title: "DGM Ayurvedic Medical College",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 DGM Ayurvedic Medical College is an institution dedicated to teaching traditional Ayurvedic medicine through structured academic programs and clinical practice. The college focuses on developing competent practitioners with strong foundational knowledge and ethical values.
 
 Students gain practical exposure through clinical training and patient interaction. Faculty members guide students in academics, research, and professional development. The institution also supports community healthcare initiatives.
 
 With its commitment to quality education, DGM Ayurvedic Medical College continues to contribute to Ayurvedic healthcare.
 `,
-  image: college64
-},
+    image: college64,
+  },
 
-{
-  id: 65,
-  title: "Acharya Deshbhushan Ayurvedic Medical College",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 65,
+    title: "Acharya Deshbhushan Ayurvedic Medical College",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Acharya Deshbhushan Ayurvedic Medical College is known for its emphasis on classical Ayurvedic education, clinical excellence, and value-based learning. The college provides structured academic programs supported by experienced faculty and clinical facilities.
 
 Students receive hands-on training through hospital exposure, learning diagnosis, treatment, and preventive healthcare methods. Faculty members emphasize ethical practice, discipline, and research participation.
 
 With its strong focus on traditional knowledge and professional training, the institution plays a significant role in Ayurvedic education.
 `,
-  image: college65
-},
+    image: college65,
+  },
 
-{
-  id: 66,
-  title: "Adichunchanagiri Ayurvedic Medical College and Hospital (AMC)",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 66,
+    title: "Adichunchanagiri Ayurvedic Medical College and Hospital (AMC)",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Adichunchanagiri Ayurvedic Medical College and Hospital is a prominent institution offering quality Ayurvedic education combined with strong clinical training. The college emphasizes holistic healthcare, ethical practice, and traditional Ayurvedic wisdom.
 
 Students gain extensive exposure through the teaching hospital, participating in patient diagnosis, Panchakarma therapy, and treatment planning. Faculty members mentor students academically and clinically, encouraging research and innovation.
 
 With its commitment to education and healthcare service, Adichunchanagiri Ayurvedic Medical College continues to be a respected institution in Ayurveda.
 `,
-  image: college66
-},
+    image: college66,
+  },
 
-{
-  id: 67,
-  title: "Amrutha Ayurvedic Medical College",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 67,
+    title: "Amrutha Ayurvedic Medical College",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Amrutha Ayurvedic Medical College is a recognized institution dedicated to delivering quality Ayurvedic education and clinical training. The college focuses on nurturing skilled Ayurvedic practitioners through structured academic programs and hands-on clinical exposure.
 
 Students receive training in diagnosis, Panchakarma therapy, herbal medicine, and holistic treatment approaches. Faculty members provide academic guidance, clinical mentorship, and research support.
 
 With its emphasis on traditional healing practices and modern clinical training, Amrutha Ayurvedic Medical College remains a trusted institution in Ayurvedic education.
 `,
-  image: college67
-},
-{
-  id: 68,
-  title: "Atreya Ayurvedic Medical College, Doddaballapur",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+    image: college67,
+  },
+  {
+    id: 68,
+    title: "Atreya Ayurvedic Medical College, Doddaballapur",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Atreya Ayurvedic Medical College, Doddaballapur, is a recognized institution dedicated to the preservation and advancement of classical Ayurvedic education combined with practical clinical training. The college is known for its disciplined academic environment, focus on traditional Ayurvedic principles, and commitment to producing competent and ethical Ayurvedic practitioners. It provides students with a structured learning experience that balances theoretical knowledge and hands-on patient care.
 
 The institution offers undergraduate Ayurvedic programs supported by a teaching hospital where students gain real-world clinical exposure. Training includes patient diagnosis, formulation of treatment plans, Panchakarma therapies, preventive healthcare, and lifestyle-based healing approaches. The curriculum emphasizes in-depth study of classical Ayurvedic texts while integrating modern clinical practices to ensure students are prepared for contemporary healthcare challenges.
@@ -1247,14 +1248,14 @@ The attached hospital serves patients from surrounding regions, providing studen
 
 With its focus on classical learning, clinical competence, and value-based education, Atreya Ayurvedic Medical College continues to play an important role in shaping skilled Ayurvedic professionals.
 `,
-  image: college68
-},
+    image: college68,
+  },
 
-{
-  id: 69,
-  title: "Shri C B Guttal Ayurvedic Medical College and Hospital",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 69,
+    title: "Shri C B Guttal Ayurvedic Medical College and Hospital",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 Shri C B Guttal Ayurvedic Medical College and Hospital is a reputed institution committed to providing quality education in Ayurveda along with comprehensive clinical training. The college focuses on developing knowledgeable, skilled, and ethically responsible Ayurvedic doctors through a well-structured academic and practical learning framework.
 
 The institution offers undergraduate Ayurvedic programs supported by an attached hospital that provides extensive patient care services. Students receive hands-on training in diagnosis, Ayurvedic treatment protocols, Panchakarma therapies, and holistic healthcare practices. The academic curriculum is designed to strengthen foundational knowledge while enhancing clinical application skills.
@@ -1265,14 +1266,14 @@ The hospital serves as a major learning center, exposing students to diverse cli
 
 With its strong academic structure, clinical exposure, and commitment to traditional medicine, Shri C B Guttal Ayurvedic Medical College and Hospital remains a respected institution in Ayurvedic education.
 `,
-  image: college69
-},
+    image: college69,
+  },
 
-{
-  id: 70,
-  title: "SDM Ayurvedic Medical College, Terdal",
-  categories: ["Ayurvedic", "MBBS"],
-  description: `
+  {
+    id: 70,
+    title: "SDM Ayurvedic Medical College, Terdal",
+    categories: ["Ayurvedic", "MBBS"],
+    description: `
 SDM Ayurvedic Medical College, Terdal, is a prominent institution under the SDM educational trust, known for excellence in Ayurvedic education, clinical practice, and research. The college follows a structured academic model that integrates classical Ayurvedic teachings with modern clinical exposure, preparing students to become competent healthcare professionals.
 
 The institution offers undergraduate Ayurvedic programs supported by a well-established teaching hospital. Students receive extensive practical training in patient diagnosis, Panchakarma procedures, herbal medicine preparation, and preventive healthcare. The curriculum emphasizes classical texts, clinical application, and ethical medical practice.
@@ -1283,8 +1284,8 @@ The hospital attached to the college serves a large patient population, offering
 
 With its strong academic foundation, research orientation, and clinical excellence, SDM Ayurvedic Medical College, Terdal, continues to be a leading institution for Ayurvedic medical education.
 `,
-  image: college70
-}
+    image: college70,
+  },
 ];
 
 export default CollegesData;
