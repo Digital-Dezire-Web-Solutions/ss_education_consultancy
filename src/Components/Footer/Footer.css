@@ -43,6 +43,14 @@
   margin: 8px 0;
   font-size: 14px;
 }
+.footer-info p a{
+ text-decoration: none;
+ color: white;
+ display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
 
 /* Important Links */
 .footer-links {

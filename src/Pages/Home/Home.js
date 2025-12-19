@@ -48,8 +48,8 @@ const Home = () => {
     <div>
       <Banner />
       <Executive />
-      <Explore />
       <TopColleges/>
+      <Explore />
       <Courses />
       <Categories />
       <Faq />

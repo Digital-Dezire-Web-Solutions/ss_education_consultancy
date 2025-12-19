@@ -16,8 +16,13 @@ const Navbar = () => {
                 <div className="navbar-main">
                     <div className="top-bar">
                         <div className="top-left">
-                            <span><FaEnvelope /> sseducation@gmail.com</span>
-                            <span><FaPhoneAlt /> +917892846798</span>
+                            <Link to="mailto:sseduconsultancy@gmail.com">
+                                <FaEnvelope /> sseduconsultancy@gmail.com
+                            </Link>
+
+                            <Link to="tel:+917892846798">
+                                <FaPhoneAlt /> +91 78928 46798
+                            </Link>
                         </div>
 
                         <div className="top-right">

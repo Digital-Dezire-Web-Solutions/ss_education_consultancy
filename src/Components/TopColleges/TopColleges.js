@@ -11,7 +11,7 @@ const TopColleges = () => {
         <div className='Courses top-colleges'>
             <div className='Courses-main'>
                 <div className="categories-header">
-                    <h2>Top 8 Colleges</h2>
+                    <h2>Top Engineering Colleges</h2>
                     <button className="view-btn" onClick={() => navigate("/colleges")}>View All Colleges <FaLongArrowAltRight /></button>
                 </div>
                 <div className="Courses-box ">

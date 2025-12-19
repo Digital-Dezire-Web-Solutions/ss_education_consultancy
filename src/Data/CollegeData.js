@@ -73,10 +73,10 @@ import college70 from "../Assets/Colleges/SDM Ayurvedic Medical College, Terdal.
 const CollegesData = [
   {
     id: 1,
-    title: "Rashtriya Vidyalaya College of Engineering",
+    title: "RV College Of Engineering",
     categories: ["Engineering"],
     description: `
-Rashtriya Vidyalaya College of Engineering (RVCE), one of Bangalore’s most respected institutions, has established itself as a pioneer in engineering education since its inception. The college is known for its disciplined academic structure, strong technical ecosystem, and a legacy of shaping leaders in engineering and innovation. RVCE’s campus environment is a blend of modern infrastructure, industry-oriented training, and student-driven research, making it one of the most sought-after destinations for engineering aspirants in India.
+RV College Of Engineering (RVCE), one of Bangalore’s most respected institutions, has established itself as a pioneer in engineering education since its inception. The college is known for its disciplined academic structure, strong technical ecosystem, and a legacy of shaping leaders in engineering and innovation. RVCE’s campus environment is a blend of modern infrastructure, industry-oriented training, and student-driven research, making it one of the most sought-after destinations for engineering aspirants in India.
 
 The institute offers a wide range of undergraduate and postgraduate engineering programs, each designed to help students build a strong theoretical foundation while gaining hands-on experience through practical labs, workshops, and industry collaborations. RVCE’s faculty consists of experienced academicians, researchers, and industry professionals who guide students through rigorous academic learning and real-world applications.
 
@@ -116,7 +116,7 @@ With its commitment to quality education, innovation, and leadership development
 `,
     image: college2,
   },
-   {
+  {
     id: 4,
     title: "BMS College of Engineering",
     categories: ["Engineering", "MCA"],
@@ -193,8 +193,6 @@ With its focus on providing quality education, promoting innovation, and support
 `,
     image: college9,
   },
-  
-
 
   {
     id: 9,
@@ -227,7 +225,7 @@ With its steady growth, strong reputation, and commitment to providing accessibl
     image: college6,
   },
 
-    {
+  {
     id: 11,
     title: "Sir M Visvesvaraya Institute of Technology",
     categories: ["Engineering"],
@@ -243,9 +241,6 @@ With its commitment to producing technically competent graduates and fostering a
     image: college5,
   },
 
-  
-
-  
   {
     id: 12,
     title: "BMS Institute of Technology",
@@ -263,8 +258,6 @@ Campus life at BMSITM is lively and inclusive, offering opportunities through cl
 `,
     image: college11,
   },
-
-  
 
   {
     id: 13,

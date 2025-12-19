@@ -30,10 +30,15 @@ const Footer = () => {
 
                         <div className="footer-info">
                             <p>
-                                <FaEnvelope /> sseducation@gmail.com
+                                <Link to="mailto:sseduconsultancy@gmail.com">
+                                    <FaEnvelope /> sseduconsultancy@gmail.com
+                                </Link>
+                                {/* <FaEnvelope /> sseducation@gmail.com */}
                             </p>
                             <p>
-                                <FaPhoneAlt /> +917892846798
+                                <Link to="tel:+917892846798">
+                                    <FaPhoneAlt /> +91 78928 46798
+                                </Link>
                             </p>
                             <p>
                                 <FaMapMarkerAlt /> Bangalore, Karnataka
@@ -86,22 +91,22 @@ const Footer = () => {
                         <ul className="footer-links">
                             <li>
                                 <Link to={"/about"}>
-                                <FaArrowRight /> About Us
+                                    <FaArrowRight /> About Us
                                 </Link>
                             </li>
                             <li>
                                 <Link to={"#"}>
-                                <FaArrowRight /> Privacy Policy
+                                    <FaArrowRight /> Privacy Policy
                                 </Link>
                             </li>
                             <li>
                                 <Link to={"#"}>
-                                <FaArrowRight /> Term & Conditions
+                                    <FaArrowRight /> Term & Conditions
                                 </Link>
                             </li>
                             <li>
                                 <Link to={"/contact"}>
-                                <FaArrowRight /> Contact Us
+                                    <FaArrowRight /> Contact Us
                                 </Link>
                             </li>
                         </ul>
