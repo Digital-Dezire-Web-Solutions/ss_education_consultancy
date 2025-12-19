@@ -28,7 +28,7 @@ const CollegeDetail = () => {
         // -------------------------------
         // 1️⃣ Set Title
         // -------------------------------
-        document.title = college.title || "ss education";
+        document.title = college.title || "College Detail | SS Education Consultancy";
 
         // -------------------------------
         // 2️⃣ Set Canonical URL

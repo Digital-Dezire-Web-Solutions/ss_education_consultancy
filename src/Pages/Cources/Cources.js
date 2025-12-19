@@ -12,7 +12,7 @@ const Cources = () => {
 
   useEffect(() => {
     document.title =
-      "SS Consultancy is a Bangalore based education firm";
+      "Cources | SS Education Consultancy";
     const description =
       "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
     let metaDescription = document.querySelector("meta[name='description']");
