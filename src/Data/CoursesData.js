@@ -1,4 +1,5 @@
 import { FaBriefcase, FaBullhorn, FaCapsules, FaDesktop, FaLeaf, FaPenNib, FaTools, FaUserGraduate } from "react-icons/fa";
+import Dental from "../Assets/Dental.jpeg"
 
 const CoursesData = [
   {
@@ -42,6 +43,13 @@ const CoursesData = [
     icon: <FaUserGraduate/>,
     image:
       "https://plus.unsplash.com/premium_photo-1682974403683-591557aa631b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TUJBfGVufDB8fDB8fHww",
+  },
+  {
+    id: 6,
+    title: "Dental",
+    icon: <FaUserGraduate/>,
+    image:
+      Dental,
   },
 ];
 
