@@ -16,6 +16,7 @@ import BreadCrumb from "./Components/BreadCrumb/BreadCrumbs";
 import About from "./Pages/About/About";
 import Counselling from "./Pages/Counselling/Counselling";
 import Contact from "./Pages/Contact/Contact";
+import Exam from "./Pages/Exam/Exam";
 
 const Layout = () => {
   const location = useLocation();
@@ -37,6 +38,8 @@ const Layout = () => {
                   ? "College"
                   : location.pathname === "/contact"
                   ? "Contact Us"
+                  : location.pathname === "/exam"
+                  ? "Exam"
                   : location.pathname === "/counseling"
                   ? "Counseling"
                   : location.pathname === "/courses"
@@ -54,6 +57,8 @@ const Layout = () => {
                   ? "Colleges"
                   : location.pathname === "/contact"
                   ? "Contact Us"
+                  : location.pathname === "/exam"
+                  ? "Exam"
                   : location.pathname === "/counseling"
                   ? "Counseling"
                   : location.pathname === "/courses"
@@ -82,6 +87,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/counseling" exact element={<Counselling />} />
+        <Route path="/exam" exact element={<Exam />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/colleges" exact element={<College />} />
         <Route path="/courses" exact element={<Cources />} />

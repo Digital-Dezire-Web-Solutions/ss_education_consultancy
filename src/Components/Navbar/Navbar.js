@@ -113,6 +113,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             </li>
+                            <li><Link to="/exam">Exam</Link></li>
                             <li><Link to="/counseling">Counseling</Link></li>
                             <li><Link to="/contact">Contact Us</Link></li>
                         </ul>
@@ -149,6 +150,7 @@ const Navbar = () => {
                         <li><Link to="/about" onClick={() => setSidebarOpen(false)}>About Us</Link></li>
                         <li><Link to="/colleges" onClick={() => setSidebarOpen(false)}>Colleges</Link></li>
                         <li><Link to="/courses" onClick={() => setSidebarOpen(false)}>Courses</Link></li>
+                        <li><Link to="/exam" onClick={() => setSidebarOpen(false)}>Exam</Link></li>
                         <li><Link to="/counseling" onClick={() => setSidebarOpen(false)}>Counseling</Link></li>
                         <li><Link to="/contact" onClick={() => setSidebarOpen(false)}>Contact Us</Link></li>
                     </ul>
