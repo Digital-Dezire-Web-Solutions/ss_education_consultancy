@@ -108,12 +108,21 @@ const Navbar = () => {
                                                         PG
                                                     </Link>
                                                 </li>
+                                                <li>
+                                                    <Link
+                                                        to={`/courses/${encodeURIComponent(
+                                                            "dental"
+                                                        )}`}
+                                                    >
+                                                        Dental
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li><Link to="/exam">Exam</Link></li>
+                            <li><Link to="/exam">Exam Updates</Link></li>
                             <li><Link to="/counseling">Counseling</Link></li>
                             <li><Link to="/contact">Contact Us</Link></li>
                         </ul>
@@ -150,8 +159,73 @@ const Navbar = () => {
                         <li><Link to="/about" onClick={() => setSidebarOpen(false)}>About Us</Link></li>
                         <li><Link to="/colleges" onClick={() => setSidebarOpen(false)}>Colleges</Link></li>
                         <li><Link to="/courses" onClick={() => setSidebarOpen(false)}>Courses</Link></li>
-                        <li><Link to="/exam" onClick={() => setSidebarOpen(false)}>Exam</Link></li>
+                        <li><Link to="/exam" onClick={() => setSidebarOpen(false)}>Exam Updates</Link></li>
                         <li><Link to="/counseling" onClick={() => setSidebarOpen(false)}>Counseling</Link></li>
+                        <ul>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "engineering"
+                                    )}`}
+                                >
+                                    Engineering
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "ayurvedic"
+                                    )}`}
+                                >
+                                    Ayurvedic
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "mba"
+                                    )}`}
+                                >
+                                    MBA
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "mca"
+                                    )}`}
+                                >
+                                    MCA
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "mbbs"
+                                    )}`}
+                                >
+                                    MBBS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "pg"
+                                    )}`}
+                                >
+                                    PG
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setSidebarOpen(false)}
+                                    to={`/courses/${encodeURIComponent(
+                                        "dental"
+                                    )}`}
+                                >
+                                    Dental
+                                </Link>
+                            </li>
+                        </ul>
                         <li><Link to="/contact" onClick={() => setSidebarOpen(false)}>Contact Us</Link></li>
                     </ul>
 
