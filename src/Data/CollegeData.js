@@ -93,6 +93,9 @@ import college91 from "../Assets/Colleges/college91.png";
 import college92 from "../Assets/Colleges/college92.jpg";
 import college93 from "../Assets/Colleges/college93.jpg";
 import college94 from "../Assets/Colleges/college94.jpg";
+import college95 from "../Assets/Colleges/MRR Ayurvedic Medical College.jpeg";
+import college96 from "../Assets/Colleges/Maharaja Ayurvedic Medical College.jpeg";
+import college97 from "../Assets/Colleges/Prasanna Ayurvedic Medical College.jpeg";
 
 const CollegesData = [
   {
@@ -955,7 +958,7 @@ With its focus on developing competent engineers and managers, SV Institute of E
   {
     id: 48,
     title: "Government Ayurveda Medical College and Hospital, Mysuru",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Government Ayurveda Medical College and Hospital, Mysuru, is one of Karnataka’s oldest and most respected government institutions dedicated to the study and practice of Ayurveda. Known for its strong academic foundation and integration of classical Ayurvedic knowledge with modern clinical practices, the college plays a vital role in preserving and promoting traditional Indian medicine. Being a government institution, it attracts students from across the state who seek quality education at an affordable cost.
 
@@ -973,7 +976,7 @@ With its strong government backing, academic credibility, and clinical training 
   {
     id: 49,
     title: "Sri Sri College of Ayurvedic Science and Research, Bengaluru",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Sri Sri College of Ayurvedic Science and Research, Bengaluru, is a well-known private Ayurvedic institution associated with holistic wellness, traditional healing practices, and integrative healthcare. The college is recognized for combining classical Ayurvedic teachings with modern scientific research and patient-centered clinical training. Its serene campus environment supports focused learning and holistic development.
 
@@ -991,7 +994,7 @@ With its holistic philosophy, modern infrastructure, and strong clinical trainin
   {
     id: 50,
     title: "SDM College of Ayurveda and Hospital, Hassan",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 SDM College of Ayurveda and Hospital, Hassan, is a prestigious institution under the SDM educational trust, widely respected for its contribution to Ayurvedic education, research, and healthcare services. The college follows a structured academic system that integrates classical Ayurvedic principles with modern diagnostic and clinical practices.
 
@@ -1009,7 +1012,7 @@ With its strong academic reputation, clinical exposure, and research orientation
   {
     id: 51,
     title: "Sri Kalabyraveshwara Swamy Ayurvedic Medical College",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Sri Kalabyraveshwara Swamy Ayurvedic Medical College is a recognized institution dedicated to the teaching and practice of traditional Ayurvedic medicine. The college aims to preserve the ancient medical knowledge of Ayurveda while preparing students to meet modern healthcare challenges through structured academic training and clinical exposure.
 
@@ -1027,7 +1030,7 @@ With its focus on traditional knowledge, clinical practice, and community servic
   {
     id: 52,
     title: "JSS Ayurveda Medical College",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 JSS Ayurveda Medical College is a reputed institution under the JSS Mahavidyapeetha, known for its strong academic foundation, clinical excellence, and commitment to quality healthcare education. The college offers structured Ayurvedic programs that emphasize classical learning, clinical competence, and research-based practice.
 
@@ -1042,8 +1045,84 @@ The institution also promotes community healthcare services, allowing students t
 
   {
     id: 53,
+    title: "MS Ramaiah Dental College",
+    categories: ["Dental"],
+    description: `
+MS Ramaiah Dental College is one of India’s most prestigious dental institutions, widely recognized for its excellence in dental education, advanced clinical training, and strong research culture. Established under the renowned Ramaiah Group, the college has a long-standing legacy of producing highly skilled dental professionals who excel in clinical practice, academics, and research both in India and abroad.
+
+The college offers undergraduate (BDS) and postgraduate (MDS) programs across multiple dental specialties, following a curriculum approved by the Dental Council of India. Students receive extensive hands-on training through a high-volume teaching hospital equipped with modern dental chairs, advanced diagnostic tools, digital radiography, and specialized treatment facilities. Clinical exposure begins early, enabling students to build confidence in patient care, diagnosis, and treatment planning.
+
+Faculty members include highly experienced clinicians, professors, and researchers who actively mentor students through academics, clinical postings, case discussions, and research projects. Regular workshops, conferences, continuing dental education programs, and skill-enhancement courses help students stay updated with the latest advancements in dentistry.
+
+With its world-class infrastructure, strong academic reputation, and excellent clinical exposure, MS Ramaiah Dental College remains a top choice for students aspiring to build successful careers in dentistry.
+`,
+    image: college90,
+  },
+  {
+    id: 54,
+    title: "KIMS Dental College",
+    categories: ["Dental"],
+    description: `
+KIMS Dental College is a well-established institution known for delivering quality dental education supported by strong clinical exposure and academic discipline. The college focuses on developing competent dental professionals with sound theoretical knowledge, practical expertise, and ethical values.
+
+The institution offers undergraduate and postgraduate dental programs with a curriculum designed to emphasize both foundational sciences and advanced clinical practice. Students gain hands-on experience through a fully functional dental hospital where they treat a wide range of dental cases under expert supervision. Modern laboratories, pre-clinical simulation labs, and advanced dental equipment support effective learning.
+
+Faculty members consist of experienced dental surgeons and academicians who guide students through lectures, clinical training, seminars, and research activities. The college encourages participation in conferences, workshops, and outreach dental camps to enhance professional exposure.
+
+With its student-centric approach and growing clinical facilities, KIMS Dental College continues to be a reliable institution for dental education.
+`,
+    image: college91,
+  },
+  {
+    id: 55,
+    title: "Vydehi Institute of Dental Sciences",
+    categories: ["Dental"],
+    description: `
+Vydehi Institute of Dental Sciences is a reputed dental college in Bangalore known for its strong academic structure, modern infrastructure, and extensive clinical training. The institution is part of the Vydehi educational group and benefits from a large multi-specialty healthcare ecosystem, offering students exposure to integrated patient care.
+
+The college provides undergraduate and postgraduate dental programs with emphasis on clinical competence, patient management, and evidence-based dental practice. The attached dental hospital handles a high patient inflow, enabling students to gain real-world experience across all dental specialties including conservative dentistry, orthodontics, prosthodontics, oral surgery, and periodontics.
+
+Faculty members are experienced clinicians and educators who focus on skill development, research involvement, and ethical dental practice. Regular academic activities such as seminars, workshops, case presentations, and continuing education programs strengthen students’ professional growth.
+
+With its advanced facilities and strong clinical orientation, Vydehi Dental College remains a preferred choice for dental aspirants.
+`,
+    image: college92,
+  },
+  {
+    id: 56,
+    title: "Dr. B R Ambedkar Dental College",
+    categories: ["Dental"],
+    description: `
+Dr. B R Ambedkar Dental College is one of the oldest and most respected dental institutions in India, known for its academic excellence, disciplined learning environment, and strong clinical foundation. The college has a rich legacy of training dental professionals who have gone on to excel in clinical practice, teaching, and research.
+
+The institution offers undergraduate and postgraduate dental programs with a curriculum that balances theoretical knowledge, laboratory training, and extensive patient care. Students receive early clinical exposure through the attached dental hospital, which serves a diverse patient population. Advanced dental laboratories, modern equipment, and specialty clinics support comprehensive dental training.
+
+Faculty members are highly qualified and experienced, providing mentorship through lectures, clinical supervision, research guidance, and professional development activities. The college actively promotes research, academic conferences, and community dental health programs.
+
+With decades of academic heritage and clinical excellence, Dr. B R Ambedkar Dental College continues to be a premier institution for dental education.
+`,
+    image: college93,
+  },
+  {
+    id: 57,
+    title: "KLE Dental College",
+    categories: ["Dental"],
+    description: `
+KLE Dental College is a prestigious institution under the KLE Society, widely recognized for its high academic standards, advanced clinical training, and strong research culture in dental sciences. The college is committed to producing skilled dental professionals capable of meeting global healthcare standards.
+
+The institution offers undergraduate and postgraduate dental programs supported by state-of-the-art dental hospitals, modern laboratories, and advanced diagnostic facilities. Students gain extensive clinical exposure through supervised patient care, specialty clinics, and interdisciplinary treatment planning. Emphasis is placed on evidence-based dentistry, ethical practice, and continuous professional development.
+
+Faculty members include senior clinicians, researchers, and academicians who actively engage students in academic learning, clinical skill development, and research initiatives. The college encourages participation in national and international conferences, workshops, and outreach programs.
+
+With its strong academic reputation, modern infrastructure, and excellent clinical training, KLE Dental College remains a leading institution in dental education.
+`,
+    image: college94,
+  },
+
+  {
+    id: 58,
     title: "Indian Institute of Ayurvedic Medicine and Research",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Indian Institute of Ayurvedic Medicine and Research (IIAMR) is a well-established institution focused on delivering quality Ayurvedic education, clinical training, and research opportunities. The institute emphasizes preserving classical Ayurvedic traditions while integrating modern scientific approaches to healthcare.
 
@@ -1057,9 +1136,9 @@ With its focus on academic excellence, clinical exposure, and research developme
   },
 
   {
-    id: 54,
+    id: 59,
     title: "SDM College of Ayurveda, Udupi",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 SDM College of Ayurveda, Udupi, is a renowned institution under the SDM trust, known for excellence in Ayurvedic education, clinical practice, and research. The college provides a comprehensive academic environment that integrates traditional Ayurvedic wisdom with modern clinical training.
 
@@ -1071,9 +1150,9 @@ The institution also encourages community outreach and healthcare awareness prog
   },
 
   {
-    id: 55,
+    id: 60,
     title: "Sushrutha Ayurvedic Medical College and Hospital",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Sushrutha Ayurvedic Medical College and Hospital is dedicated to providing quality Ayurvedic education supported by strong clinical exposure and patient care. The institution focuses on teaching classical Ayurvedic knowledge while preparing students to apply it effectively in modern healthcare settings.
 
@@ -1085,9 +1164,9 @@ The institution promotes research, workshops, and community healthcare services.
   },
 
   {
-    id: 56,
+    id: 61,
     title: "Alva's Ayurveda Medical College, Moodbidri",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Alva's Ayurveda Medical College, Moodbidri, is a respected institution under the Alva’s Education Foundation, known for its academic excellence, clinical training, and contribution to Ayurvedic healthcare. The college provides a structured curriculum that blends classical Ayurvedic education with hands-on clinical practice.
 
@@ -1098,9 +1177,9 @@ With its holistic academic approach, strong infrastructure, and clinical orienta
     image: college56,
   },
   {
-    id: 57,
+    id: 62,
     title: "Bapuji Ayurvedic Medical College and Hospital, Davangere",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Bapuji Ayurvedic Medical College and Hospital is a reputed institution known for its commitment to Ayurvedic education, clinical excellence, and community healthcare. The college offers structured Ayurvedic programs that combine classical theoretical learning with extensive hands-on clinical exposure. It is widely recognized for producing skilled Ayurvedic practitioners who are well-versed in both traditional healing methods and modern healthcare practices.
 
@@ -1112,9 +1191,9 @@ The hospital serves a large patient population, offering students exposure to di
   },
 
   {
-    id: 58,
+    id: 63,
     title: "Bapuji Ayurvedic Medical College, Shimoga",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Bapuji Ayurvedic Medical College, Shimoga, is a well-established institution dedicated to preserving and promoting Ayurvedic medical education. The college focuses on developing competent Ayurvedic professionals through a balanced approach of classroom learning, laboratory work, and clinical practice. The institution aims to deliver quality education rooted in traditional Ayurvedic wisdom.
 
@@ -1126,9 +1205,9 @@ The college encourages research, academic discussions, seminars, and workshops t
   },
 
   {
-    id: 59,
+    id: 64,
     title: "JSS Ayurveda Medical College, Mysore",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 JSS Ayurveda Medical College, Mysore, is a prestigious institution under the JSS Mahavidyapeetha, known for its academic excellence and clinical training in Ayurvedic medicine. The college offers comprehensive Ayurvedic programs supported by a well-equipped teaching hospital.
 
@@ -1140,9 +1219,9 @@ With its disciplined academic environment and strong clinical focus, JSS Ayurved
   },
 
   {
-    id: 60,
+    id: 65,
     title: "Muniyal Institute of Ayurveda Medical Sciences",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Muniyal Institute of Ayurveda Medical Sciences is a renowned institution specializing in classical Ayurveda education, research, and clinical practice. The institute is particularly known for its emphasis on authentic Ayurvedic formulations and traditional healing methodologies.
 
@@ -1154,9 +1233,9 @@ The institution also supports research in herbal medicine and traditional formul
   },
 
   {
-    id: 61,
+    id: 66,
     title: "KLE University – Ayurveda Faculty",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 KLE University’s Ayurveda faculty is a well-established center for Ayurvedic education, clinical practice, and research. The institution integrates classical Ayurvedic teachings with modern academic standards to prepare students for professional healthcare roles.
 
@@ -1168,9 +1247,9 @@ With its strong academic reputation and clinical exposure, KLE University contin
   },
 
   {
-    id: 62,
+    id: 67,
     title: "AVS Ayurveda Mahavidyalaya",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 AVS Ayurveda Mahavidyalaya is a dedicated institution focused on Ayurvedic education and traditional healthcare practices. The college offers undergraduate Ayurvedic programs that emphasize classical learning, practical training, and ethical medical practice.
 
@@ -1182,9 +1261,9 @@ With its focus on traditional values and clinical competence, AVS Ayurveda Mahav
   },
 
   {
-    id: 63,
+    id: 68,
     title: "BVVS Ayurveda Medical College and Hospital",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 BVVS Ayurveda Medical College and Hospital is a respected institution known for quality Ayurvedic education and strong clinical exposure. The college offers structured programs that integrate theoretical knowledge with hands-on patient care.
 
@@ -1196,9 +1275,9 @@ With its academic discipline and healthcare services, BVVS Ayurveda Medical Coll
   },
 
   {
-    id: 64,
+    id: 69,
     title: "DGM Ayurvedic Medical College",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 DGM Ayurvedic Medical College is an institution dedicated to teaching traditional Ayurvedic medicine through structured academic programs and clinical practice. The college focuses on developing competent practitioners with strong foundational knowledge and ethical values.
 
@@ -1210,9 +1289,9 @@ With its commitment to quality education, DGM Ayurvedic Medical College continue
   },
 
   {
-    id: 65,
+    id: 70,
     title: "Acharya Deshbhushan Ayurvedic Medical College",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Acharya Deshbhushan Ayurvedic Medical College is known for its emphasis on classical Ayurvedic education, clinical excellence, and value-based learning. The college provides structured academic programs supported by experienced faculty and clinical facilities.
 
@@ -1224,9 +1303,9 @@ With its strong focus on traditional knowledge and professional training, the in
   },
 
   {
-    id: 66,
+    id: 71,
     title: "Adichunchanagiri Ayurvedic Medical College and Hospital (AMC)",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Adichunchanagiri Ayurvedic Medical College and Hospital is a prominent institution offering quality Ayurvedic education combined with strong clinical training. The college emphasizes holistic healthcare, ethical practice, and traditional Ayurvedic wisdom.
 
@@ -1238,9 +1317,9 @@ With its commitment to education and healthcare service, Adichunchanagiri Ayurve
   },
 
   {
-    id: 67,
+    id: 72,
     title: "Amrutha Ayurvedic Medical College",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Amrutha Ayurvedic Medical College is a recognized institution dedicated to delivering quality Ayurvedic education and clinical training. The college focuses on nurturing skilled Ayurvedic practitioners through structured academic programs and hands-on clinical exposure.
 
@@ -1251,9 +1330,9 @@ With its emphasis on traditional healing practices and modern clinical training,
     image: college67,
   },
   {
-    id: 68,
+    id: 73,
     title: "Atreya Ayurvedic Medical College, Doddaballapur",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Atreya Ayurvedic Medical College, Doddaballapur, is a recognized institution dedicated to the preservation and advancement of classical Ayurvedic education combined with practical clinical training. The college is known for its disciplined academic environment, focus on traditional Ayurvedic principles, and commitment to producing competent and ethical Ayurvedic practitioners. It provides students with a structured learning experience that balances theoretical knowledge and hands-on patient care.
 
@@ -1269,9 +1348,9 @@ With its focus on classical learning, clinical competence, and value-based educa
   },
 
   {
-    id: 69,
+    id: 74,
     title: "Shri C B Guttal Ayurvedic Medical College and Hospital",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 Shri C B Guttal Ayurvedic Medical College and Hospital is a reputed institution committed to providing quality education in Ayurveda along with comprehensive clinical training. The college focuses on developing knowledgeable, skilled, and ethically responsible Ayurvedic doctors through a well-structured academic and practical learning framework.
 
@@ -1287,9 +1366,9 @@ With its strong academic structure, clinical exposure, and commitment to traditi
   },
 
   {
-    id: 70,
+    id: 75,
     title: "SDM Ayurvedic Medical College, Terdal",
-    categories: ["Ayurvedic", "MBBS", "Dental"],
+    categories: ["Ayurvedic"],
     description: `
 SDM Ayurvedic Medical College, Terdal, is a prominent institution under the SDM educational trust, known for excellence in Ayurvedic education, clinical practice, and research. The college follows a structured academic model that integrates classical Ayurvedic teachings with modern clinical exposure, preparing students to become competent healthcare professionals.
 
@@ -1304,9 +1383,9 @@ With its strong academic foundation, research orientation, and clinical excellen
     image: college70,
   },
   {
-    id: 71,
+    id: 76,
     title: "MS Ramaiah Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 MS Ramaiah Medical College is one of Bangalore’s most prestigious medical institutions, widely recognized for its excellence in medical education, clinical training, and healthcare services. Established under the renowned Ramaiah Group, the college has a strong legacy of producing highly skilled doctors who serve both nationally and internationally. The institution is known for combining rigorous academic learning with extensive hands-on clinical exposure.
 
@@ -1319,9 +1398,9 @@ With state-of-the-art infrastructure, strong clinical exposure, and an excellent
     image: college71,
   },
   {
-    id: 72,
+    id: 77,
     title: "KIMS Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 KIMS Medical College is a reputed medical institution known for providing quality medical education combined with strong clinical training. The college focuses on producing competent and compassionate doctors through a structured academic framework and real-world hospital exposure. It emphasizes ethical medical practice, patient-centered care, and professional discipline.
 
@@ -1332,9 +1411,9 @@ The institution encourages participation in conferences, workshops, and research
     image: college72,
   },
   {
-    id: 73,
+    id: 78,
     title: "Vydehi Institute of Medical Sciences",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Vydehi Institute of Medical Sciences is one of Bangalore’s well-known private medical colleges, recognized for its strong academic framework, advanced healthcare infrastructure, and commitment to medical excellence. The institution provides students with comprehensive medical education supported by extensive clinical exposure.
 
@@ -1345,9 +1424,9 @@ Faculty members are experienced clinicians and academicians who mentor students 
     image: college73,
   },
   {
-    id: 74,
+    id: 79,
     title: "Sapthagiri Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Sapthagiri Medical College is a growing medical institution known for its structured medical education, experienced faculty, and patient-centered clinical training. The college focuses on preparing students with strong foundational knowledge and hands-on medical skills.
 
@@ -1358,9 +1437,9 @@ The institution emphasizes ethical practice, discipline, and continuous learning
     image: college74,
   },
   {
-    id: 75,
+    id: 80,
     title: "MVJ Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 MVJ Medical College is a reputed medical institution committed to delivering quality medical education with a focus on clinical competence and ethical values. The college offers undergraduate medical programs supported by modern teaching methodologies and hospital-based training.
 
@@ -1371,9 +1450,9 @@ With its focus on academic excellence and patient care, MVJ Medical College cont
     image: college75,
   },
   {
-    id: 76,
+    id: 81,
     title: "Akash Institute of Medical Sciences",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Akash Institute of Medical Sciences is a well-established medical college in Karnataka known for its disciplined academic environment and strong clinical training programs. The college emphasizes developing skilled doctors through comprehensive medical education and hands-on hospital exposure.
 
@@ -1384,9 +1463,9 @@ Akash Medical College continues to be a growing institution focused on academic 
     image: college76,
   },
   {
-    id: 77,
+    id: 82,
     title: "Dr. B R Ambedkar Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Dr. B R Ambedkar Medical College is one of Bangalore’s established medical colleges known for its academic discipline and strong clinical exposure. The college focuses on producing competent medical professionals through a structured and comprehensive curriculum.
 
@@ -1397,9 +1476,9 @@ With its long-standing reputation, Ambedkar Medical College remains a respected 
     image: college77,
   },
   {
-    id: 78,
+    id: 83,
     title: "KLE Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 KLE Medical College is a prestigious institution under the KLE Society, recognized for excellence in medical education, research, and healthcare services. The college offers comprehensive medical programs with strong clinical exposure and research orientation.
 
@@ -1410,9 +1489,9 @@ KLE Medical College has consistently maintained high academic standards and rema
     image: college78,
   },
   {
-    id: 79,
+    id: 84,
     title: "SS Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 SS Medical College is a developing medical institution focused on delivering quality medical education and clinical training. The college emphasizes foundational medical knowledge, clinical exposure, and ethical healthcare practices.
 
@@ -1423,9 +1502,9 @@ With its growing infrastructure and academic focus, SS Medical College continues
     image: college79,
   },
   {
-    id: 80,
+    id: 85,
     title: "JJM Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 JJM Medical College is a well-known medical institution with a long history of providing quality medical education and healthcare services. The college focuses on strong academic learning combined with extensive clinical exposure.
 
@@ -1436,9 +1515,9 @@ JJM Medical College remains a respected institution producing skilled medical pr
     image: college80,
   },
   {
-    id: 81,
+    id: 86,
     title: "Rajshree Medical College",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Rajshree Medical College is a private medical institution committed to providing quality medical education and modern clinical training. The college emphasizes academic excellence, patient care, and professional discipline.
 
@@ -1449,9 +1528,9 @@ With modern infrastructure and growing clinical facilities, Rajshree Medical Col
     image: college81,
   },
   {
-    id: 82,
+    id: 87,
     title: "Pacific Medical College, Jaipur",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Pacific Medical College, Jaipur, is a reputed medical institution known for its comprehensive medical education and modern healthcare facilities. The college offers MBBS programs supported by advanced laboratories, experienced faculty, and a multi-specialty teaching hospital.
 
@@ -1462,9 +1541,9 @@ Pacific Medical College, Jaipur, continues to attract students seeking quality m
     image: college82,
   },
   {
-    id: 83,
+    id: 88,
     title: "Pacific Medical College, Udaipur",
-    categories: [  "MBBS", "Dental"],
+    categories: ["MBBS", "Dental"],
     description: `
 Pacific Medical College, Udaipur, is a well-established medical institution providing quality medical education with strong clinical training. The college emphasizes modern teaching methodologies, patient-centered care, and ethical medical practice.
 
@@ -1475,7 +1554,7 @@ With its strong infrastructure and academic framework, Pacific Medical College, 
     image: college83,
   },
   {
-    id: 84,
+    id: 89,
     title: "Christ University",
     categories: ["MBA"],
     description: `
@@ -1488,7 +1567,7 @@ Christ University remains a premier destination for management education in Indi
     image: college84,
   },
   {
-    id: 85,
+    id: 90,
     title: "CMS Jain University",
     categories: ["MBA"],
     description: `
@@ -1501,7 +1580,7 @@ CMS Jain University continues to grow as a strong choice for MBA aspirants.
     image: college85,
   },
   {
-    id: 86,
+    id: 91,
     title: "Symbiosis Institute of Business Management, Bangalore",
     categories: ["MBA"],
     description: `
@@ -1514,7 +1593,7 @@ It remains one of India’s most respected MBA institutions.
     image: college86,
   },
   {
-    id: 87,
+    id: 92,
     title: "NIET College, Noida",
     categories: ["Engineering", "MBA"],
     description: `
@@ -1527,7 +1606,7 @@ It remains a popular institution in North India.
     image: college87,
   },
   {
-    id: 88,
+    id: 93,
     title: "Galgotia College, Noida",
     categories: ["Engineering", "MBA"],
     description: `
@@ -1538,7 +1617,7 @@ Students benefit from practical learning, internships, and corporate exposure. G
     image: college88,
   },
   {
-    id: 89,
+    id: 94,
     title: "GL Bajaj Institute of Technology",
     categories: ["Engineering", "MBA"],
     description: `
@@ -1550,81 +1629,52 @@ GL Bajaj Institute continues to be a preferred choice for career-focused educati
 `,
     image: college89,
   },
+
   {
-  id: 90,
-  title: "MS Ramaiah Dental College",
-  categories: ["Dental", "BDS", "MDS"],
-  description: `
-MS Ramaiah Dental College is one of India’s most prestigious dental institutions, widely recognized for its excellence in dental education, advanced clinical training, and strong research culture. Established under the renowned Ramaiah Group, the college has a long-standing legacy of producing highly skilled dental professionals who excel in clinical practice, academics, and research both in India and abroad.
+    id: 95,
+    title: "MRR Ayurvedic Medical College",
+    categories: ["Ayurvedic"],
+    description: `
+MRR Ayurvedic Medical College is a recognized institution dedicated to the teaching and practice of traditional Ayurvedic medicine. The college focuses on preserving the classical knowledge of Ayurveda while preparing students to meet modern healthcare challenges through structured academic learning and clinical exposure. It aims to produce competent Ayurvedic doctors with strong diagnostic skills, ethical values, and professional discipline.
 
-The college offers undergraduate (BDS) and postgraduate (MDS) programs across multiple dental specialties, following a curriculum approved by the Dental Council of India. Students receive extensive hands-on training through a high-volume teaching hospital equipped with modern dental chairs, advanced diagnostic tools, digital radiography, and specialized treatment facilities. Clinical exposure begins early, enabling students to build confidence in patient care, diagnosis, and treatment planning.
+The institution offers undergraduate Ayurvedic programs (BAMS) supported by an attached teaching hospital where students receive hands-on clinical training. Students actively participate in patient diagnosis, Panchakarma therapies, herbal medicine preparation, and preventive healthcare practices. This practical exposure helps bridge the gap between theoretical learning and real-world medical application.
 
-Faculty members include highly experienced clinicians, professors, and researchers who actively mentor students through academics, clinical postings, case discussions, and research projects. Regular workshops, conferences, continuing dental education programs, and skill-enhancement courses help students stay updated with the latest advancements in dentistry.
+Faculty members consist of experienced Ayurvedic physicians and academicians who guide students through academic studies, clinical postings, and research activities. The college regularly organizes seminars, workshops, guest lectures, and academic discussions to enhance students’ understanding of classical texts and modern integrative medicine approaches.
 
-With its world-class infrastructure, strong academic reputation, and excellent clinical exposure, MS Ramaiah Dental College remains a top choice for students aspiring to build successful careers in dentistry.
+With its emphasis on traditional healing systems, clinical competence, and value-based education, MRR Ayurvedic Medical College continues to contribute to the development of skilled Ayurvedic professionals.
 `,
-  image: college90,
-},
-{
-  id: 91,
-  title: "KIMS Dental College",
-  categories: ["Dental", "BDS", "MDS"],
-  description: `
-KIMS Dental College is a well-established institution known for delivering quality dental education supported by strong clinical exposure and academic discipline. The college focuses on developing competent dental professionals with sound theoretical knowledge, practical expertise, and ethical values.
+    image: college95,
+  },
+  {
+    id: 96,
+    title: "Maharaja Ayurvedic Medical College",
+    categories: ["Ayurvedic"],
+    description: `
+Maharaja Ayurvedic Medical College is a reputed institution committed to delivering quality education in Ayurveda with a strong focus on clinical practice and holistic healthcare. The college follows a well-structured academic curriculum that integrates classical Ayurvedic teachings with practical medical training, enabling students to become confident and ethical Ayurvedic practitioners.
 
-The institution offers undergraduate and postgraduate dental programs with a curriculum designed to emphasize both foundational sciences and advanced clinical practice. Students gain hands-on experience through a fully functional dental hospital where they treat a wide range of dental cases under expert supervision. Modern laboratories, pre-clinical simulation labs, and advanced dental equipment support effective learning.
+The college offers undergraduate Ayurvedic programs supported by a teaching hospital and Panchakarma centers where students gain extensive hands-on experience. Training includes patient diagnosis, formulation of treatment protocols, therapeutic procedures, preventive healthcare, and lifestyle-based healing practices rooted in Ayurvedic principles.
 
-Faculty members consist of experienced dental surgeons and academicians who guide students through lectures, clinical training, seminars, and research activities. The college encourages participation in conferences, workshops, and outreach dental camps to enhance professional exposure.
+Faculty members are experienced academicians and clinicians who provide close mentorship in academics, clinical exposure, and professional development. The institution encourages participation in research activities, workshops, seminars, and outreach healthcare programs that enhance both academic and practical learning.
 
-With its student-centric approach and growing clinical facilities, KIMS Dental College continues to be a reliable institution for dental education.
+With its disciplined academic environment, strong clinical training, and commitment to traditional medicine, Maharaja Ayurvedic Medical College remains a trusted institution for Ayurvedic education.
 `,
-  image: college91,
-},
-{
-  id: 92,
-  title: "Vydehi Institute of Dental Sciences",
-  categories: ["Dental", "BDS", "MDS"],
-  description: `
-Vydehi Institute of Dental Sciences is a reputed dental college in Bangalore known for its strong academic structure, modern infrastructure, and extensive clinical training. The institution is part of the Vydehi educational group and benefits from a large multi-specialty healthcare ecosystem, offering students exposure to integrated patient care.
+    image: college96,
+  },
+  {
+    id: 97,
+    title: "Prasanna Ayurvedic Medical College",
+    categories: ["Ayurvedic"],
+    description: `
+Prasanna Ayurvedic Medical College is a dedicated institution focused on imparting high-quality Ayurvedic education combined with strong clinical exposure. The college aims to nurture knowledgeable and skilled Ayurvedic doctors by emphasizing classical Ayurvedic wisdom, ethical medical practice, and patient-centered care.
 
-The college provides undergraduate and postgraduate dental programs with emphasis on clinical competence, patient management, and evidence-based dental practice. The attached dental hospital handles a high patient inflow, enabling students to gain real-world experience across all dental specialties including conservative dentistry, orthodontics, prosthodontics, oral surgery, and periodontics.
+The institution offers undergraduate Ayurvedic programs (BAMS) supported by an attached hospital that provides real-world clinical training. Students learn diagnosis techniques, Panchakarma therapies, herbal medicine usage, and holistic treatment approaches under the supervision of experienced clinicians. The curriculum is designed to ensure a strong foundation in both theoretical and practical aspects of Ayurveda.
 
-Faculty members are experienced clinicians and educators who focus on skill development, research involvement, and ethical dental practice. Regular academic activities such as seminars, workshops, case presentations, and continuing education programs strengthen students’ professional growth.
+Faculty members guide students through academic coursework, clinical postings, seminars, and research-oriented activities. The college regularly conducts health camps, workshops, and community outreach programs, helping students gain exposure to public healthcare delivery through Ayurveda.
 
-With its advanced facilities and strong clinical orientation, Vydehi Dental College remains a preferred choice for dental aspirants.
+With its focus on traditional knowledge, clinical competence, and community service, Prasanna Ayurvedic Medical College continues to play an important role in Ayurvedic medical education.
 `,
-  image: college92,
-},
-{
-  id: 93,
-  title: "Dr. B R Ambedkar Dental College",
-  categories: ["Dental", "BDS", "MDS"],
-  description: `
-Dr. B R Ambedkar Dental College is one of the oldest and most respected dental institutions in India, known for its academic excellence, disciplined learning environment, and strong clinical foundation. The college has a rich legacy of training dental professionals who have gone on to excel in clinical practice, teaching, and research.
-
-The institution offers undergraduate and postgraduate dental programs with a curriculum that balances theoretical knowledge, laboratory training, and extensive patient care. Students receive early clinical exposure through the attached dental hospital, which serves a diverse patient population. Advanced dental laboratories, modern equipment, and specialty clinics support comprehensive dental training.
-
-Faculty members are highly qualified and experienced, providing mentorship through lectures, clinical supervision, research guidance, and professional development activities. The college actively promotes research, academic conferences, and community dental health programs.
-
-With decades of academic heritage and clinical excellence, Dr. B R Ambedkar Dental College continues to be a premier institution for dental education.
-`,
-  image: college93,
-},
-{
-  id: 94,
-  title: "KLE Dental College",
-  categories: ["Dental", "BDS", "MDS"],
-  description: `
-KLE Dental College is a prestigious institution under the KLE Society, widely recognized for its high academic standards, advanced clinical training, and strong research culture in dental sciences. The college is committed to producing skilled dental professionals capable of meeting global healthcare standards.
-
-The institution offers undergraduate and postgraduate dental programs supported by state-of-the-art dental hospitals, modern laboratories, and advanced diagnostic facilities. Students gain extensive clinical exposure through supervised patient care, specialty clinics, and interdisciplinary treatment planning. Emphasis is placed on evidence-based dentistry, ethical practice, and continuous professional development.
-
-Faculty members include senior clinicians, researchers, and academicians who actively engage students in academic learning, clinical skill development, and research initiatives. The college encourages participation in national and international conferences, workshops, and outreach programs.
-
-With its strong academic reputation, modern infrastructure, and excellent clinical training, KLE Dental College remains a leading institution in dental education.
-`,
-  image: college94,
-}
+    image: college97,
+  },
 ];
 
 export default CollegesData;
