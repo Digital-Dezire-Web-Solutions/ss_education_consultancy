@@ -1,7 +1,7 @@
 import React from "react";
 import "./Search.css";
 
-const Search = ({ search, setSearch }) => {
+const Search = ({ search, setSearch, placeholder }) => {
   return (
     <div class="group">
       <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
@@ -14,7 +14,7 @@ const Search = ({ search, setSearch }) => {
         id="query"
         class="input"
         type="search"
-        placeholder="Search college..."
+        placeholder={placeholder}
         name="searchbar"
         value={search}
         onChange={(e) => setSearch(e.target.value)}

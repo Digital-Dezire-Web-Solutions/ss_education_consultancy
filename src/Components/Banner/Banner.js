@@ -1,14 +1,19 @@
 import React from "react";
 import "./Banner.css";
-import manImg from "../../Assets/man.png";   // <-- replace with actual path of your image
+import manImg from "../../Assets/man.png"; // <-- replace with actual path of your image
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
+  const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    };
   return (
     <section className="banner">
       <div className="banner-main">
-
         {/* LEFT CONTENT */}
         <div className="banner-left">
           <h1>
@@ -17,10 +22,14 @@ const Banner = () => {
           </h1>
 
           <p>
-            Over 1,000+ students choose SS Consultancy for career guidance and college admission.
+            Over 1,000+ students choose SS Consultancy for career guidance and
+            college admission.
           </p>
 
-          <Link className="banner-btn"> <FaPhoneAlt/>Call Now</Link>
+          <Link to="/contact" className="banner-btn" onClick={scrollToTop}>
+            <FaPhoneAlt />
+            Call Now
+          </Link>
         </div>
 
         {/* RIGHT IMAGE */}
@@ -28,7 +37,6 @@ const Banner = () => {
           <div className="circle-bg"></div>
           <img src={manImg} alt="Student" className="banner-img" />
         </div>
-
       </div>
     </section>
   );

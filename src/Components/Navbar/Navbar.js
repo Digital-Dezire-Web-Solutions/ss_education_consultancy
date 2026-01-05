@@ -19,14 +19,11 @@ const Navbar = () => {
                             <Link to="mailto:sseduconsultancy@gmail.com">
                                 <FaEnvelope /> sseduconsultancy@gmail.com
                             </Link>
-
-                            <Link to="tel:+917892846798">
-                                <FaPhoneAlt /> +91 78928 46798
-                            </Link>
+                            <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
                         </div>
 
                         <div className="top-right">
-                            <span><FaMapMarkerAlt /> Bangalore, Karnataka</span>
+                            <span><FaMapMarkerAlt />3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore</span>
                         </div>
                     </div>
                 </div>
@@ -236,9 +233,9 @@ const Navbar = () => {
                         <FaPinterestP />
                     </div>
                     <div className="sidebar-top-items">
-                        <p><FaEnvelope /> sseducation@gmail.com</p>
-                        <p><FaPhoneAlt /> +917892846798</p>
-                        <p><FaMapMarkerAlt /> Bangalore, Karnataka</p>
+                        <Link to="mailto:sseduconsultancy@gmail.com"><FaEnvelope /> sseduconsultancy@gmail.com</Link>
+                        <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
+                        <p><FaMapMarkerAlt /> 3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore </p>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,14 @@ import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Explore = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  };
+
   return (
     <section className="explore">
       <div className="explore-main">
@@ -32,7 +40,7 @@ const Explore = () => {
             <li><FaCheck /> Secure admission with complete support</li>
           </ul>
 
-          <button className="explore-btn"> <Link to={"/about"}>About Us</Link> </button>
+          <button className="explore-btn"> <Link to={"/about"} onClick={scrollToTop}>About Us</Link> </button>
         </div>
 
       </div>

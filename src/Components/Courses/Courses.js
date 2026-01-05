@@ -7,12 +7,19 @@ import CollegeCard from '../CourseCard/CollegeCard'
 
 const Courses = () => {
     const navigate = useNavigate();
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "auto",
+        });
+        navigate("/colleges")
+    };
     return (
         <div className='Courses'>
             <div className='Courses-main'>
                 <div className="categories-header courses">
                     <h2>Explore Popular Colleges</h2>
-                    <button className="view-btn" onClick={() => navigate("/colleges")}>View All Colleges <FaLongArrowAltRight /></button>
+                    <button className="view-btn" onClick={scrollToTop}>View All Colleges <FaLongArrowAltRight /></button>
                 </div>
                 <div className="Courses-box">
                     {CollegeData.slice(7, 13).map((item) => (

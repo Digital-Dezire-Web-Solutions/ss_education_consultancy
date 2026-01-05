@@ -55,20 +55,21 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-bottom">
-            <Link className="contact-bottom-box">
+            <Link to="tel:+91899673489" className="contact-bottom-box">
               <FaPhoneAlt />
               <h5>call us any time!</h5>
-              <p>+91 78928 46798</p>
+              <p>+91 78996 73489</p>
             </Link>
-            <Link className="contact-bottom-box">
+            <Link to="mailto:sseduconsultancy@gmail.com" className="contact-bottom-box">
               <FaEnvelope />
               <h5>send us e-mail</h5>
-              <p>sseducation@gmail.com</p>
+              <p>sseduconsultancy@gmail.com</p>
             </Link>
             <div className="contact-bottom-box">
               <FaLocationDot />
               <h5>Office Address</h5>
-              <p>Bangalore, Karnataka</p>
+              <p>Corporate office - 3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore </p>
+              <p>Branch office - Golden I Greater Noida Tower T3  3rd Floor 309 :- 201318</p>
             </div>
           </div>
         </div>

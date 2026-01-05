@@ -78,7 +78,12 @@
 }
 
 /* BUTTON */
-.explore-btn {
+.explore-btn{
+  border: none;
+  background-color: transparent;
+}
+
+.explore-btn a{
   padding: 15px 35px;
   background: #fdf5aa;
   border: 1px solid #113f67;

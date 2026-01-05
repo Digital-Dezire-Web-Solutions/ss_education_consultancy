@@ -61,7 +61,7 @@ const College = () => {
         <div className="courses-box">
           <div className="college-top">
             <h2>Colleges</h2>
-            <Search search={search} setSearch={handleSearch} />
+            <Search search={search} setSearch={handleSearch} placeholder={"Search Colleges..."}/>
           </div>
 
           <div className="Courses-box">

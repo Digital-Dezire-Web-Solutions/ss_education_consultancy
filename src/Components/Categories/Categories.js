@@ -1,19 +1,27 @@
 import React from "react";
 import "./Categories.css";
-import {FaLongArrowAltRight } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import CoursesData from "../../Data/CoursesData";
 import { useNavigate } from "react-router-dom";
 
 const Categories = () => {
-      const navigate = useNavigate();
+  const navigate = useNavigate();
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+    navigate("/courses");
+  };
   return (
     <div className="Categories">
       <div className="Categories-main">
-
         {/* HEADER */}
         <div className="categories-header">
           <h2>Explore 100+ Categories</h2>
-          <button className="view-btn" onClick={() => navigate("/courses")}>View All Courses <FaLongArrowAltRight /></button>
+          <button className="view-btn" onClick={scrollToTop}>
+            View All Courses <FaLongArrowAltRight />
+          </button>
         </div>
 
         {/* GRID */}
@@ -31,7 +39,6 @@ const Categories = () => {
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );

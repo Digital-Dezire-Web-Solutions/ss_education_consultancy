@@ -10,8 +10,15 @@ const CourseCard = ({ course }) => {
 
     const handleClick = () => {
         navigate(`/courses/${slug}`);
+        scrollToTop();
     };
-    
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "auto",
+        });
+    };
     return (
         <div className="course-card" onClick={handleClick}>
             <div className="course-img">

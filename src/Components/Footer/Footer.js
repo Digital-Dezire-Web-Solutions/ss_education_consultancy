@@ -33,15 +33,12 @@ const Footer = () => {
                                 <Link to="mailto:sseduconsultancy@gmail.com">
                                     <FaEnvelope /> sseduconsultancy@gmail.com
                                 </Link>
-                                {/* <FaEnvelope /> sseducation@gmail.com */}
                             </p>
                             <p>
-                                <Link to="tel:+917892846798">
-                                    <FaPhoneAlt /> +91 78928 46798
-                                </Link>
+                                <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
                             </p>
                             <p>
-                                <FaMapMarkerAlt /> Bangalore, Karnataka
+                                <FaMapMarkerAlt />3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore
                             </p>
                         </div>
                     </div>

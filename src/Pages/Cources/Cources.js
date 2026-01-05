@@ -44,7 +44,7 @@ const Cources = () => {
         <div className="courses-box">
           <div className="college-top">
             <h2>Cources</h2>
-            <Search search={search} setSearch={setSearch} />
+            <Search search={search} setSearch={setSearch} placeholder={"Search Cources..."}/>
           </div>
           <div className="Courses-box">
             {filteredUsers.length ? (

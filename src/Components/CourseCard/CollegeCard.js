@@ -13,8 +13,15 @@ const CollegeCard = ({ course, category }) => {
     navigate(`/college/${slug}`, {
       state: { category }, // pass selected category
     });
+    scrollToTop();
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  };
   // utils/text.js
   const truncateWords = (text, numWords = 20) => {
     if (!text) return "";
