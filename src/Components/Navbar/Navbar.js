@@ -3,7 +3,6 @@ import "./Navbar.css";
 import { FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/ss-logo-white-yellow.png"
-import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -16,14 +15,14 @@ const Navbar = () => {
                 <div className="navbar-main">
                     <div className="top-bar">
                         <div className="top-left">
-                            <Link to="mailto:sseduconsultancy@gmail.com">
-                                <FaEnvelope /> sseduconsultancy@gmail.com
+                            <Link to="mailto:ssadmission732@gmail.com">
+                                <FaEnvelope /> ssadmission732@gmail.com
                             </Link>
-                            <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
+                            <Link to="tel:+918792405697"><FaPhoneAlt /> +91 87924 05697</Link>
                         </div>
 
                         <div className="top-right">
-                            <span><FaMapMarkerAlt />3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore</span>
+                            <span><FaMapMarkerAlt />Bangalore</span>
                         </div>
                     </div>
                 </div>
@@ -125,11 +124,11 @@ const Navbar = () => {
                         </ul>
 
                         {/* SOCIAL ICONS */}
-                        <div className="social-icons desktop-social">
+                        {/* <div className="social-icons desktop-social">
                             <FaFacebookF />
                             <FaXTwitter />
                             <FaInstagram />
-                        </div>
+                        </div> */}
 
                         {/* MOBILE HAMBURGER ICON */}
                         <div className="mobile-menu-icon" onClick={() => setSidebarOpen(true)}>
@@ -233,8 +232,8 @@ const Navbar = () => {
                         <FaPinterestP />
                     </div>
                     <div className="sidebar-top-items">
-                        <Link to="mailto:sseduconsultancy@gmail.com"><FaEnvelope /> sseduconsultancy@gmail.com</Link>
-                        <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
+                        <Link to="mailto:ssadmission732@gmail.com"><FaEnvelope /> ssadmission732@gmail.com</Link>
+                        <Link to="tel:+918792405697"><FaPhoneAlt /> +91 87924 05697</Link>
                         <p><FaMapMarkerAlt /> 3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore </p>
                     </div>
                 </div>

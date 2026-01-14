@@ -8,8 +8,6 @@ import Faq from "../../Components/Faq/Faq";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import Popup from "../../Components/Popup/Popup";
 import { useLocation } from "react-router-dom";
-import Choose from "../../Components/Choose/Choose";
-import Director from "../../Components/Director/Director";
 import TopColleges from "../../Components/TopColleges/TopColleges";
 
 const Home = () => {

@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import CoursesData from "../../Data/CoursesData";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
+    const [message, setMessage] = useState("")
     const [formData, setFormData] = useState({
         name: "",
+        email: "",
         phone: "",
         course: "",
         message: "",
@@ -15,11 +18,41 @@ const Form = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Form Submitted:", formData);
-        alert("Message Sent Successfully!");
+
+        emailjs
+            .send(
+                "service_1ypcrc3",
+                "template_m5dvyjs",
+                formData,
+                "OuogqKQmyn7ocWfN_"
+            )
+            .then(
+                () => {
+                    setMessage("✅ Message Sent Successfully!");
+                    setFormData({
+                        name: "",
+                        email: "",
+                        phone: "",
+                        course: "",
+                        message: "",
+                    });
+                    setTimeout(() => {
+                        setMessage("");
+                    }, 1500);
+                },
+                (error) => {
+                    setMessage("❌ Failed to send message!");
+                    setTimeout(() => {
+                        setMessage("");
+                    }, 1500);
+                    console.log(error);
+                }
+            );
     };
+
     return (
         <form className="contact-form" onSubmit={handleSubmit}>
+            {message && <p>{message}</p> }
             <div className="form-items">
                 <div className="form-group">
                     <input
@@ -33,10 +66,10 @@ const Form = () => {
                 </div>
                 <div className="form-group">
                     <input
-                        type="text"
-                        name="name"
-                        placeholder="Enter your Email"
-                        value={formData.name}
+                        type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    value={formData.email}
                         onChange={handleChange}
                         required
                     />
@@ -46,9 +79,9 @@ const Form = () => {
                 <div className="form-group">
                     <input
                         type="number"
-                        name="phone"
-                        placeholder="Enter your phone number"
-                        value={formData.phone}
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    value={formData.phone}
                         onChange={handleChange}
                         required
                     />

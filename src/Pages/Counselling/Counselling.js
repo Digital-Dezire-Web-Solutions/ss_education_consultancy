@@ -7,6 +7,7 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
+import Councel from "../../Assets/councling.png"
 
 const Counselling = () => {
   const location = useLocation();
@@ -51,7 +52,7 @@ const Counselling = () => {
             </div>
             <div className="counselling-hero-img">
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&auto=format&fit=crop&q=60"
+                src={Councel}
                 alt="counselling"
               />
             </div>

@@ -30,15 +30,15 @@ const Footer = () => {
 
                         <div className="footer-info">
                             <p>
-                                <Link to="mailto:sseduconsultancy@gmail.com">
-                                    <FaEnvelope /> sseduconsultancy@gmail.com
+                                <Link to="mailto:ssadmission732@gmail.com">
+                                    <FaEnvelope /> info.ssadmission732@gmail.com
                                 </Link>
                             </p>
                             <p>
-                                <Link to="tel:+91899673489"><FaPhoneAlt /> +91 78996 73489</Link>
+                                <Link to="tel:+918792405697"><FaPhoneAlt /> +91 87924 05697</Link>
                             </p>
                             <p>
-                                <FaMapMarkerAlt />3rd Floor KRISHNA BUILDING MSR ROAD OPP TO GOKULA BUS STOP 560054 Bangalore
+                                <FaMapMarkerAlt />3rd Floor, 14, Opp MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bengaluru Urban, Karnataka, 560054
                             </p>
                         </div>
                     </div>

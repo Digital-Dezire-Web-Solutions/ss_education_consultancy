@@ -33,7 +33,7 @@
   background: #fdf5aa;
   color: #113f67;
   border: none;
-  border-radius: 6px;
+  border-radius: 25px;
   font-size: 17px;
   cursor: pointer;
   font-weight: 600;
@@ -71,7 +71,7 @@
 .feature-card {
   background: #f1f5f9;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -104,7 +104,7 @@
 .step-card {
   background: #eef2f6;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .step-icon {
@@ -130,7 +130,7 @@
   margin-top: 60px;
   padding: 40px;
   background: #113F67;
-  border-radius: 12px;
+  border-radius: 20px;
   color: white;
 }
 
