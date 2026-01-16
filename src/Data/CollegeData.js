@@ -98,6 +98,7 @@ import college96 from "../Assets/Colleges/Maharaja Ayurvedic Medical College.jpe
 import college97 from "../Assets/Colleges/Prasanna Ayurvedic Medical College.jpeg";
 import college98 from "../Assets/Colleges/college98.jpeg";
 import college99 from "../Assets/Colleges/college99.png";
+import college100 from "../Assets/Colleges/college100.jpeg";
 
 const CollegesData = [
   {
@@ -384,13 +385,203 @@ Through its long-standing educational legacy, modern teaching methodologies, and
     title: "Nitte Meenakshi Institute of Technology",
     categories: ["Engineering", "MBA"],
     description: `
-Nitte Meenakshi Institute of Technology (NMIT) is an autonomous premier engineering institution in Bangalore recognized for its innovation-driven academic ecosystem and growing prominence in research and technology. The college is known for integrating modern teaching methodologies with project-based learning, helping students build strong technical foundations and practical skills. NMIT offers a comprehensive range of engineering and management programs that cater to the needs of budding professionals seeking both technical knowledge and managerial capabilities.
+Nitte Meenakshi Institute of Technology, or <strong>NMIT</strong>, is a well-known engineering college in <strong>Yelahanka, Bangalore</strong>. It was started in <strong>2001</strong> and is approved by <strong>AICTE</strong> and affiliated with <strong>VTU, Belgaum</strong>. Many of its programs are accredited by<strong> NBA</strong>, and the college has an <strong>A+ grade from NAAC</strong>.
+</br>
+</br>
+NMIT offers quality education in engineering, technology, and management. The college focuses on <strong>both classroom learning and practical experience</strong>, giving students opportunities to work on labs, projects, and research. The campus has modern classrooms, well-equipped labs, a library with digital resources, and Wi-Fi access.
+</br>
+</br>
 
-NMIT stands out for its focus on interdisciplinary learning and advanced research. It houses specialized research centers in robotics, aerospace engineering, artificial intelligence, and renewable energy. These centers encourage students to participate in real-world research projects, collaborate with industry experts, and contribute to technological advancements. The institution also hosts various national and international technical competitions, hackathons, and innovation challenges, providing platforms for students to showcase their talent.
+The college also encourages students to take part in <strong>sports, cultural activities, and extra-curricular programs</strong> to grow overall. With good industry connections, NMIT helps students get internships, training, and placement opportunities, preparing them well for their careers.
+</br>
+</br>
 
-The placement cell at NMIT is proactive and maintains strong relationships with leading companies in IT, core engineering, and business sectors. Students receive structured training in communication, problem-solving, and technical domains to prepare them for competitive recruitment processes. NMIT also promotes entrepreneurship through incubation centers that support student-led startups.
 
-Campus life at NMIT is vibrant and inclusive, offering numerous clubs, cultural programs, and sports activities that contribute to student engagement and personal development. With its focus on innovation, academic excellence, and industry readiness, NMIT continues to build a strong identity as one of Bangalore’s emerging premier institutions.
+
+<strong>Courses Offered at Nitte Meenakshi Institute of Technology (NMIT), Bangalore</strong>
+</br>
+</br>
+
+NMIT offers a range of academic programs at undergraduate, postgraduate, and research levels. These programs are designed to help students build strong technical and professional skills.
+</br>
+</br>
+
+<strong>Undergraduate Programs (BE/B.Tech)</strong>
+</br>
+NMIT offers <strong>fouryear Bachelor of Engineering (BE/B.Tech)</strong> courses in several engineering fields. Students can choose from areas such as:
+</br>
+</br>
+
+• Aeronautical Engineering
+</br>
+• Artificial Intelligence & Machine Learning
+</br>
+• Artificial Intelligence & Data Science
+</br>
+• Civil Engineering
+</br>
+• Computer Science & Engineering
+</br>
+• Computer Science & Business Systems
+</br>
+• Electrical & Electronics Engineering
+</br>
+• Electronics & Communication Engineering
+</br>
+• Information Science & Engineering
+</br>
+• Mechanical Engineering
+</br>
+</br>
+These programs aim to give students solid fundamentals in engineering along with practical exposure.
+</br>
+</br>
+<strong>Postgraduate Programs</strong>
+</br>
+For students who have completed their bachelor’s degree, NMIT offers postgraduate courses including:
+</br>
+</br>
+
+• <strong>M.Tech (Master of Technology)</strong> in several specializations such as Robotics & AI, Defence Technology, Structural Engineering, Renewable Energy, etc.
+</br>
+• <strong>MBA (Master of Business Administration)</strong>, a twoyear management program.
+</br>
+• <strong>MCA (Master of Computer Applications)</strong>, a twoyear course focused on advanced computing and software skills.
+</br>
+</br>
+<strong>Doctoral Programs (Ph.D)</strong>
+</br>
+NMIT also offers <strong>doctoral (Ph.D.) programs</strong> in engineering and related areas for students interested in research and academic careers.
+</br>
+</br>
+
+In all these programs, the focus is on combining classroom learning with handson work so that students are prepared for careers in industry, research, and higher studies.
+
+</br>
+</br>
+
+
+
+<strong>Eligibility Criteria at Nitte Meenakshi Institute of Technology (NMIT), Bangalore</strong>
+</br>
+</br>
+
+<strong>Undergraduate (B.Tech / BE)</strong>
+</br>
+To apply for the B.Tech (Bachelor of Technology) course at NMIT, you should have passed 10+2 or equivalent with <strong>Physics, Mathematics, and one of Chemistry/Biology/Biotechnology/Computer Science/Electronics</strong> as subjects. You must have secured a minimum of <strong>50% marks in total</strong> in these subjects. For students belonging to SC/ST and certain other reserved categories, the minimum requirement is <strong>45% marks</strong>. Admissions are usually based on the <strong>NUCAT score</strong> conducted by Nitte University.
+</br>
+</br>
+
+<strong>Postgraduate (M.Tech)</strong>
+</br>
+For the M.Tech (Master of Technology) program, you must have completed a <strong>BE/B.Tech degree in a relevant engineering field</strong> with at least <strong>50% marks overall</strong>. Reserved category students may be eligible with 45% marks. Admission is often through the <strong>NUCAT entrance test</strong> or other valid tests.
+</br>
+</br>
+
+<strong>MBA (Master of Business Administration)</strong>
+</br>
+To join the MBA program, students need a <strong>Bachelor’s degree in any discipline</strong> with a minimum of <strong>50% marks</strong> (or <strong>45% for SC/ST and certain reserved categories</strong>). NUCAT scores and other admission criteria may be considered.
+
+</br>
+</br>
+<strong>MCA (Master of Computer Applications)</strong>
+</br>
+For the MCA course, you should have a <strong>BCA degree, or a Bachelor’s degree in Science/Arts/Commerce with Mathematics</strong> either in class 12 or at the graduation level. You must have secured at least <strong>50% marks</strong> (or <strong>45% marks</strong> for reserved category candidates).
+</br>
+</br>
+
+Doctoral (Ph.D.) Programs
+</br>
+Eligibility for Ph.D. programs generally requires a <strong>Master’s degree or M.Tech degree</strong> in a relevant area from a recognized university. Specific requirements may vary by department.
+
+</br>
+</br>
+
+<strong>Fee Structure:</strong>
+</br>
+
+The fees at Nitte Meenakshi Institute of Technology depend on the course and type of admission. For B.E. or B.Tech students joining through Karnataka CET, the fees are around ₹1,11,000 per year. This fee includes access to classrooms, labs, library, and other facilities.
+</br>
+</br>
+
+Students admitted through the COMEDK quota have to pay more, about ₹3,00,000 per year. Management quota seats also have different fees depending on the department and category of the student.
+</br>
+</br>
+
+For postgraduate courses like M.Tech, MBA, or MCA, the fees are different and vary according to the course and department.
+</br>
+</br>
+
+The college offers well-maintained labs, libraries, and other resources for the fees paid. Students are advised to check the official college website or contact the admission office to know the exact fee for their course and category.
+</br>
+</br>
+
+
+
+<strong>Facilities</strong> at Nitte Meenakshi Institute of Technology (NMIT), Bangalore
+</br>
+</br>
+
+Central Library
+</br>
+
+The library at NMIT is an important resource for students and staff. It has around 48,600 books and over 130 journals and magazines covering engineering, science, management, and general topics. There are dedicated spaces for both individual and group study, along with a digital library area. Each department also has its own specialized library. The library provides access to online academic resources, audio/video CDs, and uses KOHA Library Management Software to make borrowing and searching easier.
+</br>
+</br>
+
+<strong>Other Campus Facilities</strong>
+</br>
+
+NMIT provides many facilities to make campus life comfortable and convenient. There is a medical clinic with a resident nurse and visiting doctors for emergencies. Students can enjoy food at multiple cafeterias offering North and South Indian dishes, as well as snack options. The campus has strong IT support, with more than 1,800 computers and Wi-Fi throughout. There are also on-campus ATMs, banking facilities, and convenience stores. The college provides transport services to cover major areas in Bangalore.
+</br>
+</br>
+
+<strong>Sports and Recreation</strong>
+
+</br>
+NMIT encourages fitness and sports. Students can use outdoor grounds for cricket, football, basketball, volleyball, hockey, throw-ball, and running. Indoor facilities include table tennis, badminton, chess, and carrom. There are separate, fully equipped gyms for boys and girls, and professional coaches are available for students aiming for high-level sports performance.
+
+</br>
+</br>
+<strong>Innovation and Research</strong>
+
+</br>
+NMIT focuses on research, creativity, and entrepreneurship. The college has modern labs for IoT, 3D printing, CAD, electronics, and propulsion systems. Students can work on innovative projects and startups, with support from incubation centers. The campus also offers help with intellectual property rights (IPR) and knowledge transfer for student ideas and projects.
+
+</br>
+</br>
+<strong>Hostel Facilities</strong>
+</br>
+
+The college provides secure and comfortable hostels for both boys and girls. The boys’ hostels have around 1,169 beds spread across four buildings, while girls’ hostels have about 520 beds in two buildings. Rooms are mostly twin or four sharing. Hostels have reading rooms, TV rooms, music rooms, gyms, Wi-Fi, CCTV, 24/7 power supply, and both vegetarian and non-vegetarian meals. There are also recreational spaces, an open-air theatre, stationery stores, and medical emergency support.
+</br>
+</br>
+
+
+
+<strong>Events and Festivals</strong>
+</br>
+
+Campus life at NMIT is lively and engaging. The college hosts an annual cultural festival called “Anaadyanta,” featuring music, dance, drama, and art. There are also technical events, symposiums, and hackathons organized by different departments. The campus has an open-air theatre that can accommodate around 2,500 people. Seminars, workshops, and guest lectures by experts are regularly conducted to help students learn beyond the classroom and develop leadership and teamwork skills. in human language
+
+</br>
+</br>
+
+
+
+
+<strong>NMIT Bangalore Placement Overview 2025</strong>
+</br>
+
+The placement season of 2025 at Nitte Meenakshi Institute of Technology was very successful. The highest salary offered to a student was <strong>₹58.93 lakh per annum</strong>. Over <strong>300 companies</strong> visited the campus and offered more than <strong>1,200 job opportunities</strong> to the students. Some of the top recruiters included <strong>Nvidia, PwC, Intel, Infosys, Wipro, and Hitachi</strong>.
+</br>
+
+</br>
+For the B.Tech Computer Science (CSE) batch of 2024, <strong>93.48% of students got placed</strong>. Out of 184 eligible CSE students, 172 secured jobs. In Electronics and Communication (ECE), 128 out of 148 eligible students were placed.
+</br>
+</br>
+
+Overall, the placement process at NMIT provided great opportunities, with strong participation from both students and top companies. Students also rated the placement experience highly, giving it a <strong>3.8 out of 5.</strong>
 `,
     image: college7,
   },
@@ -602,18 +793,206 @@ Campus life at BMSITM is lively and inclusive, offering opportunities through cl
 
   {
     id: 13,
-    title: "MS Ramaiah University of Applied Sciences",
+    title: "M.S. Ramaiah University of Applied Sciences",
     categories: ["Engineering", "MBA", "PG"],
     description: `
-MS Ramaiah University of Applied Sciences (MSRUAS) is a multidisciplinary university dedicated to providing career-oriented education rooted in applied sciences, engineering, management, and health sciences. As one of Bangalore’s premier private universities, MSRUAS is known for its strong academic structure, industry-integrated teaching, and a significant focus on research, design thinking, and innovation.
+M.S. Ramaiah University of Applied Sciences, often called <strong>MSRUAS</strong>, is a private university located in Bangalore, Karnataka. It was established in <strong>December 2013</strong> under an act of the Government of Karnataka to bring together several established institutions under one umbrella and to provide a broad range of professional, scientific, and applied programs.
+</br>
+</br>
+MSRUAS is recognised by the University Grants Commission (UGC) and approved by regulatory bodies such as AICTE, National Medical Commission, Dental Council of India, Pharmacy Council of India, and the Bar Council of India, depending on the program.
+</br>
+</br>
 
-The university adopts a practical and application-driven learning model that prepares students for the dynamic requirements of modern industries. Engineering programs emphasize laboratory learning, design projects, computational tools, and exposure to industrial practices. Students engage deeply in problem-solving, research assignments, prototyping, and collaborative technical work with peers and faculty.
+The university’s mission is to offer studentcentred education that combines strong academics with creativity, innovation, and research. It aims to prepare graduates who can contribute to industry, society, and the economy while upholding ethical values and lifelong learning.
+</br>
+</br>
 
-MSRUAS also encourages students to pursue innovation through its various specialized research centers that focus on aerospace, advanced materials, artificial intelligence, biomedical engineering, automotive technology, and robotics. Collaboration with international universities and global industries allows students to participate in impactful research projects with real-world relevance.
+The campus is part of the larger <strong>Ramaiah Group of Educational Institutions</strong>, which has a long legacy in medical, engineering, pharmacy, hospitality and other professional fields. MSRUAS encourages students to engage in practical learning, industry partnerships, and research projects that prepare them for realworld challenges.
 
-The campus environment is highly supportive, with advanced facilities such as simulation labs, maker spaces, digital design centers, and innovation hubs. Students also benefit from mentorship opportunities, industry seminars, internships, and events that foster leadership and personal development.
+</br>
+</br>
 
-Placement support at MSRUAS is strong, with many leading companies offering roles in engineering, design, analytics, management, and technology fields. The university’s commitment to nurturing both academic excellence and practical competence positions MSRUAS as an institution that prepares students for impactful careers across multiple disciplines.
+
+
+<strong>Courses Offered</strong>
+</br>
+</br>
+
+MSRUAS offers a variety of programs spanning <strong>undergraduate, postgraduate, doctoral, diploma, and certificate levels</strong> in many different disciplines.
+</br>
+</br>
+
+<strong>Undergraduate Programs</strong>
+</br>
+
+At the undergraduate level, MSRUAS provides degrees that serve as the foundation for careers in emerging industries and core professions:
+</br>
+</br>
+
+• <strong>B.Tech / BE</strong> – Engineering programs in fields such as Computer Science, Mechanical, Civil, Electronics & Communication, and other engineering branches (through the Technology Campus in Peenya).
+</br>
+• <strong>B.Des</strong> – Bachelor of Design programs that focus on creative domains including product design, fashion, interaction design, and other design disciplines.
+</br>
+• <strong>B.Sc. (Hons.)</strong> – Science and technology related degrees such as Data Science, Food Technology, Psychology, and allied fields.
+</br>
+• <strong>BBA and B.Com</strong> – Business and commerce degrees for students who want careers in management, accounting, finance, or business operations.
+</br>
+• <strong>BDS, B.Pharm, B.H.M.</strong> – Professional programs including Dental Surgery, Pharmacy, and Hospitality Management.
+</br>
+• <strong>Law Degrees</strong> – Undergraduate legal programs like BA LLB and BSc LLB offered through the School of Law.
+</br>
+</br>
+<strong>Postgraduate Programs</strong>
+</br>
+
+For students who have completed their bachelor’s degrees and want advanced study, MSRUAS offers:
+</br>
+
+• <strong>MBA (Master of Business Administration)</strong> – Designed to develop business leadership, analytical and managerial skills.
+</br>
+• <strong>M.Tech</strong> – Specialized engineering master’s programs in technical areas.
+</br>
+• <strong>M.Sc.</strong> – Master of Science programs in advanced science disciplines.
+</br>
+• <strong>M.Pharm, MCA, M.Des</strong> – Additional postgraduate programs in pharmacy, computer applications, and design.
+</br>
+</br>
+<strong>Doctoral Programs (Ph.D.)</strong>
+</br>
+
+MSRUAS also offers <strong>Ph.D. programs</strong> for students interested in research at advanced levels across various faculties including engineering, health sciences, humanities, law, and management.
+
+</br>
+</br>
+<strong>Other Courses</strong>
+</br>
+
+Beyond standard degrees, the university also has Diploma, Certificate, and B.Voc programs which help students gain jobready skills and specialised knowledge in shorter durations.
+</br>
+</br>
+
+
+
+
+<strong>Eligibility Criteria</strong>
+</br>
+</br>
+
+Eligibility for MSRUAS programs varies depending on the level and type of program. Below is a clear overview:
+</br>
+</br>
+
+<strong>Undergraduate Programs</strong>
+</br>
+
+• <strong>B.Tech/Engineering</strong>: Students should have completed 10+2 with Physics, Mathematics and one of Chemistry/Technology/Biology/Computer Science. Admission is based on national or state entrance exam scores such as <strong>COMEDK UGET, JEE Mains, or KCET.</strong>
+</br>
+• <strong>B.Sc. (Hons.), BBA, B.Com</strong>: Completion of 10+2 from a recognised board in relevant streams.
+</br>
+• <strong>Law Degrees (BA LLB/BSc LLB)</strong>: Completion of 10+2 with a minimum qualifying score (criteria may vary) and selection may involve entrance test scores such as <strong>CLAT, LSAT, or RUAS AT</strong>.
+</br>
+</br>
+<strong>Postgraduate Programs</strong>
+</br>
+
+• <strong>MBA</strong>: Candidates must have a bachelor’s degree with a minimum of 50% marks. Admission considers scores from exams such as CAT, MAT, CUETPG, PGCET or the <strong>RUAS Admission Test (RUAS AT)</strong>.
+</br>
+• <strong>M.Tech</strong>: A relevant bachelor’s engineering degree with a minimum percentage, and in some specialisations, entrance exam scores may be considered.
+</br>
+• <strong>M.Sc., MCA, M.Pharm</strong>: Bachelor’s degree in the related discipline with passing marks, and sometimes entrance scores (RUAS AT or other recognised exams).
+</br>
+</br>
+<strong>Doctoral (Ph.D.) Programs</strong>
+</br>
+
+• A relevant master’s degree with a minimum qualifying score and often an interview or entrance into <strong>RUAS AT </strong>(or exemptions based on recognised tests).
+</br>
+</br>
+<strong>Note:</strong> Eligibility requirements are set by the university and may vary slightly by faculty or course. Students should always check the <strong>official admission page</strong> or contact the admissions office for accurate, current criteria.
+</br>
+</br>
+
+
+
+<strong>Fee Structure of M.S. Ramaiah University of Applied Sciences (MSRUAS)</strong>
+</br>
+</br>
+
+The fees at MSRUAS vary depending on the course and the type of admission.
+</br>
+</br>
+
+• <strong>B.E. / B.Tech through Karnataka CET</strong>: Students admitted via this route usually pay around <strong>₹1,11,000 per year</strong>.
+</br>
+• <strong>B.E. / B.Tech through COMEDK</strong>: Fees for students admitted through this quota are higher, typically around<strong> ₹3,00,000 per year</strong>.
+</br>
+• <strong>Management quota and postgraduate courses</strong>: Fees for these seats differ based on the program, department, and category of the student.
+</br>
+</br>
+
+
+<strong>Facilities at MSRUAS</strong>
+</br>
+
+MSRUAS provides several facilities to support academic, personal, and extracurricular needs of students, helping them grow in a balanced environment:
+</br>
+</br>
+
+<strong>Academic Facilities</strong>
+</br>
+
+• <strong>Library and eresources</strong>: The university has a central library with print and digital collections, ejournals, and study spaces.
+</br>
+• <strong>Smart Classrooms and Labs</strong>: Modern classrooms with AV facilities, wellequipped laboratories for engineering, science, design, and allied programs.
+</br>
+• <strong>IT and EGovernance</strong>: Campuswide WiFi and an ERP system that supports academic and administrative needs.
+</br>
+</br>
+<strong>Campus Life and Support</strong>
+</br>
+
+• <strong>Hostels and Dining</strong>: Residential hostels with mess facilities, recreation areas, and 24/7 support.
+</br>
+• <strong>Sports and Fitness</strong>: Outdoor sports fields, gym, yoga centres, and indoor games to support physical health.
+</br>
+• <strong>Medical & Safety</strong>: Basic medical services and security systems on campus to ensure student wellbeing.
+</br>
+• <strong>Transport and Conveniences</strong>: Transport services and access to banking/ATM services for student convenience.
+</br>
+</br>
+<strong>ExtraCurricular and Support Units</strong>
+</br>
+
+• <strong>Directorates and Centres</strong>: The university runs centres for professional development, entrepreneurship, research, and student affairs.
+</br>
+• <strong>Industry Links and Workshops</strong>: MSRUAS invites industry experts for workshops, seminars, and realworld learning exposure.
+</br>
+</br>
+
+<strong>Placements</strong>
+</br>
+
+MSRUAS has a <strong>Placement Office</strong> that works to connect students with employers and support career development through training, preparation, and industry interactions.
+</br>
+</br>
+
+<strong>Recent Placement Highlights (2024)</strong>
+</br>
+</br>
+
+• <strong>Highest Salary Offered</strong>: ₹52 lakh per year.
+</br>
+• <strong>Average Salary Package</strong>: Around <strong>₹6.2 lakh per year</strong>.
+</br>
+• <strong>Placement Rate</strong>: Approximately <strong>73%</strong> of eligible students were placed.
+</br>
+• <strong>Total Offers</strong>: 885 job offers were made to students.
+</br>
+• <strong>Companies Visited</strong>: Around 327 recruiters visited the campus.
+</br>
+• <strong>International Offers</strong>: Several students received offers from international companies.
+</br>
+• <strong>Top Recruiters</strong>: Recruiters included wellknown firms such as TCS, Wipro, Cognizant, HCL, Accenture, L&T, IBM, Infosys, and more.
 `,
     image: college13,
   },
@@ -2407,6 +2786,123 @@ Banking facilities are available within the campus, making it convenient for stu
 The placement data for 2025 is yet to be released. The following information pertains to the 2024 placement season. As per official records, M.S. Ramaiah College of Law achieved a placement rate of 67% in 2024. Out of 60 students who registered for the placement process, 40 students were successfully placed. Several well-known companies and law firms participated in the 2024 placement drive. Notable recruiters included EY, BOSCH, Indus Law, American Express, Trilegal, and many others.
 `,
     image: college99,
+  },
+  {
+    id: 100,
+    title: "Ramaiah Institute of Management Studies",
+    categories: ["PG"],
+    description: `
+Ramaiah Institute of Management Studies (RIMS) offers education in management. The institute works under the M. S. Ramaiah Foundation (MSRF), which has been involved in education for many years. The Foundation believes in learning, values, and responsibility.
+</br>
+</br>
+<strong>About RIMS</strong>
+</br>
+</br>
+RIMS is part of the M. S. Ramaiah Foundation, which runs courses in Management, Law, and Undergraduate studies. The aim is to help students learn useful skills and good values for their future.
+</br>
+RIMS focuses on practical learning and prepares students for work life. The institute is known as a management college in Bangalore. It has received an A+++ rating from Business India and is recognized by CEO Insights. RIMS offers an AICTE-approved PGDM program that meets industry needs.
+</br>
+</br>
+<strong>Our Inspiration</strong>
+</br>
+RIMS is inspired by Sri M. S. Ramaiah, who played an important role in professional education in India. His vision still guides the institute.
+</br>
+The M. S. Ramaiah Foundation was started by Dr. M. R. Pattabhiram, who continued this work with dedication. The Foundation continues to follow these values.
+</br>
+</br>
+<strong>Why RIMS</strong>
+</br>
+At RIMS, students learn more than lessons. The institute helps students build confidence, teamwork, discipline, and social awareness.
+</br>
+RIMS keeps improving its teaching methods to give students better learning. This helps the institute remain a trusted management college in Bangalore.
+</br>
+</br>
+
+<strong>Courses Offered</strong>
+</br>
+</br>
+Ramaiah Institute of Management Studies (RIMS) offers programs in management and related areas.
+</br>
+</br>
+The main program is the <strong>PGDM (Post Graduate Diploma in Management)</strong>. It is a two-year, full-time course approved by AICTE. Students can choose specializations in Finance, Marketing, Operations, Business Analytics, Human Resources, International Business, and Agribusiness Management. There is also an option to study one semester abroad.
+</br>
+</br>
+RIMS also offers the <strong>Fellow Programme in Management (FPM)</strong> for those interested in research or teaching careers in management.
+</br>
+</br>
+Besides these, RIMS provides <strong>short courses and certificates</strong> to improve practical skills and employability. These include Business Analytics, Digital Marketing, Sports Management, Financial Planning and Analysis, German Language, Aptitude Training, and Business Communication.
+</br>
+</br>
+
+
+<strong>Fee Structure:</strong>
+</br>
+The fees at MSRIM depending on the course and the type of admission. Students joining B.E. or B. Tech through Karnataka CET usually pays around one lakh ten thousand rupees per year. Those admitted through the COMEDK quota generally pay about three lakh rupees per year and for management quota seats and postgraduate courses are different and depend on the department and category.
+</br>
+</br>
+
+
+
+<strong>Placements at MSRIM</strong>
+</br>
+MSRIM has a good record of helping students get jobs. About 95% of students are placed every year. In 2025, the average salary was ₹8 lakh per year, and the highest was ₹20.5 lakh.
+</br>
+</br>
+Many top companies visit the campus for recruitment. Students get jobs in banking, finance, IT, consulting, FMCG, and retail. Some well-known recruiters are Deloitte, KPMG, HDFC Bank, Amazon, and Reliance Retail.
+</br>
+</br>
+The institute helps students prepare for jobs with training, workshops, internships, and guest lectures. Campus recruitment usually includes tests, group discussions, and interviews.
+</br>
+</br>
+MSRIM gives students good job opportunities and support to succeed in their careers.
+</br>
+</br>
+
+
+Facilities at Ramaiah Institute of Management Studies (RIMS)
+</br>
+</br>
+Ramaiah Institute of Management Studies (RIMS) has facilities that make learning and campus life comfortable. Classrooms are air-conditioned and have modern teaching tools.
+</br>
+</br>
+The library has many books, journals, e-books, and online resources. There are computer labs, language labs, and high-speed internet. Students can also use e-learning platforms like SWAYAM and NDLI.
+</br>
+</br>
+RIMS has separate hostels for boys and girls with clean, furnished rooms and Wi-Fi. Meals, laundry, drinking water, 24/7 security, and medical help are provided.
+</br>
+</br>
+The campus offers sports like cricket, football, volleyball, badminton, and indoor games like chess and carrom. Other facilities include a canteen, auditorium, parking, and a health center. RIMS provides a safe and comfortable place to study and grow.
+</br>
+</br>
+
+
+<strong>Eligibility for PGDM at Ramaiah Institute of Management Studies (RIMS)</strong>
+</br>
+</br>
+
+
+
+To apply for the PGDM course at RIMS, you must have a bachelor’s degree in any field from a recognized university. General and OBC students should have at least 50% marks overall, while SC/ST students need 45%. If you are in your final year of graduation, you can still apply as long as you maintain the required marks and finish your exams on time. Students with pending or uncleared backlog papers cannot apply.
+
+</br>
+</br>
+
+
+Entrance Exam Requirement
+</br>
+</br>
+
+You must have a valid score in one of these exams: CAT, MAT, XAT, CMAT, ATMA, GMAT, or KMAT (for MBA).
+</br>
+</br>
+
+
+
+How Selection Works
+</br>
+First, candidates are shortlisted based on their academic marks and entrance exam score. Then, they have to attend a Group Discussion (GD) and a Personal Interview (PI). Having some work experience can be an added advantage during selection.
+`,
+    image: college100,
   },
 ];
 
