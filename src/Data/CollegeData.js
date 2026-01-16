@@ -1932,12 +1932,190 @@ It remains a popular institution in North India.
   },
   {
     id: 93,
-    title: "Galgotia College, Noida",
+    title: "Galgotias College of Engineering and Technology",
     categories: ["Engineering", "MBA"],
     description: `
-Galgotia College is a well-known educational institution offering engineering and management programs with a focus on academic excellence and industry alignment. The college provides modern infrastructure, experienced faculty, and strong placement support.
+Galgotias College of Engineering and Technology (GCET) is a well-known engineering college under Galgotias Educational Institutions. The institution has been working in the field of education for over twenty years. It was started by the Shakuntala Educational and Welfare Society. The college is guided by its Chairman, Mr. Suneel Galgotia, who focuses on improving education and the overall growth of students.
+</br>
+</br>
+GCET gives equal importance to studies and practical learning. The teachers are knowledgeable and always ready to help students. They explain topics in a simple way so that students can understand easily. Practical classes, laboratory work, and projects help students learn through real experience. The college also helps students improve their communication skills and confidence to face future challenges.
 
-Students benefit from practical learning, internships, and corporate exposure. Galgotia College continues to grow as a trusted institution in technical and management education.
+</br>
+</br>
+The campus has all the basic facilities like classrooms, labs, a library, and computer rooms. The training and placement cell supports students by guiding them for jobs and career opportunities. Overall, GCET provides a positive and supportive environment where students can learn well and prepare for a successful future.
+</br>
+</br>
+
+
+
+<strong>Courses</strong>
+</br>
+
+Galgotias Educational Institutions offer many undergraduate and postgraduate courses through their different colleges. These include Galgotias College of Engineering and Technology (GCET), Galgotias Institute of Management and Technology (GIMT), and Galgotias College of Pharmacy (GCOP). All the courses are approved by the concerned authorities and are planned to meet the needs of students and industry.
+</br>
+</br>
+
+
+<strong>Galgotias College of Engineering and Technology (GCET)</strong>
+</br>
+</br>
+
+<strong>Undergraduate Programs (B.Tech)</strong>
+</br>
+</br>
+
+GCET offers several B.Tech courses with a duration of four years. Students who meet the required criteria can also take admission directly in the second year through lateral entry.
+</br>
+</br>
+
+The B.Tech branches offered at GCET include Artificial Intelligence and Machine Learning, Civil Engineering, Computer Science and Engineering, and Computer Science and Engineering with specializations such as Artificial Intelligence, Artificial Intelligence and Machine Learning, Data Science, and Hindi. Other branches include Electrical and Electronics Engineering, Electrical Engineering, Electronics and Communication Engineering, Electronics and Communication Engineering with Advanced Communication Technology, Electronics Engineering with VLSI Design and Technology, Information Technology, and Mechanical Engineering. Some of these programs are NBA accredited.
+</br>
+</br>
+
+These courses focus on building strong technical knowledge and practical skills in students.
+</br>
+</br>
+
+
+<strong>B.Tech Programs for Working Professionals</strong>
+</br>
+
+GCET also provides special three-year B.Tech programs for working professionals. These courses are available in Computer Science and Engineering, Electronics and Communication Engineering, and Mechanical Engineering. These programs help working people continue their education along with their jobs.
+</br>
+</br>
+
+
+<strong>Postgraduate Programs</strong>
+</br>
+
+GCET offers postgraduate courses such as MBA, MBA in Logistics and Supply Chain Management, and MCA. All these programs have a duration of two years. Lateral entry is available for eligible students.
+</br>
+</br>
+
+GCET is approved by AICTE and is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).
+
+</br>
+</br>
+
+<strong>Galgotias Institute of Management and Technology (GIMT)</strong>
+</br>
+</br>
+
+GIMT offers a two-year MBA program. The institute is approved by AICTE and affiliated with AKTU. Lateral entry facility is also available.
+</br>
+</br>
+
+
+<strong>Galgotias College of Pharmacy (GCOP)</strong>
+</br>
+</br>
+
+Galgotias College of Pharmacy offers pharmacy courses with good infrastructure and trained faculty. The courses include Bachelor of Pharmacy (B. Pharma), which is of four years duration, and Diploma in Pharmacy (D. Pharma), which is of two years duration. These courses are approved by the Pharmacy Council of India (PCI) and affiliated with AKTU.
+</br>
+</br>
+
+
+Overall, Galgotias Educational Institutions provide a wide range of courses that help students gain knowledge, practical skills, and confidence to build a successful career.
+
+</br>
+</br>
+
+
+
+<strong>Eligibility</strong>
+</br>
+</br>
+
+To get admission in Galgotias College of Engineering and Technology (GCET), students must meet some basic requirements. For B.Tech courses, students should have passed 10+2 with Physics and Mathematics as compulsory subjects. One more subject should be from Chemistry, Biology, Biotechnology, or Technical Vocational. General category students must have at least 45% marks, and SC/ST students need 40% marks.
+</br>
+</br>
+
+Students who have done a diploma in Engineering or Technology can join directly in the second year through lateral entry. They should have at least 45% marks, and 40% for SC/ST students.
+</br>
+</br>
+
+For postgraduate courses, students must have a Bachelor’s degree from a recognized university. General category students need at least 50% marks, and SC/ST students need 45% marks.
+</br>
+</br>
+
+Students also need to pass entrance exams such as JEE Main, CUET (PG), or other recognized exams depending on the course.
+
+</br>
+</br>
+
+
+<strong>Fee Structure</strong>
+</br>
+
+The fees at Galgotias College of Engineering depend on the course and the type of admission. For students taking admission in B.E. or B.Tech through the Karnataka CET, the fees are usually around <strong>₹1,11,000 per year</strong>. Students admitted through the COMEDK quota have to pay more, about <strong>₹3,00,000 per year</strong>.
+</br>
+</br>
+
+Fees for management quota seats are different and can vary depending on the course and the category of the student. Postgraduate courses like M.Tech, MBA, or MCA also have their own fee structure, which depends on the department and type of admission.
+</br>
+</br>
+
+The college provides good classrooms, laboratories, libraries, and practical training for the fees paid. Students are advised to check the <strong>official college website</strong> or contact the admission office to know the exact fees for their course and category.
+</br>
+</br>
+
+
+
+<strong>Facilities at Galgotias College of Engineering & Technology (GCET)</strong>
+</br>
+</br>
+
+<strong>Central Library</strong>
+</br>
+The central library at GCET is a vital place for learning and research. It has more than 55,000 books and about 6,100 different titles. The library is fully computerized and has barcode readers, scanners, and printers. There are air-conditioned reading halls and a “smart library” section for digital resources. Students can use Wi-Fi, e-journals, and online research databases. Professional librarians manage the library, and it offers quiet areas for both individual study and group discussions.
+</br>
+</br>
+
+<strong>Other Campus Facilities</strong>
+</br>
+GCET has modern facilities to make learning comfortable and convenient. The campus has 24/7 Wi-Fi in classrooms, hostels, and labs. Classrooms are air-conditioned and equipped with projectors and smart teaching tools. Each department has advanced labs for practical work. There are spacious seminar and conference halls for workshops, lectures, and events. The college has a medical center with first-aid facilities and hospital tie-ups. Transportation and shuttle services connect Greater Noida with Delhi and Ghaziabad. Students can enjoy healthy meals at the multi-cuisine cafeteria. The 19-acre campus also has well-maintained green spaces and eco-friendly areas.
+
+</br>
+</br>
+<strong>Sports and Recreation</strong>
+</br>
+GCET promotes physical fitness and recreation. The campus has outdoor grounds for cricket, football, and basketball, along with courts for volleyball and badminton. Indoor facilities are available for table tennis, chess, and carrom. A fully equipped gym with a trained instructor is also available. Lawns and open spaces provide areas for casual games, relaxation, and leisure.
+</br>
+</br>
+
+<strong>Innovation and Research</strong>
+</br>
+GCET encourages students to explore research, innovation, and entrepreneurship. Modern computer labs with high-speed internet and advanced software are available. Students can access research zones, e-journals, and digital libraries. The college supports participation in national-level hackathons, workshops, and seminars. There are industry collaborations under the AICTE NEAT program, and students can get guidance for starting their own projects or businesses.
+
+</br>
+</br>
+<strong>Hostel Facilities</strong>
+</br>
+The college provides safe and comfortable hostels for both boys and girls. Rooms are well-furnished and can be single or shared. Hostel fees include meals with hygienic food. Electricity is available 24/7, and hostels provide indoor games, common rooms, and open spaces for recreation. Wardens and staff supervise the hostels, and medical support is available around the clock with hospital tie-ups.
+</br>
+</br>
+
+<strong>Events and Festivals</strong>
+</br>
+Life at GCET is vibrant and full of activities. The college organizes annual technical fests showcasing coding, robotics, and student projects. Cultural festivals feature music, dance, drama, and fashion events. National-level sports competitions and intercollegiate tournaments are also held. Students participate in social programs and awareness campaigns. Workshops, seminars, and guest lectures by industry experts help students learn beyond the classroom.
+
+</br>
+</br>
+
+
+<strong>Placements at Galgotias College of Engineering</strong>
+</br>
+</br>
+
+Galgotias College has good placement opportunities, especially for students in Computer Science and IT. About 80–90% of students in these branches get placed. Branches like Mechanical and Civil have lower placement rates, around 15–20%.
+</br>
+</br>
+
+The average salary is 3.5–4 lakh per year. Many big companies like Infosys, TCS, Wipro, and Cognizant recruit from the college. The highest package so far is 30 lakh per year, offered by Amazon. Companies like Google, Microsoft, and Samsung also visit, but in smaller numbers.
+</br>
+</br>
+
+Around 200 companies visit the campus every year. Students can take part in placements from the 6th semester. The college also provides internships for senior students to gain practical experience and improve their job skills.
 `,
     image: college88,
   },
