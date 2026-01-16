@@ -18,7 +18,7 @@ const Popup = ({setShowModal}) => {
                     <div className="modal-box-right">
                         <span>contact us</span>
                         <h2>Get in Touch with Us</h2>
-                        <Form />
+                        <Form setShowModal={setShowModal}/>
                     </div>
                 </div>
             </div>

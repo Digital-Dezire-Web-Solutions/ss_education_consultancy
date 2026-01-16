@@ -12,9 +12,9 @@ const Contact = () => {
 
   useEffect(() => {
     document.title =
-      "Contact Us | SS Education Consultancy";
+      "Contact Us | SS Admission Consultancy";
     const description =
-      "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+      "SS Admission Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
     let metaDescription = document.querySelector("meta[name='description']");
 
     if (metaDescription) {
@@ -58,18 +58,18 @@ const Contact = () => {
           <div className="contact-bottom">
             <Link to="tel:+918792405697" className="contact-bottom-box">
               <FaPhoneAlt />
-              <h5>call us any time!</h5>
+              <h5>Call Cs Any Time!</h5>
               <p>+91 87924 05697</p>
             </Link>
             <Link to="mailto:ssadmission732@gmail.com" className="contact-bottom-box">
               <FaEnvelope />
-              <h5>send us e-mail</h5>
+              <h5>Send Us E-mail</h5>
               <p>ssadmission732@gmail.com</p>
             </Link>
             <div className="contact-bottom-box">
               <FaLocationDot />
               <h5>Office Address</h5>
-              <p>Corporate office - 3rd Floor, 14, Opp MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bengaluru Urban, Karnataka, 560054</p>
+              <p>Corporate office - 2nd Floor, Opp to MSR House, Next Gurudarshan Sweets Building, Sundara Nagar, Bangalore</p>
               <p>Branch office - Golden I Greater Noida Tower T3  3rd Floor 309 :- 201318</p>
             </div>
           </div>

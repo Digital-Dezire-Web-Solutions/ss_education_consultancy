@@ -113,6 +113,15 @@ const Navbar = () => {
                                                         Dental
                                                     </Link>
                                                 </li>
+                                                <li>
+                                                    <Link
+                                                        to={`/courses/${encodeURIComponent(
+                                                            "law"
+                                                        )}`}
+                                                    >
+                                                        Law
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>

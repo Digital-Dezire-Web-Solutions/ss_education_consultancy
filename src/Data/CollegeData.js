@@ -96,6 +96,8 @@ import college94 from "../Assets/Colleges/college94.jpg";
 import college95 from "../Assets/Colleges/MRR Ayurvedic Medical College.jpeg";
 import college96 from "../Assets/Colleges/Maharaja Ayurvedic Medical College.jpeg";
 import college97 from "../Assets/Colleges/Prasanna Ayurvedic Medical College.jpeg";
+import college98 from "../Assets/Colleges/college98.jpeg";
+import college99 from "../Assets/Colleges/college99.png";
 
 const CollegesData = [
   {
@@ -103,14 +105,29 @@ const CollegesData = [
     title: "RV College Of Engineering",
     categories: ["Engineering"],
     description: `
-RV College Of Engineering (RVCE), one of Bangalore’s most respected institutions, has established itself as a pioneer in engineering education since its inception. The college is known for its disciplined academic structure, strong technical ecosystem, and a legacy of shaping leaders in engineering and innovation. RVCE’s campus environment is a blend of modern infrastructure, industry-oriented training, and student-driven research, making it one of the most sought-after destinations for engineering aspirants in India.
+R.V. College of Engineering, Bengaluru R.V. College of Engineering (RVCE) is one of the well-known engineering colleges in Bengaluru, Karnataka. The institution was established in the year 1963 and is managed by the Rashtreeya Sikshana Samithi Trust (RSST). The college was started with the aim of offering good quality technical education and preparing students to become skilled engineers who can contribute to society and the nation. Since its beginning, RVCE has given importance to discipline, academic honesty, and quality learning. Over the years, the college has developed a strong reputation among engineering institutions in India. It is known for its systematic teaching methods, experienced faculty members, and steady progress in academic and research activities. The campus of R.V. College of Engineering is located on Mysore Road, about 13 kilometers from the main city of Bengaluru. The location is well connected by road transport and at the same time provides a calm environment suitable for studies. The campus covers an area of 16.85 acres and includes classrooms, laboratories, workshops, libraries, and green open spaces. This environment supports academic learning, research work, and overall student growth. Institutional Status and Academic Autonomy R.V. College of Engineering is a self-financed autonomous institution affiliated with Visvesvaraya Technological University (VTU). Because of its autonomous status, the college has the freedom to design and update its syllabus. This helps the institution include modern subjects, practical learning methods, and new technologies according to industry needs. Every academic year, more than 1,200 students are admitted into undergraduate, postgraduate, and research programs. The college follows an outcome-based education system, which focuses on developing both knowledge and practical skills in students. 
+<br>
+<br>
+<strong>Academic Programs and Courses Offered </strong>
+<br>
+RVCE offers a variety of programs in engineering, technology, and management. These programs aim to build strong technical knowledge, logical thinking, and problem-solving abilities among students. Undergraduate Programs (B.E. / B.Tech.) At the undergraduate level, the college offers 12 Bachelor of Engineering programs. These courses prepare students for jobs, higher education, and research careers. Some of the important undergraduate branches include: Computer Science and Engineering Electronics and Communication Engineering Mechanical Engineering Civil Engineering Computer Science and Engineering (Artificial Intelligence and Machine Learning) Artificial Intelligence and Machine Learning The undergraduate curriculum includes classroom teaching, laboratory experiments, projects, industrial visits, and internships. Students are encouraged to participate in technical events, competitions, and professional activities to improve their skills and confidence. Postgraduate and Research Programs R.V. College of Engineering offers 16 postgraduate programs in different specialized areas of engineering and technology. These programs focus on advanced concepts, research skills, and practical applications. Postgraduate students work on projects, research work, and industry-related problems under the guidance of faculty members. The college also offers Ph.D. programs in various disciplines.
+<br>
+<br>
 
-The institute offers a wide range of undergraduate and postgraduate engineering programs, each designed to help students build a strong theoretical foundation while gaining hands-on experience through practical labs, workshops, and industry collaborations. RVCE’s faculty consists of experienced academicians, researchers, and industry professionals who guide students through rigorous academic learning and real-world applications.
+The research
+culture at RVCE supports innovation, interdisciplinary learning, and collaboration with industries, research institutions, and government organizations. Faculty and Research Environment One of the major strengths of RVCE is its qualified and experienced faculty. The teaching staff includes professors and lecturers with strong academic knowledge and industry exposure. Many faculty members are involved in research projects, consultancy services, and funded research work. The college promotes research activities through research centers, workshops, seminars, and academic conferences. Students get opportunities to work on real-world engineering problems through industry and defense-related projects. 
+<br>
+<br>
 
-The placement cell at RVCE is one of the strongest in Karnataka, consistently bringing in leading companies from software, core engineering, consulting, and emerging tech sectors. Many students secure high-paying roles in multinational companies, while others pursue entrepreneurship or higher studies in reputed global universities. The college also actively promotes research, innovation, and participation in national and international competitions, encouraging students to push creative boundaries.
+<strong>Fee Structure </strong>
+<br>
+The fee structure at R.V. College of Engineering depends on the mode of admission. The approximate annual fees are: Karnataka CET (KEA quota): ₹1,11,000 per year COMED-K quota: ₹3,00,000 per year Management quota: Fees vary depending on the course The fees are decided according to government rules and institutional policies. The college maintains transparency in admissions and ensures quality education for the fees charged. Placements and Career Development R.V. College of Engineering is known for its good placement record. The college has a dedicated Training and Placement Cell that helps students prepare for employment and higher studies. 
+<br>
 
-RVCE’s vibrant student culture is another highlight, featuring numerous clubs, technical forums, cultural events, and sports activities. These platforms help students build essential soft skills, leadership qualities, and lifelong networks. With a reputation for academic excellence, holistic development, and strong industry relationships, RVCE continues to be one of the premier institutions shaping the next generation of engineers and innovators in India.
-`,
+The placement cell conducts training programs on aptitude skills, technical knowledge, communication skills, resume writing, and interview preparation. Many reputed companies from IT, core engineering, manufacturing, analytics, and finance sectors visit the campus every year for recruitment. Students also receive internship opportunities and pre-placement offers. Although placement results may vary each year, RVCE consistently maintains a high placement rate. Campus Facilities and Student Support The campus of RVCE provides several facilities to support students’ academic and personal development, such as: Well-equipped laboratories and workshops A central library with books, journals, and digital resources Computer laboratories with high-speed internet Separate hostel facilities for boys and girls Indoor and outdoor sports facilities Cafeteria providing hygienic food Medical and first-aid facilities Auditoriums and seminar halls These facilities help students balance academic learning with extracurricular activities. 
+<br>
+<br>
+Eligibility Criteria Undergraduate Programs (B.E. / B.Tech.) Candidates must have completed 10+2 with Physics and Mathematics as compulsory subjects. One optional subject should be Chemistry, Biology, Biotechnology, Electronics, or Computer Science. Admission is based on entrance examinations such as Karnataka CET, COMED-K, or JEE Main. Postgraduate Programs (M.E. / M.Tech.) Candidates must have a bachelor’s degree in the relevant engineering discipline. Admission is based on a valid GATE score or an equivalent entrance examination. Conclusion R.V. College of Engineering, Bengaluru, is a respected institution known for quality education, research work, and placement opportunities. With experienced faculty members, modern infrastructure, an autonomous academic system, and strong industry connections, RVCE continues to produce skilled engineers and responsible professionals. The college plays an important role in the growth of technical education and national development.`,
     image: college1,
   },
   {
@@ -118,14 +135,65 @@ RVCE’s vibrant student culture is another highlight, featuring numerous clubs,
     title: "MS Ramaiah Institute of Technology",
     categories: ["Engineering", "MBA"],
     description: `
-MS Ramaiah Institute of Technology (MSRIT) is one of India’s premier engineering institutions known for its academic distinction, modern infrastructure, and strong placement culture. Established with a vision to provide quality technical education, MSRIT has evolved into a center for excellence that emphasizes both innovation and discipline. The college offers a broad selection of engineering and postgraduate programs designed to cater to the growing demands of industries in fields like computer science, electronics, mechanical, civil, and biotechnology.
+MS Ramaiah Institute of Technology (MSRIT) is an engineering college located in Bengaluru. It was started in the year 1962 by Dr. M. S. Ramaiah through the Gokula Education Foundation. The institute was established with the goal of offering affordable and high-quality engineering education and preparing skilled engineers to contribute to national development. With steady growth over the years, MSRIT has earned a strong reputation among engineering institutions in India. The college has educated more than 35,000 students, many of whom are employed in respected organizations in India and abroad. MSRIT is affiliated with Visvesvaraya Technological University (VTU), Belgaum, and functions as an autonomous institution for both undergraduate and postgraduate courses. At the time of its establishment, the institute offered programs only in Electrical and Mechanical Engineering. Gradually, several new branches were introduced, including Civil Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Instrumentation Technology, Information Science, Architecture, Telecommunication Engineering, Medical Electronics, and other disciplines. The academic syllabus is revised regularly to keep pace with modern technology and industry.
+<br/>
+<br/>
+<strong>Courses Offered </strong><br/><br/>
+<strong>Undergraduate Programs (B.E. / B.Tech): </strong><br/>
+•	Aerospace Engineering  <br/>
+•	Artificial Intelligence & Data Science <br/>
+•	Artificial Intelligence & Machine Learning <br/>
+•	Biotechnology <br/>
+•	Chemical Engineering <br/>
+•	Civil Engineering <br/>
+•	Computer Science & Engineering <br/>
+•	CSE (Artificial Intelligence & Machine Learning) <br/>
+•	CSE (Cybersecurity) <br/>
+•	Electrical & Electronics Engineering <br/>
+•	Electronics & Communication Engineering <br/>
+•	Electronics & Instrumentation Engineering <br/>
+•	Electronics & Telecommunication Engineering <br/>
+•	Industrial Engineering & Management <br/>
+•	Information Science & Engineering <br/>
+•	Mechanical Engineering <br/>
+•	Medical Electronics Engineering <br/>
+<br/>
+<strong>Postgraduate Programs (M.Tech / M.Arch / MBA / MCA): </strong><br/>
+•	Aerospace Engineering <br/>
+•	Artificial Intelligence <br/>
+•	Biotechnology <br/>
+•	Computer Network Engineering <br/>
+•	Computer Science & Engineering <br/>
+•	Data Science <br/>
+•	Digital Electronics & Communication <br/>
+•	IoT & Sensor Systems <br/>
+•	Robotics & Artificial Intelligence <br/>
+•	Structural Engineering <br/>
+•	VLSI Design & Embedded Systems <br/>
+•	Master of Architecture (Landscape Architecture & Advanced Architecture) <br/>
+•	Master of Business Administration (MBA) <br/>
+•	Master of Computer Application (MCA) <br/><br/>
 
-MSRIT’s academic curriculum is periodically updated to stay aligned with industry advancements, ensuring that students acquire strong foundational knowledge as well as practical exposure through labs, projects, and hands-on training. The institute’s research centers actively collaborate with government bodies, multinational companies, and international universities, creating opportunities for students to engage in innovation-driven work.
 
-The college has a remarkable placement record, with top multinational companies recruiting students across engineering and management streams. Its campus life is lively, enriched with clubs, sports, cultural events, and technical festivals that encourage overall development.
-
-With a strong heritage, future-focused outlook, and consistent achievements, MSRIT remains one of Bangalore’s most respected institutions shaping skilled engineers and leaders.
-`,
+Research Programs (Ph.D. / M.Sc. Engineering) MS Ramaiah Institute of Technology offers research programs leading to Ph.D. and M.Sc. (Engineering) degrees in several fields. These include Civil Engineering, Mechanical Engineering, Electrical and Electronics Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Chemical Engineering, Industrial Engineering and Management, Instrumentation Technology, Information Science and Engineering, Telecommunication Engineering, Medical Electronics, Biotechnology, Physics, Chemistry, Mathematics, MBA, and MCA. Eligibility Criteria For admission to B.E. or B.Tech programs, candidates must have completed their 10+2 education with Physics and Mathematics as compulsory subjects. One optional subject should be chosen from Chemistry, Biotechnology, Biology, Computer Science, or Electronics. Candidates belonging to the general category must secure at least 45% marks, while those from reserved categories require a minimum of 40%. Admissions are conducted through KEA (CET) or COMEDK. For the Bachelor of Architecture (B.Arch) program, applicants must have passed 10+2 with Physics, Chemistry, and Mathematics, securing at least 50% marks both in these subjects and overall. In addition, candidates must score a minimum of 40% in the NATA examination. For M.Tech programs, candidates should possess a relevant B.E. or B.Tech degree with a minimum of 50% marks (45% for reserved category students). A valid GATE or PGCET score is required for admission. Applicants seeking admission to the MBA program must have a bachelor’s degree with at least 50% aggregate marks (45% for reserved categories) and a valid score in KMAT, CMAT, MAT, or PGCET. For the MCA program, candidates must hold a bachelor’s degree with Mathematics, Statistics, Computer Science, or a related subject as part of their studies and should have a valid KMAT or PGCET score fee Structure
+<br/>
+<br/>
+The fees at MS Ramaiah Institute of Technology depend on the chosen course and the mode of admission. Students who join B.E. or B.Tech programs through Karnataka CET pay around ₹1,11,000 per year. Those admitted through the COMEDK quota usually pay close to ₹3,00,000 annually. The fee amount for management quota seats and postgraduate courses differs based on the department and category.
+<br/>
+<br/>
+<strong>Placements</strong>
+<br/>
+MSRIT has a dedicated Training and Placement Cell that helps students find suitable job opportunities. The institute organizes skill-development programs, internships, and campus recruitment drives on a regular basis. Well-known companies visit the campus every year and offer good salary packages. Students receive training in aptitude, technical knowledge, communication skills, group discussions, and interview preparation. The placement activities are supported by modern facilities such as seminar halls, interview cabins, and video conferencing rooms. Many students get placed even before completing their final year.
+<br/>
+<br/>
+<strong>Facilities</strong>
+<br/>
+The campus of MSRIT is equipped with modern infrastructure to support learning and student development. The institute has well-maintained laboratories, workshops, a spacious library, computer labs, and high-speed internet connectivity. Separate hostel facilities are provided for boys and girls. Students also have access to sports facilities, recreational areas, medical care, and mental health support services. Advanced training facilities are available to prepare students for professional careers.
+<br/>
+<br/>
+<strong>Scholarships</strong>
+<br/>
+MSRIT offers several scholarship opportunities to eligible students. Financial assistance is provided through the Government of Karnataka schemes, including post-matric scholarships for SC/ST students, fee reimbursement programs, and concessions for various categories. Additional scholarships are available for defense personnel's wards and through the MSRIT Alumni Association. Students can apply for these scholarships every academic year through the institute’s scholarship or admissions office.`,
     image: college4,
   },
   {
@@ -161,15 +229,136 @@ With its holistic approach to education, excellent academic ecosystem, and decad
   {
     id: 5,
     title: "Reva University",
-    categories: ["Engineering", "MBA"],
+    categories: ["Engineering", "MBA", "Law"],
     description: `
-Reva University has emerged as one of Bangalore’s fastest-growing educational institutions, celebrated for its state-of-the-art infrastructure, innovative academic programs, and student-centric learning ecosystem. The university offers a broad range of undergraduate, postgraduate, and doctoral programs across engineering, management, science, law, architecture, and humanities. Its engineering faculty is particularly well-regarded for integrating modern technologies, practical training, and research-based learning.
+REVA University is a private university located in Yelahanka, Bengaluru, Karnataka. It was established in the year 2012 by an Act of the Government of Karnataka and is recognised by the University Grants Commission (UGC). The university focuses on providing quality education through practical teaching methods and courses that meet industry needs. Over the years, REVA University has grown steadily and currently has more than 15,000 students from different parts of India. The campus offers a healthy learning environment with experienced teachers, good infrastructure, and a curriculum designed to prepare students for present and future career opportunities. The university aims to develop students with strong knowledge, professional skills, and good values so that they can contribute positively to society.
+</br>
+</br>
 
-The campus at Reva University is a blend of modern design, advanced laboratories, digital classrooms, research hubs, and collaborative workspaces. Students benefit from an experiential learning approach that includes hands-on labs, project assignments, internships, inter-college competitions, and industry-driven coursework. Reva’s faculty comprises accomplished academicians and industry practitioners who provide mentorship and guide students through rigorous learning processes.
 
-One of the university’s major strengths lies in its focus on innovation, entrepreneurship, and real-world problem-solving. Reva’s incubation centers provide support to student startups, offering mentorship programs, access to funding networks, and collaborative opportunities with industry leaders. The university regularly hosts national and international conferences, technical festivals, hackathons, and cultural celebrations, all of which enrich the student experience.
+<strong>Courses Offered at REVA University</strong>
+</br>
+</br>
 
-The placement department at Reva University works proactively with top-tier companies across IT, core engineering, analytics, consulting, and finance sectors. Intensive placement training ensures that students graduate with strong communication skills, technical proficiency, and workplace readiness. With its dynamic academic structure, global outlook, and student-driven culture, Reva University stands as a modern institution committed to grooming future leaders and innovators.
+REVA University provides many academic programmes in different fields to meet the interests and career goals of students. The university offers <strong>undergraduate courses</strong> such as B.Tech in various engineering branches, BBA, BCA, B.Com, B.Sc, BA, B.Arch, and LLB. These programmes are designed to give students a strong foundation in both theoretical knowledge and practical skills.
+</br>
+</br>
+
+At the <strong>postgraduate level</strong>, REVA University offers courses like M.Tech, MBA, MCA, M.Sc, M.Com, MA, and LLM. These programmes help students gain advanced knowledge and prepare them for professional roles, research, or higher studies.
+</br>
+</br>
+
+Apart from degree programmes, REVA University also provides <strong>doctoral (Ph.D.) programmes</strong> in several disciplines, along with diploma and certificate courses that focus on skill development and industry requirements.
+</br>
+</br>
+
+
+
+<strong>Eligibility Criteria at REVA University</strong>
+</br>
+</br>
+
+<strong>Undergraduate Courses (UG):</strong>
+</br>
+
+• Students must have completed <strong>10+2</strong> or an equivalent from a recognised board.
+</br>
+• They should have studied the required subjects and obtained the minimum marks.
+</br>
+• For engineering courses like <strong>B.Tech</strong>, students must have <strong>Physics and Mathematics</strong> along with one other relevant subject.
+</br>
+</br>
+<strong>Postgraduate Courses (PG):</strong>
+</br>
+
+• Students should have a <strong>bachelor’s degree</strong> in the relevant field from a recognised university.
+</br>
+• Some courses, such as <strong>MBA and M.Tech</strong>, may require students to pass an <strong>entrance exam</strong> conducted by the university, state, or national bodies.
+</br>
+</br>
+<strong>Doctoral Courses (Ph.D.):</strong>
+</br>
+
+• Students must have a <strong>master’s degree</strong> in the related field.
+</br>
+• Admission may include an <strong>entrance test and personal interview.</strong>
+</br>
+</br>
+<strong>Note:</strong> Eligibility requirements may vary slightly depending on the course and university rules.
+</br>
+</br>
+
+
+
+<strong>Fee Structure at REVA University</strong>
+</br>
+</br>
+
+The fees at REVA University differ depending on the course and the type of admission.
+</br>
+</br>
+
+• For <strong>B.E. or B.Tech</strong> courses, students admitted through <strong>Karnataka CET</strong> usually pay around <strong>₹1,11,000 per year.</strong>
+</br>
+• Students admitted through the <strong>COMEDK quota</strong> generally pay about <strong>₹3,00,000 per year.</strong>
+</br>
+• <strong>Management quota seats</strong> and <strong>postgraduate courses</strong> have different fees, which depend on the department and the student’s category.
+</br>
+</br>
+<strong>Note:</strong> Exact fees may vary slightly each year, so it is always best to check with the university before admission.
+</br>
+
+</br>
+<strong>Facilities at REVA University</strong>
+</br>
+</br>
+
+REVA University provides many facilities to make learning and campus life comfortable and effective for students. Some of the main facilities are:
+</br>
+</br>
+
+1. <strong>Modern Classrooms</strong> – All classrooms are equipped with digital teaching tools to make learning easier and interactive.
+</br>
+2. <strong>Laboratories and Research Centres</strong> – The university has well-equipped labs for engineering, science, and technology courses. Research centres support advanced projects and studies.
+</br>
+3. <strong>Library</strong> – REVA University has a large library with books, journals, and e-resources for all courses.
+</br>
+4. <strong>Hostels</strong> – Safe and comfortable hostels are available for boys and girls, with food, hygiene, and security.
+</br>
+5. <strong>Sports and Recreation</strong> – The campus has grounds for outdoor sports, indoor games, and fitness facilities.
+</br>
+6. <strong>Medical and Healthcare</strong> – Health facilities are available on campus for students and staff.
+</br>
+7. <strong>Wi-Fi and Internet</strong> – The entire campus is Wi-Fi enabled to support online learning and research.
+</br>
+8. <strong>Cafeteria and Food Courts</strong> – Multiple options are available for students to have meals and snacks.
+</br>
+9. <strong>Auditoriums and Seminar Halls</strong> – Used for workshops, events, and cultural activities.
+</br>
+10. <strong>Clubs and Extra-Curricular Activities</strong> – Students can participate in cultural, technical, and social clubs to develop leadership and teamwork skills.
+</br>
+</br>
+REVA University focuses on providing facilities that support both <strong>academic growth</strong> and <strong>overall development</strong> of students.
+</br>
+</br>
+
+<strong>Placements at REVA University</strong>
+</br>
+
+REVA University has a dedicated <strong>Career Development and Placement Cell</strong> that helps students prepare for their careers and get placed in good companies. The placement cell organises training programs to improve students’ <strong>communication skills, aptitude, technical knowledge, and interview skills.</strong>
+</br>
+</br>
+
+• Many reputed companies from <strong>IT, engineering, management, and other sectors</strong> visit the campus every year to recruit students.
+</br>
+• Students also get opportunities for <strong>internships</strong> and industry projects, which help them gain practical experience before starting their careers.
+</br>
+• The university has recorded a <strong>high placement rate</strong>, and students have received attractive salary packages. The <strong>highest packages have gone up to around ₹40 lakhs per year</strong> in recent years.
+</br>
+• The placement cell also guides students on resume writing, career counselling, and skill development to make them ready for the job market.
+</br>
+</br>
+Overall, REVA University provides strong support to help students move smoothly from academics to professional life.
 `,
     image: college12,
   },
@@ -210,14 +399,139 @@ Campus life at NMIT is vibrant and inclusive, offering numerous clubs, cultural 
     title: "CMR Institute of Technology",
     categories: ["Engineering", "MBA"],
     description: `
-CMR Institute of Technology (CMRIT) is a renowned private engineering institution in Bangalore known for its student-centric learning approach, modern infrastructure, and strong placement support. With a mission to nurture technical competence, creativity, and innovation, CMRIT offers a wide range of engineering and management programs tailored to meet industry demands. The college emphasizes hands-on learning through extensive laboratory work, internships, industrial collaborations, and practical engineering projects.
+CMR Institute of Technology (CMRIT) was started in <strong>2000</strong> to provide good education in <strong>engineering and management</strong>. The college focuses on <strong>practical learning</strong> and helps students improve their <strong>thinking, problem-solving, and creativity</strong>. CMRIT gives students a <strong>friendly and supportive environment</strong> to prepare them for jobs in technology and management.
+</br>
+</br>
+The campus is in <strong>Whitefield, Bengaluru</strong>, which is a major IT area in South India. It is <strong>easy to reach</strong> by road or public transport.
+</br>
+</br>
+CMRIT follows the vision of <strong>Sri Chikka Muniyappa Reddy</strong>, who wanted to improve technical education for the growth of the <strong>nation and society</strong>. The college has <strong>good classrooms, labs, library, and other facilities</strong>, along with <strong>experienced teachers</strong> who guide students in studies and career planning. Because of this, CMRIT is a popular choice for students who want to build careers in engineering and management.
+</br>
+</br>
+<strong>Vision</strong>
+</br>
+CMRIT wants to become a <strong>well-known institute in India and abroad</strong> and produce professionals who help society and the nation.
+</br>
+</br>
+<strong>How CMRIT Works to Achieve Its Vision</strong></br>
+• Provides <strong>good classrooms, labs, and library facilities.</strong></br>
+• Has <strong>qualified teachers and staff </strong> to guide students.</br>
+• Creates a <strong>learning environment</strong> that encourages teamwork, competition, and continuous learning.</br>
+• Works with <strong>industries and other colleges</strong> to give students practical experience.</br>
+• Understands <strong>social needs</strong> and works on solutions that help society.</br>
+In short, CMRIT focuses on <strong>learning, practical skills, career readiness, and helping society,</strong> making it a good place for students to grow both professionally and personally.
+</br>
+</br>
+<strong>Courses offered</strong>
+</br>
 
-CMRIT’s faculty includes experienced academicians and industry professionals who ensure that students receive holistic learning experiences that combine theory with application. The institution also houses specialized centers for research in domains like artificial intelligence, cloud computing, electronics design, and cybersecurity. These centers help students gain exposure to cutting-edge technologies and participate in impactful research initiatives.
+CMR Institute of Technology (CMRIT) offers courses in Engineering, Management, and Computer Applications.
+</br>
+</br>
+<strong>Undergraduate Courses</strong>
+</br>
+The college offers B.E. and B.Tech courses. These courses are available in Computer Science, Information Science, Electronics and Communication, Mechanical, Civil, and Electrical and Electronics branches.
+</br>
+</br>
+<strong>Postgraduate Courses</strong>
+</br>
+CMRIT offers M.Tech courses in VLSI Design, Computer Science, and Structural Engineering. The college also offers MCA and MBA courses.
+</br>
+</br>
 
-The campus is vibrant with student involvement in clubs, technical associations, hackathons, cultural festivals, and sports tournaments. These activities encourage personal development, leadership qualities, and teamwork. The placement department works extensively to connect students with top recruiters from IT, core engineering, startups, and global firms. Its structured pre-placement training enhances employability and confidence.
+<strong>Doctoral Courses</strong>
+</br>
+Ph.D. courses are available for students who want to do research in Engineering and Management.
+</br>
+</br>
+<strong>Admission</strong>
+</br>
+For undergraduate courses, students must pass 10+2 with Physics, Mathematics, and Chemistry and get at least 45% marks. Admission is through exams like KCET, COMEDK, or JEE Main.
+</br>
+</br>
+For postgraduate courses, M.Tech students must have a related degree and may need to clear exams like GATE. MBA admission is based on exams such as CAT, MAT, or KMAT.
+</br>
+</br>
+Ph.D. admission is based on the college rules and may include a test and interview.
+</br>
+</br>
 
-With its focus on providing quality education, promoting innovation, and supporting career growth, CMRIT has built a strong reputation as one of Bangalore’s most progressive engineering institutions.
-`,
+
+<strong>Fee Structure:</strong>
+</br>
+The fees at CMRIT depending on the course and the type of admission. Students joining B.E. or B. Tech through Karnataka CET usually pays around one lakh ten thousand rupees per year. Those admitted through the COMEDK quota generally pay about three lakh rupees per year. Fees for management quota seats and postgraduate courses are different and depend on the department and category.
+</br>
+</br>
+
+<strong>Placement</strong>
+</br>
+CMR Institute of Technology (CMRIT) has a Placement Cell known as the <strong>Career Guidance and Placement Bureau.</strong> It helps students understand their career goals and guides them towards suitable job opportunities. The placement cell supports students who want to work in companies, start their own businesses, or go for higher studies.
+</br>
+</br>
+The bureau trains students by improving their technical skills, communication skills, and interview skills so that they are ready for professional life. It also provides guidance to students with different interests and abilities.
+</br>
+</br>
+The Placement Cell works closely with various companies and invites them to the campus for recruitment. It helps organizations find suitable candidates based on their requirements. Students from all departments and specializations of CMRIT are supported by the placement bureau.
+</br>
+</br>
+Overall, the Career Guidance and Placement Bureau plays an important role in shaping students’ careers and helping them secure good opportunities after completing their studies.
+</br>
+</br>
+<strong>Facilities and Infrastructure</strong>
+</br>
+CMR Institute of Technology (CMRIT) has good facilities and infrastructure to support students. The campus is spread over 8 acres and has a peaceful learning environment.
+</br>
+</br>
+Classrooms are modern and have smart boards and projectors to help in teaching. The central library is big and has many books, journals, and online resources for students to study and do research.
+</br>
+</br>
+The college provides separate hostels for boys and girls. The hostels have attached bathrooms, study tables, and security is available all the time.
+</br>
+</br>
+For sports, CMRIT has a large auditorium, basketball courts, a football ground, and table tennis facilities. These help students stay active and enjoy games and sports.
+</br>
+</br>
+The campus has a 24-hour health center with doctors and nurses. Ambulance service is also available for emergencies.
+</br>
+</br>
+CMRIT also has 11 Centers of Excellence in collaboration with companies. These centers give students hands-on experience with new technologies and help them learn practical skills.
+</br>
+</br>
+Overall, CMRIT’s facilities and infrastructure help students in learning, staying healthy, and developing skills for the future.
+</br>
+</br>
+<strong>CMR Institute of Technology – Eligibility Criteria</strong>
+</br>
+</br>
+CMR Institute of Technology (CMRIT) offers many courses at undergraduate, postgraduate, and doctoral levels. The eligibility criteria depend on the course and are given below.
+</br>
+</br>
+<strong>Undergraduate Courses (B.E.) – 4 years</strong>
+</br>
+• Information Science and Engineering
+</br>
+• Computer Science and Engineering
+</br>
+• Electronics and Communication Engineering
+</br>
+• Electrical and Electronics Engineering
+</br>
+• Mechanical Engineering
+</br>
+• Civil Engineering
+</br>
+• Artificial Intelligence and Machine Learning (AI & ML)
+</br>
+• Artificial Intelligence and Data Science
+</br>
+• Computer Science and Engineering (AI & ML)
+</br>
+• Computer Science and Engineering (Data Science)
+</br>
+</br>
+<strong>Postgraduate Courses – 2 years</strong>
+</br>
+• MCA (Master of Computer Applications)`,
     image: college9,
   },
 
@@ -418,16 +732,27 @@ With its balanced approach to academics, innovation, and personality development
     title: "Dr. B R Ambedkar Institute of Technology",
     categories: ["Engineering"],
     description: `
-Dr. B R Ambedkar Institute of Technology is an engineering institution recognized for its emphasis on foundational learning, technical excellence, and providing industry-relevant education to aspiring engineers. The college offers undergraduate programs across multiple engineering domains, designed to equip students with both theoretical knowledge and practical expertise. The institution follows a structured academic approach that integrates classroom learning with laboratory sessions, project-based learning, and real-world exposure.
-
-The faculty at the institute consists of experienced academicians and industry experts who help students understand engineering concepts deeply while motivating them to adopt analytical thinking and problem-solving skills. The college encourages students to participate in technical workshops, national competitions, internships, and industrial visits to enhance their understanding of engineering applications.
-
-The placement cell works diligently to bring companies for campus recruitment across software engineering, electronics, mechanical design, civil engineering, and various technology sectors. Students undergo skill development training to improve aptitude, communication, technical proficiency, and confidence during interviews.
-
-Campus life at the institute is active and engaging, with opportunities for students to participate in cultural festivals, technical clubs, sports teams, and social initiatives. This holistic environment helps students develop leadership qualities, teamwork, discipline, and personal growth.
-
-By combining academic rigor with practical learning and student-centered development, Dr. B R Ambedkar Institute of Technology continues to play a key role in preparing future engineers for successful careers.
-`,
+Dr. Bheemsha Arya, Principal of B.M.S. College of Engineering, believes that the progress of a nation depends not only on technology but also on the growth and development of its people. Engineers play a key role in this process. In today’s global environment, engineers are expected to work in different situations, handle challenges with confidence, and find effective solutions. To prepare such professionals, engineering education must focus on the overall development of students.
+B.M.S. College of Engineering was founded in 1946 and has been providing quality engineering education for over seventy-five years. Over time, the college has built a strong reputation and is recognized as one of the leading engineering institutions in the country. It offers undergraduate, postgraduate, and doctoral programmes across various branches of engineering and technology. The institution has also been awarded an A++ grade by NAAC, which reflects the high standard of its academics.
+The alumni of BMS have earned recognition by holding important positions in reputed organizations in India and abroad. Their success shows the solid academic foundation and values they gained at the college. Many continue to contribute positively to society in meaningful ways.
+The college management has always focused on improving both academic and extracurricular facilities to meet modern needs. The campus is well-kept and provides a calm and peaceful environment for learning. Experienced faculty members and dedicated staff are actively involved in guiding and supporting students throughout their academic journey.
+Besides academics, students are encouraged to participate in various activities that help them build skills, confidence, and leadership qualities. These opportunities contribute to their overall personality development and prepare them to face future challenges successfully.
+</br>
+</br>
+<strong>Courses Offered</strong>
+</br>
+B.M.S. College of Engineering (BMSCE) offers a variety of academic programmes to cater to the different interests of students and the needs of today’s industries. At the undergraduate level, the college provides B.Tech courses in several branches of engineering, helping students gain a strong technical foundation along with practical skills.
+For those looking to specialize or deepen their knowledge, BMSCE offers M.Tech programmes in multiple disciplines, allowing students to develop expertise in their chosen areas. In addition to engineering courses, the college also offers professional programmes such as MBA and MCA, which equip students with important management, computer, and leadership skills needed in the current professional environment.
+Students interested in research or teaching can pursue PhD programmes at BMSCE. These programmes allow them to carry out advanced research, contribute to innovation, and learn directly from experienced faculty members.
+With this broad range of courses, BMSCE ensures that students receive a well-rounded education that blends theory with practical experience, preparing them to succeed in their careers and future studies.
+</br>
+</br>
+Admissions B.M.S. College of Engineering (BMSCE) offers admissions for both undergraduate and postgraduate courses. Students who wish to join the college need to complete the application process and submit all the required documents before the deadline. Along with merit-based seats, a few seats are reserved under the management quota, which follow separate rules and procedures. Students should read the instructions carefully, make sure they meet the eligibility criteria, and submit their applications on time. The college admits students based on their academic performance and overall potential to grow as professionals.
+Fee Structure: The fees at BMSCE vary depending on the course and the type of admission. Students joining B.E. or B. Tech through Karnataka CET usually pays around one lakh eleven thousand rupees per year. Those admitted through the COMEDK quota generally pay about three lakh rupees per year. Fees for management quota seats and postgraduate courses are different and depend on the department and category.
+Facilities: BMSCE has many facilities to support both learning and personal development. The campus has well-maintained hostels with all essential amenities, providing a safe and comfortable place for students from across the country. The college organizes cultural, technical, and social events throughout the year, giving students opportunities to learn teamwork, improve communication, and develop leadership skills. There are also modern laboratories, libraries, and recreational spaces to help students with their studies and overall growth.
+</br>
+</br>
+ Placement BMSCE has a strong placement record and good ties with the industry. The median salary for undergraduate students is about eight lakh fifty thousand rupees per year, while for postgraduate students it is around seven lakh twenty thousand rupees per year. The college works closely with top companies to provide internships, training, and placement opportunities. The placement cell also guides students in resume writing, interview preparation, and skill development, so they are ready to begin their careers confidently.`,
     image: college20,
   },
   {
@@ -1674,6 +1999,236 @@ Faculty members guide students through academic coursework, clinical postings, s
 With its focus on traditional knowledge, clinical competence, and community service, Prasanna Ayurvedic Medical College continues to play an important role in Ayurvedic medical education.
 `,
     image: college97,
+  },
+  {
+    id: 98,
+    title: "M S Ramaiah College of Arts, Science and Commerce",
+    categories: ["PG"],
+    description: `
+M S Ramaiah College of Arts, Science and Commerce, Bengaluru (MSRCASC) was started in 1994 under the Gokula Education Foundation, which was established in 1962 by the philanthropist Dr. M.S. Ramaiah. His aim was to promote education and healthcare to benefit society. The college is permanently affiliated with Bengaluru City University and recognized by the University Grants Commission under Sections 2(f) and 12(B) of the UGC Act, 1956. It also has approval from AICTE. Because of its strong academic standards and good governance, the college was granted autonomous status by the UGC, the Government of Karnataka, and Bengaluru City University from the academic year 2024–25.
+</br>
+</br>
+MSRCASC offers a variety of courses at the undergraduate, postgraduate, and doctoral levels in Arts, Science, Commerce, and Management. The curriculum is regularly updated to stay in line with new trends, technology, and the changing needs of society, so that students get modern and relevant education.
+</br>
+</br>
+
+The college is known for its academic excellence, research activities, and focus on overall development. It has received an ‘A’ Grade from NAAC (4th Cycle, 2021) and was ranked 67th out of more than 4,000 institutions in the NIRF-2025 rankings. Students learn in a supportive environment that includes modern laboratories, well-stocked libraries, digitally equipped classrooms, and other infrastructure. Research and innovation are encouraged, with several departments recognized as research centres by Bengaluru City University. The college is also included in the DBT-STAR College Scheme of the Department of Biotechnology, Government of India.
+</br>
+</br>
+
+MSRCASC also works closely with the community. It participates in initiatives like the Unnat Bharat Abhiyan, adopts villages, and supports rural development and community projects. It serves as a Learning Support Centre for IGNOU, giving students additional opportunities to learn.
+</br>
+
+</br>
+The college focuses on developing students in all areas, combining academics with co-curricular and extracurricular activities. With strong placement support, industry collaborations, and chances to gain practical skills, MSRCASC aims to prepare students to be socially responsible, professionally competent, and ready to face future challenges. It is recognized as one of the leading higher education institutions in Karnataka.
+</br>
+
+</br>
+<strong>Courses offered</strong>
+</br>
+
+M S Ramaiah College of Arts, Science and Commerce in Bengaluru offers a variety of courses across different fields to suit the needs and interests of students. At the undergraduate level, the college has programmes such as B.Sc., B.Com., BBA, BCA, and B.A. These courses help students build a strong foundation in their chosen subjects and also develop practical skills that will be useful for further studies or starting a career.
+</br>
+</br>
+
+For students who want to continue with higher studies, the college offers postgraduate courses such as MBA, M.Com., and M.Sc. These courses allow students to gain deeper knowledge in management, commerce, and science, preparing them for advanced careers, research opportunities, or leadership roles in their professions.
+</br>
+</br>
+
+The college also offers popular specializations like Life Sciences, Computer Applications, Management, and Commerce. These specializations help students focus on the areas they are interested in and gain the knowledge and skills needed for their future careers.
+</br>
+</br>
+
+<strong>Eligibility</strong>
+</br>
+
+To take admission in undergraduate courses, students must have completed their 10+2 or an equivalent exam from a recognized board with at least 50% marks. For postgraduate courses, students should have completed a relevant undergraduate degree and meet the college’s academic requirements. 
+</br>
+</br>
+<strong>
+Through all these courses, M S Ramaiah College of Arts, Science and Commerce aims to provide students with a good education, practical learning experience, and opportunities to grow both personally and professionally. The college seeks to prepare students to face future challenges in their careers and contribute positively to society.
+</strong>
+</br>
+</br>
+
+
+
+<strong>Fee Structure</strong>
+</br>
+
+The fees at MSRCASC depend on the course, the year of study, and whether the student is from Karnataka or another state. Undergraduate Courses (UG) BBA / BBA with Business Analytics / BCA For Karnataka students, the fees are ₹1,35,000 per year. This means ₹1,35,000 for the first year, ₹1,35,000 for the second year, and ₹1,35,000 for the third year, making a total of ₹4,05,000. For students from other states, the first-year fees range from ₹1,65,000 to ₹2,15,000 depending on the course. The second and third years are ₹1,35,000 each. The total fees range from ₹4,35,000 to ₹4,85,000. B.Sc. (BT / MB / Chemistry / General / Electronics / Maths / CS / FT) Karnataka students pay ₹95,000 for each year. The total for three years comes to ₹2,85,000. Non-Karnataka students pay ₹1,25,000 in the first year and ₹95,000 for the second and third years. The total comes to ₹3,15,000. BA (Journalism / Psychology / Open Electives / Political Science) Karnataka students pay ₹80,000 per year, totaling ₹2,40,000 for three years. Non-Karnataka students pay ₹1,10,000 for the first year and ₹80,000 for the second and third years. The total is ₹2,70,000. B.Com / B.Com with ACCA / B.Com in Financial Technology For Karnataka students, the first-year fees range from ₹1,10,000 to ₹1,60,000. The second and third years are ₹1,10,000 each. The total fees range from ₹3,30,000 to ₹3,80,000. Non-Karnataka students pay ₹1,30,000 to ₹1,80,000 in the first year and ₹1,10,000 for the second and third years. The total ranges from ₹3,50,000 to ₹3,80,000. Postgraduate Courses (PG) M.Sc. (Microbiology / Biotechnology / Biochemistry / Organic Chemistry) Both Karnataka and non-Karnataka students pay ₹1,00,000 per year. The total fees for two years are ₹2,00,000. MBA The fees are ₹3,75,000 per year for all students. The total for two years is ₹7,50,000. M.Com Both Karnataka and non-Karnataka students pay ₹80,000 each year. The total for two years is ₹1,60,000. MCA The fees are ₹2,50,000 per year for all students. The total for two years is ₹5,00,000. Note: The fees for BBA, BCA, M.Com, MCA, and MBA include the cost of college uniforms along with tuition and other academic fees.
+</br>
+</br>
+
+
+<strong>Facilities</strong>
+</br>
+
+The college campus is spread over 8,780 sq. m. and provides a modern and comfortable environment for learning. The library is well-stocked with books, e-journals, and digital resources to help students with their studies and research. There are 11 laboratories for science and computer courses where students can do practical experiments and projects. The classrooms are bright, airy, and equipped with multimedia facilities to make learning more interactive. For meals, the college has a canteen and cafeteria that serve healthy and hygienic food. Students can also stay active and fit using the sports complex, which has facilities for indoor and outdoor games, a gym, and recreation areas. The college provides hostel facilities for students coming from different places, ensuring a safe and comfortable stay. Overall, the college gives students everything they need for studies, sports, and personal growth in a supportive and well-organized environment.
+</br>
+</br>
+
+
+
+<strong>Training and Placement at the College</strong>
+</br>
+</br>
+
+The Training and Placement Department helps students prepare for their careers from the very first year. Students receive guidance and training to build the skills needed for professional life. In the final year, the department provides special training to prepare students for company interviews and selection processes.
+</br>
+</br>
+
+Training is spread across the course. Undergraduate students get it in the first, second, and third years, while postgraduate students receive it during their first and second years. The focus is on developing both personal and professional skills so students are ready for the workplace.
+</br>
+</br>
+
+Placements start early with internships from the first year, which can sometimes lead to Pre-Placement Offers (PPOs). The average salary is about 3.7 lakh per year, and the highest package can go up to 15 lakh per year. Over 70 companies visit the campus annually. Some top recruiters are Accenture, PwC, Deloitte, TCS, Cognizant, Capgemini, LTI Mindtree, and L&T Infotech.
+</br>
+</br>
+
+Soft skills training is important for placements. Students get around 24 hours of training during the second and third years, focusing on personality, communication, teamwork, and other skills needed in the corporate world. Experienced trainers guide the students with practical tips for success.
+</br>
+</br>
+
+The department also runs workshops, technology training, and bridge courses to improve employability. Pre-final year students get special pre-placement training, including industry talks and advice from seniors.
+</br>
+</br>
+
+Besides placements, the department supports higher studies and entrepreneurship. Students can get guidance for studying abroad, internships, or starting their own business.
+</br>
+</br>
+
+In short, the Training and Placement Department helps students grow, gain the right skills, and explore different career options to achieve their goals.
+`,
+    image: college98,
+  },
+  {
+    id: 99,
+    title: "Ramaiah College of Law",
+    categories: ["Law"],
+    description: `
+Ramaiah College of Law, earlier known as M.S. Ramaiah College of Law, was started in 1995 with the approval of the Bar Council of India. It is part of the M.S. Ramaiah Group of Institutions and was built on the vision and hard work of its founder, Dr. M.S. Ramaiah. Over the years, the college has become a popular choice for students who want to build a career in law.
+</br>
+
+</br>
+
+The college is managed by the Gokula Education Foundation (GEF), which was set up in 1962 by Dr. M.S. Ramaiah. He believed in using education to help society and started many institutions to provide good learning opportunities. Today, the foundation runs several colleges with modern facilities, skilled teachers, and practical teaching methods.
+</br>
+</br>
+
+
+
+From the start, Ramaiah College of Law has focused on giving students quality education in law. Students are encouraged to think clearly, take part in debates and moot court competitions, and practice the skills needed for a career in law. The courses are updated regularly, and students also get chances to join internships, workshops, and seminars to learn from real experiences.
+</br>
+</br>
+
+
+
+The college aims to do more than just teach law. It helps students become confident, responsible, and ethical professionals. Teachers guide students so they can succeed in courts, law firms, companies, or in further studies.
+</br>
+</br>
+
+
+
+Apart from academics, students can take part in legal aid programs, community service, debates, cultural events, and sports. These activities help them grow as leaders, team players, and responsible citizens. By focusing on both learning and personal growth, Ramaiah College of Law prepares students to be skilled, responsible, and successful legal professionals.
+</br>
+</br>
+
+
+
+<strong>Courses</strong>
+</br>
+
+MS Ramaiah Law College offers different courses for students who are interested in studying law and building a legal career. At the undergraduate level, the college provides integrated programmes such as B.A. LL.B., B.B.A. LL.B., and B.Com. LL.B. These courses allow students to study law along with subjects related to arts, business, and commerce. This combination helps students gain both general knowledge and a strong understanding of legal concepts. The college also offers a B.Com. LL.B. programme with a specialization in Human Rights Law for students who wish to work in areas related to social justice and human rights. For higher studies, the college offers the LL.M. programme. This course is suitable for students who want to deepen their knowledge of law, pursue research, or plan a career in teaching or advanced legal practice. Students joining the LL.M. programme. In addition to regular degree courses, MS Ramaiah Law College also provides certificate courses in specific areas of law. These include courses in Human Rights Law, Law and Medicine, and Information Technology Law. These programmes help students understand emerging legal fields and gain practical knowledge beyond their main course of study. Overall, the college focuses on providing quality legal education through a variety of programmes. By offering degree courses along with certificate programmes, MS Ramaiah Law College helps students develop the knowledge and skills needed for different opportunities in the legal profession.
+</br>
+</br>
+
+
+
+<strong>Eligibility</strong>
+</br>
+MS Ramaiah Law College has set rules to make sure students are ready for law studies. For undergraduate courses like B.A. LL.B., B.Com. LL.B., and B.B.A. LL.B., students should have passed 10+2 or an equivalent exam from a recognized board in India. General category students need at least 45% marks, and SC/ST students need at least 40%. For the LL.M. course, students must have a bachelor’s degree in law or a related field from a recognized university in India or abroad, with at least 50% marks. There is an age limit for undergraduate courses. General category students should be below 20 years, while SC/ST students can be up to 22 years. Some courses may also require clearing an entrance exam, like the RCL Admission Test. Students should read the admission rules carefully and check important dates. For the latest information, visit the official website of MS Ramaiah Law College.
+</br>
+</br>
+
+<strong>Fee</strong>
+</br>
+
+MS Ramaiah Law College offers integrated undergraduate law programmes that combine the study of law with other subjects like arts, commerce, and management. These courses give students a strong foundation in law and help them develop knowledge in related areas.
+</br>
+
+B.A. LL.B. – Law combined with arts subjects.
+</br>
+
+B.B.A. LL.B. – Law combined with management studies.
+</br>
+
+B.Com. LL.B. – Law combined with commerce subjects.
+</br>
+</br>
+
+Annual Fees:
+</br>
+
+• For Karnataka students (KARTA): ₹2,20,000 per year
+</br>
+• For Non-Karnataka students: ₹2,40,000 per year
+</br>
+These courses are meant for students who want to build a career in law.
+</br>
+</br>
+
+
+
+<strong>Facilities</strong> at Ramaiah College of Law
+</br>
+
+Ramaiah College of Law provides various facilities to help students in their studies as well as in their overall development. The college ensures that students have a comfortable and supportive environment for learning and personal growth.
+</br>
+</br>
+
+The college library plays an important role in academic learning. It is well organized and has more than 10,000 books, including textbooks, reference books, journals, periodicals, and law reports. Students can also use online legal databases, which help them in legal research and understanding recent developments in law.
+</br>
+</br>
+
+A computer laboratory with internet access is available for students. This facility helps them complete assignments, conduct research, and access online study materials.
+</br>
+</br>
+
+The college has a spacious Moot Court Hall for practical training. It gives students an opportunity to practice courtroom procedures, improve their advocacy skills, and take part in moot court competitions.
+</br>
+</br>
+
+There are auditoriums on campus that are used for seminars, workshops, guest lectures, and other academic activities. These programs help students gain exposure and learn from experienced professionals.
+</br>
+</br>
+
+Separate hostels are provided for boys and girls. The hostels are managed by a Chief Warden and resident wardens, ensuring safety, discipline, and a comfortable stay for students.
+</br>
+</br>
+
+The campus canteen provides clean and healthy food for students and staff at reasonable prices.
+</br>
+</br>
+
+To support physical and mental health, the college has a Yoga Centre and a Fitness Centre. These facilities help students stay active and manage stress along with their studies.
+</br>
+</br>
+
+The college also offers a mentorship program where teachers guide students in academics and career planning, giving them personal attention and support.
+</br>
+</br>
+
+Banking facilities are available within the campus, making it convenient for students to access basic financial services.
+</br>
+</br>
+
+<strong>Placement</strong>
+</br>
+
+The placement data for 2025 is yet to be released. The following information pertains to the 2024 placement season. As per official records, M.S. Ramaiah College of Law achieved a placement rate of 67% in 2024. Out of 60 students who registered for the placement process, 40 students were successfully placed. Several well-known companies and law firms participated in the 2024 placement drive. Notable recruiters included EY, BOSCH, Indus Law, American Express, Trilegal, and many others.
+`,
+    image: college99,
   },
 ];
 

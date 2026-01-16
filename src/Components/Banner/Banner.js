@@ -26,7 +26,7 @@ const Banner = () => {
             college admission.
           </p>
 
-          <Link to="/contact" className="banner-btn" onClick={scrollToTop}>
+          <Link to={"tel:+918792405697"} className="banner-btn" onClick={scrollToTop}>
             <FaPhoneAlt />
             Call Now
           </Link>

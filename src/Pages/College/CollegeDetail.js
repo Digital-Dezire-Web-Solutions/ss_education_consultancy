@@ -28,7 +28,7 @@ const CollegeDetail = () => {
         // -------------------------------
         // 1️⃣ Set Title
         // -------------------------------
-        document.title = college.title || "College Detail | SS Education Consultancy";
+        document.title = college.title || "College Detail | SS Admission Consultancy";
 
         // -------------------------------
         // 2️⃣ Set Canonical URL
@@ -145,7 +145,9 @@ const CollegeDetail = () => {
                         </div>
                         <div className="college-detail-info">
                             <h3>About the College</h3>
-                            <p>{college.description}</p>
+                            <p
+                                dangerouslySetInnerHTML={{ __html: college.description }}
+                            ></p>
 
                             <h3>Available Courses</h3>
                             <div className="college-category-list">

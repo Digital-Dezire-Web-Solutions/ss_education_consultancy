@@ -25,20 +25,20 @@ const Footer = () => {
                         <img src={logo} alt="" />
                         {/* <h2>SS Edu Consultancy</h2> */}
                         <p>
-                            Sri Sai Education Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background.
+                            SS Admission Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background.
                         </p>
 
                         <div className="footer-info">
                             <p>
                                 <Link to="mailto:ssadmission732@gmail.com">
-                                    <FaEnvelope /> info.ssadmission732@gmail.com
+                                    <FaEnvelope /> ssadmission732@gmail.com
                                 </Link>
                             </p>
                             <p>
                                 <Link to="tel:+918792405697"><FaPhoneAlt /> +91 87924 05697</Link>
                             </p>
                             <p>
-                                <FaMapMarkerAlt />3rd Floor, 14, Opp MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bengaluru Urban, Karnataka, 560054
+                                <FaMapMarkerAlt />2nd Floor, Opp to MSR House, Next Gurudarshan Sweets Building, Sundara Nagar, Bangalore
                             </p>
                         </div>
                     </div>
@@ -96,11 +96,11 @@ const Footer = () => {
                                     <FaArrowRight /> Privacy Policy
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to={"#"}>
                                     <FaArrowRight /> Term & Conditions
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to={"/contact"}>
                                     <FaArrowRight /> Contact Us
@@ -108,7 +108,7 @@ const Footer = () => {
                             </li>
                         </ul>
 
-                        <h3 className="follow-title">Follow Us:</h3>
+                        {/* <h3 className="follow-title">Follow Us:</h3>
 
                         <div className="footer-social">
                             <span>
@@ -120,14 +120,15 @@ const Footer = () => {
                             <span>
                                 <FaInstagram />
                             </span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
+            <p className="Disclaimer"><strong>Disclaimer : </strong>SS Admission Consultancy provides admission guidance only. Admission decisions are made by respective institutions. We do not guarantee admission or results and are not affiliated with any government authority.</p>
             </div>
             {/* COPYRIGHT ROW */}
             <div className="footer-bottom">
-                <p>© Sri Sai Consultancy 2026 | All Rights Reserved</p>
-                <p>Developed By : <Link to={"https://digitaldezire.com/"}>Digital Dezire</Link></p>
+                <p>©  SS Admission Consultancy 2026 | All Rights Reserved</p>
+                <p>Developed By : <Link to={"https://digitaldezire.com/"}>DD</Link></p>
             </div>
         </footer>
     );

@@ -121,6 +121,10 @@
   text-decoration: none;
 }
 
+.Disclaimer{
+  font-size: 10px;
+}
+
 /* --------- RESPONSIVE --------- */
 @media screen and (min-width: 1200px) {
   .footer-main {

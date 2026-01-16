@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CoursesData from "../../Data/CoursesData";
 import emailjs from "@emailjs/browser";
 
-const Form = () => {
+const Form = ({setShowModal}) => {
     const [message, setMessage] = useState("")
     const [formData, setFormData] = useState({
         name: "",
@@ -38,13 +38,14 @@ const Form = () => {
                     });
                     setTimeout(() => {
                         setMessage("");
-                    }, 1500);
+                        setShowModal(false);
+                    }, 2000);
                 },
                 (error) => {
                     setMessage("❌ Failed to send message!");
                     setTimeout(() => {
                         setMessage("");
-                    }, 1500);
+                    }, 2000);
                     console.log(error);
                 }
             );

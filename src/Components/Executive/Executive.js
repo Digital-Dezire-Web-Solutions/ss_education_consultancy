@@ -46,7 +46,7 @@ const Executive = () => {
           </div>
           <h3>GET ADMISSION</h3>
           <p>
-            We offer direct admission in top colleges or Universities through management quota. Get admission letter and education loan facility.
+            We offer admission Consultant in top colleges or Universities through management quota. Get admission letter and education loan facility also.
           </p>
         </div>
 

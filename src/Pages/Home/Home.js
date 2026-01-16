@@ -12,18 +12,18 @@ import TopColleges from "../../Components/TopColleges/TopColleges";
 
 const Home = () => {
   const location = useLocation();
-  const [showModal, setShowModal] = useState(false);
-  useEffect(() => {
-    setTimeout(() => {
-      setShowModal(true);
-    }, 5000);
-  }, showModal);
+  // const [showModal, setShowModal] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowModal(true);
+  //   }, 10000);
+  // }, showModal);
 
   useEffect(() => {
     document.title =
-      "Home | SS Education Consultancy";
+      "Home | SS Admission Consultancy";
     const description =
-      "SS Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
+      "SS Admission Consultancy is a Bangalore based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad.";
     let metaDescription = document.querySelector("meta[name='description']");
 
     if (metaDescription) {
@@ -52,7 +52,7 @@ const Home = () => {
       <Categories />
       <Faq />
       <Testimonial />
-      {showModal && <Popup setShowModal={setShowModal} />}
+      {/* {showModal && <Popup setShowModal={setShowModal} />} */}
     </div>
   );
 };
