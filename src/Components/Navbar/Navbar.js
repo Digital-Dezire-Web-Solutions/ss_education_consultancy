@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { FaPhoneAlt, FaClock, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown, FaInstagram } from "react-icons/fa";
+import { FaPhoneAlt, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaPinterestP, FaStream, FaEnvelope, FaSortDown, FaInstagram } from "react-icons/fa";
+import { BsFillBuildingsFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/ss-logo-white-yellow.png"
 
@@ -22,7 +23,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="top-right">
-                            <span><FaMapMarkerAlt />Bangalore</span>
+                            <span><BsFillBuildingsFill />Company: Sri Sai Consultancy</span>
                         </div>
                     </div>
                 </div>

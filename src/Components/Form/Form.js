@@ -28,7 +28,7 @@ const Form = ({setShowModal}) => {
             )
             .then(
                 () => {
-                    setMessage("✅ Message Sent Successfully!");
+                    setMessage("✅ We have received your query. Our team will contact you within 24 hours!");
                     setFormData({
                         name: "",
                         email: "",

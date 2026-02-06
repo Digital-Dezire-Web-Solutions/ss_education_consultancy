@@ -79,7 +79,7 @@ const About = () => {
 
                             <div className="about-right">
                                 <p>
-                                    <strong>SS Consultancy is a Bangalore</strong> based education guidance firm dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
+                                    <strong>SS Consultancy is a Bangalore</strong> based education guidance firm owned by <strong>Sri Sai Consultancy</strong> dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
                                 </p>
                             </div>
                         </div>

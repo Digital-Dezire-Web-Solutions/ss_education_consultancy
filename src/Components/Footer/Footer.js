@@ -25,7 +25,7 @@ const Footer = () => {
                         <img src={logo} alt="" />
                         {/* <h2>SS Edu Consultancy</h2> */}
                         <p>
-                            SS Admission Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background.
+                           SS Admission Consultancy (Owned by Sri Sai Consultancy), every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background.
                         </p>
 
                         <div className="footer-info">
@@ -38,7 +38,7 @@ const Footer = () => {
                                 <Link to="tel:+918792405697"><FaPhoneAlt /> +91 87924 05697</Link>
                             </p>
                             <p>
-                                <FaMapMarkerAlt />2nd Floor, Opp to MSR House, Next Gurudarshan Sweets Building, Sundara Nagar, Bangalore
+                                <FaMapMarkerAlt />3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054
                             </p>
                         </div>
                     </div>
@@ -127,7 +127,7 @@ const Footer = () => {
             </div>
             {/* COPYRIGHT ROW */}
             <div className="footer-bottom">
-                <p>©  SS Admission Consultancy 2026 | All Rights Reserved</p>
+                <p>©  SS Admission Consultancy 2026 | All Rights Reserved and owned by Sri Sai Consultancy</p>
                 <p>Developed By : <Link to={"https://digitaldezire.com/"}>DD</Link></p>
             </div>
         </footer>

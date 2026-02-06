@@ -69,7 +69,7 @@ const Contact = () => {
             <div className="contact-bottom-box">
               <FaLocationDot />
               <h5>Office Address</h5>
-              <p>Corporate office - 2nd Floor, Opp to MSR House, Next Gurudarshan Sweets Building, Sundara Nagar, Bangalore</p>
+              <p>Corporate office - 3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054</p>
               <p>Branch office - Golden I Greater Noida Tower T3  3rd Floor 309 :- 201318</p>
             </div>
           </div>
