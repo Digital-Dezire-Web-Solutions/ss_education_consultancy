@@ -69,8 +69,8 @@ const Contact = () => {
             <div className="contact-bottom-box">
               <FaLocationDot />
               <h5>Office Address</h5>
-              <p>Corporate office - 3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054</p>
-              <p>Branch office - Golden I Greater Noida Tower T3  3rd Floor 309 :- 201318</p>
+              <p><strong>Corporate office </strong>- 3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054</p>
+              <p><strong>Noida office</strong> - Golden I Tower T3 - 309, Amprapali leisure vally, Noida, Greater Noida - UP :- 201318</p>
             </div>
           </div>
         </div>

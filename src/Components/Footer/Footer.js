@@ -92,15 +92,15 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to={"#"}>
+                                <Link to={"/privacy-policy"}>
                                     <FaArrowRight /> Privacy Policy
                                 </Link>
                             </li>
-                            {/* <li>
-                                <Link to={"#"}>
+                            <li>
+                                <Link to={"/term-conditions"}>
                                     <FaArrowRight /> Term & Conditions
                                 </Link>
-                            </li> */}
+                            </li>
                             <li>
                                 <Link to={"/contact"}>
                                     <FaArrowRight /> Contact Us

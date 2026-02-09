@@ -29,6 +29,7 @@
 .footer-col p {
   font-size: 14px;
   line-height: 26px;
+  line-height: 20px;
 }
 .footer-col img {
   width: 30%;
@@ -38,10 +39,11 @@
 /* Icons section */
 .footer-info p {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
   margin: 8px 0;
   font-size: 14px;
+  line-height: 20px;
 }
 .footer-info p a{
  text-decoration: none;

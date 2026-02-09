@@ -17,6 +17,8 @@ import About from "./Pages/About/About";
 import Counselling from "./Pages/Counselling/Counselling";
 import Contact from "./Pages/Contact/Contact";
 import Exam from "./Pages/Exam/Exam";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import TermConditions from "./Pages/TermConditions/TermConditions";
 
 const Layout = () => {
   const location = useLocation();
@@ -40,6 +42,10 @@ const Layout = () => {
                   ? "Contact Us"
                   : location.pathname === "/exam"
                   ? "Exam"
+                  : location.pathname === "/privacy-policy"
+                  ? "Privacy Policy"
+                  : location.pathname === "/term-conditions"
+                  ? "Term Conditions"
                   : location.pathname === "/counseling"
                   ? "Counseling"
                   : location.pathname === "/courses"
@@ -59,6 +65,10 @@ const Layout = () => {
                   ? "Contact Us"
                   : location.pathname === "/exam"
                   ? "Exam"
+                  : location.pathname === "/privacy-policy"
+                  ? "Privacy Policy"
+                  : location.pathname === "/term-conditions"
+                  ? "Term Conditions"
                   : location.pathname === "/counseling"
                   ? "Counseling"
                   : location.pathname === "/courses"
@@ -91,6 +101,8 @@ function App() {
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/colleges" exact element={<College />} />
         <Route path="/courses" exact element={<Cources />} />
+        <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
+        <Route path="/term-conditions" exact element={<TermConditions />} />
         <Route path="/courses/:title" exact element={<CourseDetail />} />
         <Route path="/college/:title" exact element={<CollegeDetail />} />
       </Routes>
