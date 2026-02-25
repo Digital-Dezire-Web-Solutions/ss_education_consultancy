@@ -97,11 +97,15 @@ const Form = ({setShowModal}) => {
                         required
                     >
                         <option value="">Choose a course</option>
-                        {CoursesData.map((c) => (
-                            <option key={c.id} value={c.title}>
-                                {c.title}
-                            </option>
-                        ))}
+                        {CoursesData
+  .filter((c) => c.title !== "Others")
+  .map((c) => (
+    <option key={c.id} value={c.title}>
+      {c.title}
+    </option>
+  ))}
+
+<option value="Others">Others</option>
                     </select>
                 </div>
             </div>
