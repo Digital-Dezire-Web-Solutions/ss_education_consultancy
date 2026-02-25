@@ -58,17 +58,17 @@ const Contact = () => {
           <div className="contact-bottom">
             <Link to="tel:+918792405697" className="contact-bottom-box">
               <FaPhoneAlt />
-              <h5>Call Cs Any Time!</h5>
-              <p>+91 87924 05697</p>
+              <p>Call Us Any Time!</p>
+              <h5>+91 87924 05697</h5>
             </Link>
             <Link to="mailto:ssadmission732@gmail.com" className="contact-bottom-box">
               <FaEnvelope />
-              <h5>Send Us E-mail</h5>
-              <p>ssadmission732@gmail.com</p>
+              <p>Send Us E-mail</p>
+              <h5>ssadmission732@gmail.com</h5>
             </Link>
             <div className="contact-bottom-box">
               <FaLocationDot />
-              <h5>Office Address</h5>
+              <p>Office Address</p>
               <p><strong>Corporate office </strong>- 3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054</p>
               <p><strong>Noida office</strong> - Golden I Tower T3 - 309, Amprapali leisure vally, Noida, Greater Noida - UP :- 201318</p>
             </div>

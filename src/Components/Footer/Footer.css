@@ -117,6 +117,7 @@
 
 .footer-bottom p {
   margin-bottom: 0;
+  text-align: center;
 }
 .footer-bottom p a {
   color: #fdf5aa;
@@ -124,7 +125,7 @@
 }
 
 .Disclaimer{
-  font-size: 10px;
+  font-size: 14px;
 }
 
 /* --------- RESPONSIVE --------- */

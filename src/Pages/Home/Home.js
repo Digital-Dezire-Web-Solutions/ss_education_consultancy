@@ -12,11 +12,11 @@ import TopColleges from "../../Components/TopColleges/TopColleges";
 
 const Home = () => {
   const location = useLocation();
-  // const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   // useEffect(() => {
   //   setTimeout(() => {
   //     setShowModal(true);
-  //   }, 10000);
+  //   }, 6000);
   // }, showModal);
 
   useEffect(() => {
@@ -52,7 +52,7 @@ const Home = () => {
       <Categories />
       <Faq />
       <Testimonial />
-      {/* {showModal && <Popup setShowModal={setShowModal} />} */}
+      {showModal && <Popup setShowModal={setShowModal} />}
     </div>
   );
 };

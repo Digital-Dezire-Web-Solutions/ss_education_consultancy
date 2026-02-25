@@ -123,11 +123,12 @@ const Footer = () => {
                         </div> */}
                     </div>
                 </div>
-            <p className="Disclaimer"><strong>Disclaimer : </strong>We are independent education consultants and are not a directly affiliated with any university or college unless explicitly stated. Admission is subject to eligibility and institutional norms.</p>
+            <p className="Disclaimer"><strong>Disclaimer : We are independent education consultants and are not a directly affiliated with any university or college unless explicitly stated. Admission is subject to eligibility and institutional norms.</strong></p>
             </div>
             {/* COPYRIGHT ROW */}
             <div className="footer-bottom">
                 <p>©  SS Admission Consultancy 2026 | All Rights Reserved and owned by Sri Sai Consultancy</p>
+                <p><strong>GST Registration No.: 29AEAFS5302K1ZY</strong></p>
                 <p>Developed By : <Link to={"https://digitaldezire.com/"}>DD</Link></p>
             </div>
         </footer>

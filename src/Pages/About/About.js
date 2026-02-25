@@ -71,16 +71,18 @@ const About = () => {
                         {/* TOP CONTENT */}
                         <div className="about-main">
                             <div className="about-left">
-                                <p className="about-subtitle">ABOUT US</p>
+                                <p className="about-subtitle">Welcome</p>
                                 <h2 className="about-title">
-                                    Global Students Trust Us With Their Academic Journey
+                                    Sri Sai Consultancy
                                 </h2>
+                                <p style={{ fontSize: "17px", color: "#6b6b6b", lineHeight: "1.8" }}>
+                                    <strong>Sri Sai Consultancy</strong> is an independent education consultancy platform operated by Sri Sai Consultancy (Registered Partnership Firm). We provide structured academic guidance and informational support to students exploring higher education opportunities across India.
+                                </p>
                             </div>
 
                             <div className="about-right">
-                                <p>
-                                    <strong>SS Consultancy is a Bangalore</strong> based education guidance firm owned by <strong>Sri Sai Consultancy</strong> dedicated to helping students achieve their academic and career goals in India and abroad. With years of experience, transparent counseling, and student-first values, we have successfully guided thousands of students toward the right courses, colleges, and universities.
-                                </p>
+
+                                <p>Choosing the right course and institution is an important academic decision. Our objective is to present clear, accurate, and responsibly sourced information that helps students and parents better understand admission procedures, eligibility requirements, documentation processes, and institutional guidelines.</p>
                             </div>
                         </div>
 
@@ -103,13 +105,63 @@ const About = () => {
                             </div>
                             <div className="about-left">
                                 <h2 className="about-title">
-                                    Personal Experience
+                                    Our Role
                                 </h2>
-                                <p>At SS Consultancy, every student matters. We understand that choosing the right course or college is a life-changing decision. Our experienced counselors take time to understand each student’s background, strengths, and ambitions before suggesting the best academic path.</p>
-                                <p>From career counseling, college selection, application support, documentation, and admission assistance, we walk with students at every step. Our commitment to honesty, clarity, and long-term success has made us one of the most trusted education consultancies in Bangalore.</p>
-                                <p>Whether you are planning higher education in India or abroad, SS Consultancy is your reliable partner for a confident future.</p>
+                                <p>We function strictly as an independent advisory and guidance service.</p>
+                                <h5>Our services include:</h5>
+                                <ul>
+                                    <li>Providing general information about colleges and academic programs</li>
+                                    <li>Explaining publicly available admission procedures</li>
+                                    <li>Clarifying eligibility criteria based on official institutional norms</li>
+                                    <li>Assisting students in understanding documentation requirements</li>
+                                    <li>Offering academic counselling discussions based on student background and preferences</li>
+                                </ul>
+                                <p>Our role is advisory in nature. We do not participate in institutional decision-making.</p>
+                                <p><strong>Final admission decisions are made solely by the respective colleges or universities according to their official policies, eligibility standards, and seat availability.</strong></p>
                             </div>
 
+                        </div>
+                        <div className="about-grid">
+                            <div className="about-grid-item">
+                                <h3>Transparency & Ethical Practices</h3>
+                                <p>We operate with transparency, accountability, and responsible communication.</p>
+                                <h5>We:</h5>
+                                <ul>
+                                    <li>Do not guarantee admission to any institution</li>
+                                    <li>Do not promise confirmed seats or assured placements</li>
+                                    <li>Do not claim direct control over seat allocation</li>
+                                    <li>Do not misrepresent affiliations with colleges or universities</li>
+                                </ul>
+                                <p>Admission outcomes depend entirely on eligibility criteria, merit, institutional policies, and availability of seats.</p>
+                            </div>
+                            <div className="about-grid-item">
+                                <h3>Independent Consultancy Disclaimer</h3>
+                                <p>Admission Details is an independent education consultancy service.</p>
+                                <p>We are not directly affiliated with, endorsed by, or officially partnered with any college, university, or government body unless explicitly stated in writing.</p>
+                                <p>Any institution names referenced on this website are used solely for informational purposes to assist students in exploring their academic options.</p>
+                                <p>All information provided on this website is intended for general guidance purposes only and may be subject to change as per institutional updates.</p>
+                            </div>
+                            <div className="about-grid-item">
+                                <h3>Our Commitment</h3>
+                                <h5>We are committed to:</h5>
+                                <ul>
+                                    <li>Maintaining accurate and responsible communication</li>
+                                    <li>Providing informed and ethical guidance</li>
+                                    <li>Protecting student data and privacy</li>
+                                    <li>Following fair advertising practices</li>
+                                    <li>Complying with applicable digital advertising and consumer protection standards</li>
+                                </ul>
+                                <p>We prioritize long-term trust, clarity, and responsible counselling over unrealistic promises.</p>
+                            </div>
+                        </div>
+                        <div className="about-operated-box">
+                            <h3>Operated By:</h3>
+                            <p>Sri Sai Consultancy (Registered Partnership Firm)</p>
+                            <p>GSTIN: 29AEAFS5302K1ZY</p>
+                            <p>Registered Office Address: 3RD FLOOR 14BOPP MSR HOUSE 1ST MAIN ROAD VENKRESHWARA TEMPLE GOKULA SUNDARANAGAR BENGALURU</p>
+                            <p>BENGALURU URBAN KARNATAKA ,560054</p>
+                            <p>Contact: +91- 78996 73489</p>
+                            <p>Email: info@admissiondetails.in</p>
                         </div>
                     </div>
                 </div>
