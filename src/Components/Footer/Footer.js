@@ -123,7 +123,9 @@ const Footer = () => {
                         </div> */}
                     </div>
                 </div>
-            <p className="Disclaimer"><strong>Disclaimer : We are independent education consultants and are not a directly affiliated with any university or college unless explicitly stated. Admission is subject to eligibility and institutional norms.</strong></p>
+            <p className="Disclaimer"><strong>Disclaimer : SS Admission Consultancy is an independent education consultancy service. We are not affiliated with, endorsed by, or officially partnered with any university or college.
+
+We do not guarantee admission, confirmed seats, or placement outcomes. All admission decisions are made solely by the respective institution based on eligibility criteria, merit, seat availability, and official policies.</strong></p>
             </div>
             {/* COPYRIGHT ROW */}
             <div className="footer-bottom">
