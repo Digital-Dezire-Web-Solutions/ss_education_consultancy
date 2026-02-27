@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import manImg from "../../Assets/man.png"; // <-- replace with actual path of your image
+import manImg from "../../Assets/ofc pic to website.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ const Banner = () => {
 
         {/* RIGHT IMAGE */}
         <div className="banner-right">
-          <div className="circle-bg"></div>
+          {/* <div className="circle-bg"></div> */}
           <img src={manImg} alt="Student" className="banner-img" />
         </div>
       </div>

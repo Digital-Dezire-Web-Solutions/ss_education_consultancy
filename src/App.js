@@ -19,6 +19,7 @@ import Contact from "./Pages/Contact/Contact";
 import Exam from "./Pages/Exam/Exam";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import TermConditions from "./Pages/TermConditions/TermConditions";
+import RefundPolicy from "./Pages/RefundPolicy/RefundPolicy";
 
 const Layout = () => {
   const location = useLocation();
@@ -102,6 +103,7 @@ function App() {
         <Route path="/colleges" exact element={<College />} />
         <Route path="/courses" exact element={<Cources />} />
         <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" exact element={<RefundPolicy />} />
         <Route path="/term-conditions" exact element={<TermConditions />} />
         <Route path="/courses/:title" exact element={<CourseDetail />} />
         <Route path="/college/:title" exact element={<CollegeDetail />} />

@@ -61,29 +61,29 @@ const PrivacyPolicy = () => {
                         <p>We do not sell, trade, or rent your personal information to third parties. Information may be shared only with: </p>
                         <ul>
 
-                        <li>Universities and educational institutions</li>
-                        <li>Immigration or visa consultants (if applicable)</li>
-                        <li>Government or legal authorities when required by law</li>
+                            <li>Universities and educational institutions</li>
+                            <li>Immigration or visa consultants (if applicable)</li>
+                            <li>Government or legal authorities when required by law</li>
                         </ul>
-<hr />
+                        <hr />
                         <h3>4. Data Security</h3>
                         <p>We take reasonable technical and administrative measures to protect your personal data from unauthorized access, misuse, or disclosure. However, no method of transmission over the internet is 100% secure.</p>
-<hr />
+                        <hr />
                         <h3>5. Cookies</h3>
                         <p>Our website may use cookies to enhance user experience. You can choose to disable cookies through your browser settings if you prefer.</p>
-<hr />
+                        <hr />
                         <h3>6. Your Rights</h3>
                         <p>You have the right to:</p>
                         <ul>
 
-                        <li>Access your personal information</li>
-                        <li>Request correction of inaccurate data</li>
-                        <li>Request deletion of your personal data, subject to legal requirements</li>
+                            <li>Access your personal information</li>
+                            <li>Request correction of inaccurate data</li>
+                            <li>Request deletion of your personal data, subject to legal requirements</li>
                         </ul>
-<hr />
+                        <hr />
                         <h3>7. Changes to This Policy</h3>
                         <p>We may update this Privacy Policy from time to time. Any changes will be posted on our website with the updated date.</p>
-<hr />
+                        <hr />
                         <h3>8. Contact Us</h3>
                         <p>If you have any questions regarding this Privacy Policy, please contact us:</p>
                         <p>Company Name:   [SRI SAI CONSULTANCY] Email: [ssadmission732@gmail.com] Phone: [+9187924 05697] Address: [Corporate office - 3rd Floor, Opp to MSR House, 1st Main Road, venkteshwara Temple, Gokula Sundarnagar, Bengaluru, Bangaluru Urban, Karnataka 560054 ]</p>

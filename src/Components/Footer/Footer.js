@@ -97,6 +97,11 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link to={"/refund-policy"}>
+                                    <FaArrowRight /> Refund Policy
+                                </Link>
+                            </li>
+                            <li>
                                 <Link to={"/term-conditions"}>
                                     <FaArrowRight /> Term & Conditions
                                 </Link>
